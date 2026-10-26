@@ -1,0 +1,8595 @@
+[
+  {
+    "id": 1,
+    "category": "house",
+    "en": "Home",
+    "hi": "घर",
+    "mr": "घर",
+    "mr_roman": "ghar",
+    "example": {
+      "mr": "माझं घर मोठं आहे.",
+      "roman": "Majha ghar motha aahe.",
+      "en": "My house is big."
+    }
+  },
+  {
+    "id": 2,
+    "category": "house",
+    "en": "Door",
+    "hi": "दरवाज़ा",
+    "mr": "दार",
+    "mr_roman": "daar",
+    "example": {
+      "mr": "दार बंद कर.",
+      "roman": "Daar band kar.",
+      "en": "Close the door."
+    }
+  },
+  {
+    "id": 3,
+    "category": "house",
+    "en": "Window",
+    "hi": "खिड़की",
+    "mr": "खिडकी",
+    "mr_roman": "khidki",
+    "example": {
+      "mr": "खिडकी उघड.",
+      "roman": "Khidki ughad.",
+      "en": "Open the window."
+    }
+  },
+  {
+    "id": 4,
+    "category": "house",
+    "en": "Wall",
+    "hi": "दीवार",
+    "mr": "भिंत",
+    "mr_roman": "bhint",
+    "example": {
+      "mr": "भिंत पांढरी आहे.",
+      "roman": "Bhint pandhri aahe.",
+      "en": "The wall is white."
+    }
+  },
+  {
+    "id": 5,
+    "category": "house",
+    "en": "Floor",
+    "hi": "फ़र्श",
+    "mr": "फरशी",
+    "mr_roman": "pharshi",
+    "example": {
+      "mr": "फरशी ओली आहे.",
+      "roman": "Pharshi oli aahe.",
+      "en": "The floor is wet."
+    }
+  },
+  {
+    "id": 6,
+    "category": "house",
+    "en": "Roof",
+    "hi": "छत",
+    "mr": "छत",
+    "mr_roman": "chhat",
+    "example": {
+      "mr": "छतावर पाणी साचलं आहे.",
+      "roman": "Chhatavar paani sachla aahe.",
+      "en": "Water has collected on the roof."
+    }
+  },
+  {
+    "id": 7,
+    "category": "house",
+    "en": "Room",
+    "hi": "कमरा",
+    "mr": "खोली",
+    "mr_roman": "kholi",
+    "example": {
+      "mr": "ही माझी खोली आहे.",
+      "roman": "Hi majhi kholi aahe.",
+      "en": "This is my room."
+    }
+  },
+  {
+    "id": 8,
+    "category": "house",
+    "en": "Kitchen",
+    "hi": "रसोई",
+    "mr": "स्वयंपाकघर",
+    "mr_roman": "swayampakghar",
+    "example": {
+      "mr": "आई स्वयंपाकघरात आहे.",
+      "roman": "Aai swayampakgharat aahe.",
+      "en": "Mother is in the kitchen."
+    }
+  },
+  {
+    "id": 9,
+    "category": "house",
+    "en": "Bathroom",
+    "hi": "स्नानघर",
+    "mr": "न्हाणीघर",
+    "mr_roman": "nhanighar",
+    "example": {
+      "mr": "न्हाणीघर स्वच्छ आहे.",
+      "roman": "Nhanighar swachha aahe.",
+      "en": "The bathroom is clean."
+    }
+  },
+  {
+    "id": 10,
+    "category": "house",
+    "en": "Toilet",
+    "hi": "शौचालय",
+    "mr": "शौचालय",
+    "mr_roman": "shauchalay",
+    "example": {
+      "mr": "शौचालय कुठे आहे?",
+      "roman": "Shauchalay kuthe aahe?",
+      "en": "Where is the toilet?"
+    }
+  },
+  {
+    "id": 11,
+    "category": "house",
+    "en": "Bed",
+    "hi": "बिस्तर",
+    "mr": "पलंग",
+    "mr_roman": "palang",
+    "example": {
+      "mr": "मी पलंगावर झोपतो.",
+      "roman": "Mi palangavar jhopto.",
+      "en": "I sleep on the bed."
+    }
+  },
+  {
+    "id": 12,
+    "category": "house",
+    "en": "Chair",
+    "hi": "कुर्सी",
+    "mr": "खुर्ची",
+    "mr_roman": "khurchi",
+    "example": {
+      "mr": "खुर्चीवर बस.",
+      "roman": "Khurchivar bas.",
+      "en": "Sit on the chair."
+    }
+  },
+  {
+    "id": 13,
+    "category": "house",
+    "en": "Table",
+    "hi": "मेज़",
+    "mr": "टेबल",
+    "mr_roman": "tebal",
+    "example": {
+      "mr": "टेबलावर पुस्तक आहे.",
+      "roman": "Tebalavar pustak aahe.",
+      "en": "The book is on the table."
+    }
+  },
+  {
+    "id": 14,
+    "category": "house",
+    "en": "Cupboard",
+    "hi": "अलमारी",
+    "mr": "कपाट",
+    "mr_roman": "kapaat",
+    "example": {
+      "mr": "कपाटात कपडे आहेत.",
+      "roman": "Kapatat kapde aahet.",
+      "en": "There are clothes in the cupboard."
+    }
+  },
+  {
+    "id": 15,
+    "category": "house",
+    "en": "Fan",
+    "hi": "पंखा",
+    "mr": "पंखा",
+    "mr_roman": "pankha",
+    "example": {
+      "mr": "पंखा चालू कर.",
+      "roman": "Pankha chalu kar.",
+      "en": "Switch on the fan."
+    }
+  },
+  {
+    "id": 16,
+    "category": "house",
+    "en": "Light / Lamp",
+    "hi": "बत्ती",
+    "mr": "दिवा",
+    "mr_roman": "diva",
+    "example": {
+      "mr": "दिवा लाव.",
+      "roman": "Diva lav.",
+      "en": "Turn on the light."
+    }
+  },
+  {
+    "id": 17,
+    "category": "house",
+    "en": "Television",
+    "hi": "टीवी",
+    "mr": "टीव्ही",
+    "mr_roman": "TV (teevhi)",
+    "example": {
+      "mr": "मी रोज टीव्ही बघतो.",
+      "roman": "Mi roj TV baghto.",
+      "en": "I watch TV every day."
+    }
+  },
+  {
+    "id": 18,
+    "category": "house",
+    "en": "Cooler",
+    "hi": "कूलर",
+    "mr": "कूलर",
+    "mr_roman": "cooler",
+    "example": {
+      "mr": "कूलर चालू आहे.",
+      "roman": "Cooler chalu aahe.",
+      "en": "The cooler is on."
+    }
+  },
+  {
+    "id": 19,
+    "category": "house",
+    "en": "Mirror",
+    "hi": "आईना",
+    "mr": "आरसा",
+    "mr_roman": "aarsa",
+    "example": {
+      "mr": "आरशात बघ.",
+      "roman": "Aarshat bagh.",
+      "en": "Look in the mirror."
+    }
+  },
+  {
+    "id": 20,
+    "category": "house",
+    "en": "Key",
+    "hi": "चाबी",
+    "mr": "किल्ली",
+    "mr_roman": "killi",
+    "example": {
+      "mr": "किल्ली कुठे आहे?",
+      "roman": "Killi kuthe aahe?",
+      "en": "Where is the key?"
+    }
+  },
+  {
+    "id": 21,
+    "category": "house",
+    "en": "Lock",
+    "hi": "ताला",
+    "mr": "कुलूप",
+    "mr_roman": "kulup",
+    "example": {
+      "mr": "दाराला कुलूप लाव.",
+      "roman": "Darala kulup lav.",
+      "en": "Lock the door."
+    }
+  },
+  {
+    "id": 22,
+    "category": "house",
+    "en": "Stairs",
+    "hi": "सीढ़ी",
+    "mr": "जिना",
+    "mr_roman": "jina",
+    "example": {
+      "mr": "जिना चढ.",
+      "roman": "Jina chadh.",
+      "en": "Climb the stairs."
+    }
+  },
+  {
+    "id": 23,
+    "category": "house",
+    "en": "Broom",
+    "hi": "झाड़ू",
+    "mr": "केरसुणी",
+    "mr_roman": "kersuni",
+    "example": {
+      "mr": "केरसुणीने खोली झाड.",
+      "roman": "Kersunine kholi jhad.",
+      "en": "Sweep the room with the broom."
+    }
+  },
+  {
+    "id": 24,
+    "category": "house",
+    "en": "Bucket",
+    "hi": "बाल्टी",
+    "mr": "बादली",
+    "mr_roman": "baadli",
+    "example": {
+      "mr": "बादलीत पाणी भर.",
+      "roman": "Baadlit paani bhar.",
+      "en": "Fill water in the bucket."
+    }
+  },
+  {
+    "id": 25,
+    "category": "house",
+    "en": "Soap",
+    "hi": "साबुन",
+    "mr": "साबण",
+    "mr_roman": "saban",
+    "example": {
+      "mr": "साबणाने हात धू.",
+      "roman": "Sabanane haat dhu.",
+      "en": "Wash hands with soap."
+    }
+  },
+  {
+    "id": 26,
+    "category": "house",
+    "en": "Towel",
+    "hi": "तौलिया",
+    "mr": "टॉवेल",
+    "mr_roman": "tovel",
+    "example": {
+      "mr": "टॉवेल ओला आहे.",
+      "roman": "Tovel ola aahe.",
+      "en": "The towel is wet."
+    }
+  },
+  {
+    "id": 27,
+    "category": "house",
+    "en": "Pillow",
+    "hi": "तकिया",
+    "mr": "उशी",
+    "mr_roman": "ushi",
+    "example": {
+      "mr": "उशी मऊ आहे.",
+      "roman": "Ushi mau aahe.",
+      "en": "The pillow is soft."
+    }
+  },
+  {
+    "id": 28,
+    "category": "house",
+    "en": "Blanket",
+    "hi": "कंबल",
+    "mr": "पांघरूण",
+    "mr_roman": "pangharun",
+    "example": {
+      "mr": "थंडी आहे, पांघरूण घे.",
+      "roman": "Thandi aahe, pangharun ghe.",
+      "en": "It is cold, take the blanket."
+    }
+  },
+  {
+    "id": 29,
+    "category": "house",
+    "en": "Clock / Watch",
+    "hi": "घड़ी",
+    "mr": "घड्याळ",
+    "mr_roman": "ghadyal",
+    "example": {
+      "mr": "घड्याळात किती वाजले?",
+      "roman": "Ghadyalat kiti vajle?",
+      "en": "What time is it on the clock?"
+    }
+  },
+  {
+    "id": 30,
+    "category": "house",
+    "en": "Phone",
+    "hi": "फ़ोन",
+    "mr": "फोन",
+    "mr_roman": "phone",
+    "example": {
+      "mr": "माझा फोन वाजतोय.",
+      "roman": "Majha phone vajtoy.",
+      "en": "My phone is ringing."
+    }
+  },
+  {
+    "id": 31,
+    "category": "house",
+    "en": "Bag",
+    "hi": "थैला",
+    "mr": "पिशवी",
+    "mr_roman": "pishvi",
+    "example": {
+      "mr": "पिशवी जड आहे.",
+      "roman": "Pishvi jad aahe.",
+      "en": "The bag is heavy."
+    }
+  },
+  {
+    "id": 32,
+    "category": "house",
+    "en": "Book",
+    "hi": "किताब",
+    "mr": "पुस्तक",
+    "mr_roman": "pustak",
+    "example": {
+      "mr": "मी पुस्तक वाचतो.",
+      "roman": "Mi pustak vachto.",
+      "en": "I read a book."
+    }
+  },
+  {
+    "id": 33,
+    "category": "house",
+    "en": "Pen",
+    "hi": "कलम",
+    "mr": "पेन",
+    "mr_roman": "pen",
+    "example": {
+      "mr": "मला पेन दे.",
+      "roman": "Mala pen de.",
+      "en": "Give me a pen."
+    }
+  },
+  {
+    "id": 34,
+    "category": "house",
+    "en": "Paper",
+    "hi": "कागज़",
+    "mr": "कागद",
+    "mr_roman": "kagad",
+    "example": {
+      "mr": "कागद पांढरा आहे.",
+      "roman": "Kagad pandhra aahe.",
+      "en": "The paper is white."
+    }
+  },
+  {
+    "id": 35,
+    "category": "house",
+    "en": "Money",
+    "hi": "पैसा",
+    "mr": "पैसे",
+    "mr_roman": "paise",
+    "example": {
+      "mr": "माझ्याकडे पैसे नाहीत.",
+      "roman": "Majhyakade paise nahit.",
+      "en": "I have no money."
+    }
+  },
+  {
+    "id": 36,
+    "category": "house",
+    "en": "Garden",
+    "hi": "बगीचा",
+    "mr": "बाग",
+    "mr_roman": "baag",
+    "example": {
+      "mr": "बागेत फुलं आहेत.",
+      "roman": "Baget phula aahet.",
+      "en": "There are flowers in the garden."
+    }
+  },
+  {
+    "id": 37,
+    "category": "house",
+    "en": "Courtyard",
+    "hi": "आँगन",
+    "mr": "अंगण",
+    "mr_roman": "angan",
+    "example": {
+      "mr": "मुलं अंगणात खेळतात.",
+      "roman": "Mula anganat kheltat.",
+      "en": "Children play in the courtyard."
+    }
+  },
+  {
+    "id": 38,
+    "category": "house",
+    "en": "Candle",
+    "hi": "मोमबत्ती",
+    "mr": "मेणबत्ती",
+    "mr_roman": "menbatti",
+    "example": {
+      "mr": "मेणबत्ती लाव.",
+      "roman": "Menbatti lav.",
+      "en": "Light the candle."
+    }
+  },
+  {
+    "id": 39,
+    "category": "house",
+    "en": "Switch / Button",
+    "hi": "स्विच",
+    "mr": "बटण",
+    "mr_roman": "batan",
+    "example": {
+      "mr": "बटण दाब.",
+      "roman": "Batan dab.",
+      "en": "Press the button."
+    }
+  },
+  {
+    "id": 40,
+    "category": "house",
+    "en": "Shelf",
+    "hi": "शेल्फ़",
+    "mr": "फळी",
+    "mr_roman": "phali",
+    "example": {
+      "mr": "फळीवर डबे आहेत.",
+      "roman": "Phalivar dabe aahet.",
+      "en": "There are boxes on the shelf."
+    }
+  },
+  {
+    "id": 41,
+    "category": "house",
+    "en": "Curtain",
+    "hi": "पर्दा",
+    "mr": "पडदा",
+    "mr_roman": "padda",
+    "example": {
+      "mr": "पडदा ओढ.",
+      "roman": "Padda odh.",
+      "en": "Draw the curtain."
+    }
+  },
+  {
+    "id": 42,
+    "category": "house",
+    "en": "Mat",
+    "hi": "चटाई",
+    "mr": "चटई",
+    "mr_roman": "chatai",
+    "example": {
+      "mr": "चटईवर बस.",
+      "roman": "Chataivar bas.",
+      "en": "Sit on the mat."
+    }
+  },
+  {
+    "id": 43,
+    "category": "house",
+    "en": "Dustbin",
+    "hi": "कूड़ेदान",
+    "mr": "कचरापेटी",
+    "mr_roman": "kachrapeti",
+    "example": {
+      "mr": "कचरा कचरापेटीत टाक.",
+      "roman": "Kachra kachrapetit tak.",
+      "en": "Throw the garbage in the dustbin."
+    }
+  },
+  {
+    "id": 44,
+    "category": "house",
+    "en": "Garbage",
+    "hi": "कचरा",
+    "mr": "कचरा",
+    "mr_roman": "kachra",
+    "example": {
+      "mr": "कचरा बाहेर टाक.",
+      "roman": "Kachra baher tak.",
+      "en": "Throw the garbage outside."
+    }
+  },
+  {
+    "id": 45,
+    "category": "house",
+    "en": "Comb",
+    "hi": "कंघी",
+    "mr": "कंगवा",
+    "mr_roman": "kangva",
+    "example": {
+      "mr": "कंगव्याने केस विंचर.",
+      "roman": "Kangvyane kes vinchar.",
+      "en": "Comb your hair with the comb."
+    }
+  },
+  {
+    "id": 46,
+    "category": "house",
+    "en": "Toothbrush",
+    "hi": "टूथब्रश",
+    "mr": "दात घासायचा ब्रश",
+    "mr_roman": "daat ghasaycha brush",
+    "example": {
+      "mr": "ब्रश कुठे आहे?",
+      "roman": "Brush kuthe aahe?",
+      "en": "Where is the toothbrush?"
+    }
+  },
+  {
+    "id": 47,
+    "category": "house",
+    "en": "Bottle",
+    "hi": "बोतल",
+    "mr": "बाटली",
+    "mr_roman": "baatli",
+    "example": {
+      "mr": "बाटलीत पाणी भर.",
+      "roman": "Baatlit paani bhar.",
+      "en": "Fill water in the bottle."
+    }
+  },
+  {
+    "id": 48,
+    "category": "house",
+    "en": "Rope",
+    "hi": "रस्सी",
+    "mr": "दोरी",
+    "mr_roman": "dori",
+    "example": {
+      "mr": "दोरीवर कपडे वाळत घाल.",
+      "roman": "Dorivar kapde valat ghal.",
+      "en": "Hang the clothes on the rope to dry."
+    }
+  },
+  {
+    "id": 49,
+    "category": "house",
+    "en": "Nail (metal)",
+    "hi": "कील",
+    "mr": "खिळा",
+    "mr_roman": "khila",
+    "example": {
+      "mr": "भिंतीत खिळा ठोक.",
+      "roman": "Bhintit khila thok.",
+      "en": "Hammer a nail into the wall."
+    }
+  },
+  {
+    "id": 50,
+    "category": "house",
+    "en": "Hammer",
+    "hi": "हथौड़ा",
+    "mr": "हातोडा",
+    "mr_roman": "hatoda",
+    "example": {
+      "mr": "हातोडा दे.",
+      "roman": "Hatoda de.",
+      "en": "Give the hammer."
+    }
+  },
+  {
+    "id": 51,
+    "category": "kitchen",
+    "en": "Water",
+    "hi": "पानी",
+    "mr": "पाणी",
+    "mr_roman": "paani",
+    "example": {
+      "mr": "मला पाणी दे.",
+      "roman": "Mala paani de.",
+      "en": "Give me water."
+    }
+  },
+  {
+    "id": 52,
+    "category": "kitchen",
+    "en": "Plate",
+    "hi": "थाली",
+    "mr": "ताट",
+    "mr_roman": "taat",
+    "example": {
+      "mr": "ताटात जेवण वाढ.",
+      "roman": "Tatat jevan vadh.",
+      "en": "Serve food on the plate."
+    }
+  },
+  {
+    "id": 53,
+    "category": "kitchen",
+    "en": "Bowl",
+    "hi": "कटोरी",
+    "mr": "वाटी",
+    "mr_roman": "vaati",
+    "example": {
+      "mr": "वाटीत आमटी आहे.",
+      "roman": "Vatit aamti aahe.",
+      "en": "There is curry in the bowl."
+    }
+  },
+  {
+    "id": 54,
+    "category": "kitchen",
+    "en": "Glass",
+    "hi": "गिलास",
+    "mr": "ग्लास",
+    "mr_roman": "glass",
+    "example": {
+      "mr": "ग्लासात पाणी ओत.",
+      "roman": "Glasat paani ot.",
+      "en": "Pour water in the glass."
+    }
+  },
+  {
+    "id": 55,
+    "category": "kitchen",
+    "en": "Spoon",
+    "hi": "चम्मच",
+    "mr": "चमचा",
+    "mr_roman": "chamcha",
+    "example": {
+      "mr": "मला चमचा दे.",
+      "roman": "Mala chamcha de.",
+      "en": "Give me the spoon."
+    }
+  },
+  {
+    "id": 56,
+    "category": "kitchen",
+    "en": "Knife",
+    "hi": "चाकू",
+    "mr": "सुरी",
+    "mr_roman": "suri",
+    "example": {
+      "mr": "सुरी धारदार आहे.",
+      "roman": "Suri dhardar aahe.",
+      "en": "The knife is sharp."
+    }
+  },
+  {
+    "id": 57,
+    "category": "kitchen",
+    "en": "Vessel / Utensil",
+    "hi": "बर्तन",
+    "mr": "भांडं",
+    "mr_roman": "bhanda",
+    "example": {
+      "mr": "भांडी घास.",
+      "roman": "Bhandi ghas.",
+      "en": "Wash the vessels."
+    }
+  },
+  {
+    "id": 58,
+    "category": "kitchen",
+    "en": "Frying pan (kadhai)",
+    "hi": "कड़ाही",
+    "mr": "कढई",
+    "mr_roman": "kadhai",
+    "example": {
+      "mr": "कढईत तेल टाक.",
+      "roman": "Kadhait tel tak.",
+      "en": "Put oil in the pan."
+    }
+  },
+  {
+    "id": 59,
+    "category": "kitchen",
+    "en": "Rolling pin",
+    "hi": "बेलन",
+    "mr": "लाटणं",
+    "mr_roman": "latna",
+    "example": {
+      "mr": "लाटण्याने पोळी लाट.",
+      "roman": "Latnyane poli laat.",
+      "en": "Roll the roti with the rolling pin."
+    }
+  },
+  {
+    "id": 60,
+    "category": "kitchen",
+    "en": "Griddle (tawa)",
+    "hi": "तवा",
+    "mr": "तवा",
+    "mr_roman": "tava",
+    "example": {
+      "mr": "तवा गरम आहे.",
+      "roman": "Tava garam aahe.",
+      "en": "The griddle is hot."
+    }
+  },
+  {
+    "id": 61,
+    "category": "kitchen",
+    "en": "Stove",
+    "hi": "चूल्हा",
+    "mr": "शेगडी",
+    "mr_roman": "shegdi",
+    "example": {
+      "mr": "शेगडी बंद कर.",
+      "roman": "Shegdi band kar.",
+      "en": "Turn off the stove."
+    }
+  },
+  {
+    "id": 62,
+    "category": "kitchen",
+    "en": "Gas",
+    "hi": "गैस",
+    "mr": "गॅस",
+    "mr_roman": "gas",
+    "example": {
+      "mr": "गॅस संपला.",
+      "roman": "Gas sampla.",
+      "en": "The gas is over."
+    }
+  },
+  {
+    "id": 63,
+    "category": "kitchen",
+    "en": "Refrigerator",
+    "hi": "फ़्रिज",
+    "mr": "फ्रीज",
+    "mr_roman": "fridge",
+    "example": {
+      "mr": "दूध फ्रीजमध्ये ठेव.",
+      "roman": "Dudh fridgemadhye thev.",
+      "en": "Keep the milk in the fridge."
+    }
+  },
+  {
+    "id": 64,
+    "category": "kitchen",
+    "en": "Box / Container",
+    "hi": "डिब्बा",
+    "mr": "डबा",
+    "mr_roman": "daba",
+    "example": {
+      "mr": "डब्यात साखर आहे.",
+      "roman": "Dabyat sakhar aahe.",
+      "en": "There is sugar in the box."
+    }
+  },
+  {
+    "id": 65,
+    "category": "kitchen",
+    "en": "Lid",
+    "hi": "ढक्कन",
+    "mr": "झाकण",
+    "mr_roman": "jhakan",
+    "example": {
+      "mr": "भांड्यावर झाकण ठेव.",
+      "roman": "Bhandyavar jhakan thev.",
+      "en": "Put the lid on the vessel."
+    }
+  },
+  {
+    "id": 66,
+    "category": "kitchen",
+    "en": "Sieve",
+    "hi": "छलनी",
+    "mr": "चाळणी",
+    "mr_roman": "chalni",
+    "example": {
+      "mr": "पीठ चाळणीने चाळ.",
+      "roman": "Pith chalnine chaal.",
+      "en": "Sift the flour with the sieve."
+    }
+  },
+  {
+    "id": 67,
+    "category": "kitchen",
+    "en": "Mixer / Grinder",
+    "hi": "मिक्सर",
+    "mr": "मिक्सर",
+    "mr_roman": "mixer",
+    "example": {
+      "mr": "मिक्सर चालू कर.",
+      "roman": "Mixer chalu kar.",
+      "en": "Switch on the mixer."
+    }
+  },
+  {
+    "id": 68,
+    "category": "kitchen",
+    "en": "Grinding stone",
+    "hi": "सिल-बट्टा",
+    "mr": "पाटा-वरवंटा",
+    "mr_roman": "pata-varvanta",
+    "example": {
+      "mr": "पाट्यावर चटणी वाट.",
+      "roman": "Patyavar chatni vaat.",
+      "en": "Grind chutney on the stone."
+    }
+  },
+  {
+    "id": 69,
+    "category": "kitchen",
+    "en": "Fire",
+    "hi": "आग",
+    "mr": "आग",
+    "mr_roman": "aag",
+    "example": {
+      "mr": "आग लागली!",
+      "roman": "Aag lagli!",
+      "en": "Fire broke out!"
+    }
+  },
+  {
+    "id": 70,
+    "category": "kitchen",
+    "en": "Smoke",
+    "hi": "धुआँ",
+    "mr": "धूर",
+    "mr_roman": "dhur",
+    "example": {
+      "mr": "खूप धूर आहे.",
+      "roman": "Khup dhur aahe.",
+      "en": "There is a lot of smoke."
+    }
+  },
+  {
+    "id": 71,
+    "category": "kitchen",
+    "en": "Cup",
+    "hi": "कप",
+    "mr": "कप",
+    "mr_roman": "cup",
+    "example": {
+      "mr": "एक कप चहा दे.",
+      "roman": "Ek cup chaha de.",
+      "en": "Give one cup of tea."
+    }
+  },
+  {
+    "id": 72,
+    "category": "kitchen",
+    "en": "Jug / Lota",
+    "hi": "लोटा",
+    "mr": "तांब्या",
+    "mr_roman": "tambya",
+    "example": {
+      "mr": "तांब्यात पाणी आहे.",
+      "roman": "Tambyat paani aahe.",
+      "en": "There is water in the jug."
+    }
+  },
+  {
+    "id": 73,
+    "category": "kitchen",
+    "en": "Tap",
+    "hi": "नल",
+    "mr": "नळ",
+    "mr_roman": "nal",
+    "example": {
+      "mr": "नळ बंद कर.",
+      "roman": "Nal band kar.",
+      "en": "Close the tap."
+    }
+  },
+  {
+    "id": 74,
+    "category": "kitchen",
+    "en": "Ladle",
+    "hi": "करछी",
+    "mr": "पळी",
+    "mr_roman": "pali",
+    "example": {
+      "mr": "पळीने वरण वाढ.",
+      "roman": "Paline varan vadh.",
+      "en": "Serve the dal with the ladle."
+    }
+  },
+  {
+    "id": 75,
+    "category": "kitchen",
+    "en": "Tongs",
+    "hi": "चिमटा",
+    "mr": "चिमटा",
+    "mr_roman": "chimta",
+    "example": {
+      "mr": "चिमट्याने पोळी उचल.",
+      "roman": "Chimtyane poli uchal.",
+      "en": "Lift the roti with the tongs."
+    }
+  },
+  {
+    "id": 76,
+    "category": "kitchen",
+    "en": "Cooker",
+    "hi": "कुकर",
+    "mr": "कुकर",
+    "mr_roman": "cooker",
+    "example": {
+      "mr": "कुकरच्या तीन शिट्ट्या झाल्या.",
+      "roman": "Cookerchya teen shittya jhalya.",
+      "en": "The cooker gave three whistles."
+    }
+  },
+  {
+    "id": 77,
+    "category": "kitchen",
+    "en": "Match box",
+    "hi": "माचिस",
+    "mr": "काडेपेटी",
+    "mr_roman": "kadepeti",
+    "example": {
+      "mr": "काडेपेटी दे.",
+      "roman": "Kadepeti de.",
+      "en": "Give the match box."
+    }
+  },
+  {
+    "id": 78,
+    "category": "kitchen",
+    "en": "Cloth / Rag",
+    "hi": "कपड़ा",
+    "mr": "फडकं",
+    "mr_roman": "phadka",
+    "example": {
+      "mr": "फडक्याने टेबल पूस.",
+      "roman": "Phadkyane tebal pus.",
+      "en": "Wipe the table with the cloth."
+    }
+  },
+  {
+    "id": 79,
+    "category": "food",
+    "en": "Food / Meal",
+    "hi": "खाना",
+    "mr": "जेवण",
+    "mr_roman": "jevan",
+    "example": {
+      "mr": "जेवण तयार आहे.",
+      "roman": "Jevan tayar aahe.",
+      "en": "Food is ready."
+    }
+  },
+  {
+    "id": 80,
+    "category": "food",
+    "en": "Roti / Chapati",
+    "hi": "रोटी",
+    "mr": "पोळी",
+    "mr_roman": "poli",
+    "example": {
+      "mr": "मला दोन पोळ्या दे.",
+      "roman": "Mala don polya de.",
+      "en": "Give me two rotis."
+    }
+  },
+  {
+    "id": 81,
+    "category": "food",
+    "en": "Bhakri (millet bread)",
+    "hi": "बाजरे की रोटी",
+    "mr": "भाकरी",
+    "mr_roman": "bhakri",
+    "example": {
+      "mr": "भाकरी आणि पिठलं छान लागतं.",
+      "roman": "Bhakri aani pithla chhan lagta.",
+      "en": "Bhakri with pithla tastes great."
+    }
+  },
+  {
+    "id": 82,
+    "category": "food",
+    "en": "Rice (cooked)",
+    "hi": "चावल",
+    "mr": "भात",
+    "mr_roman": "bhaat",
+    "example": {
+      "mr": "मी भात खातो.",
+      "roman": "Mi bhaat khato.",
+      "en": "I eat rice."
+    }
+  },
+  {
+    "id": 83,
+    "category": "food",
+    "en": "Dal",
+    "hi": "दाल",
+    "mr": "वरण",
+    "mr_roman": "varan",
+    "example": {
+      "mr": "वरण-भात छान आहे.",
+      "roman": "Varan-bhaat chhan aahe.",
+      "en": "Dal and rice is nice."
+    }
+  },
+  {
+    "id": 84,
+    "category": "food",
+    "en": "Curry (thin dal)",
+    "hi": "पतली दाल",
+    "mr": "आमटी",
+    "mr_roman": "aamti",
+    "example": {
+      "mr": "आमटी तिखट आहे.",
+      "roman": "Aamti tikhat aahe.",
+      "en": "The curry is spicy."
+    }
+  },
+  {
+    "id": 85,
+    "category": "food",
+    "en": "Vegetable dish",
+    "hi": "सब्ज़ी",
+    "mr": "भाजी",
+    "mr_roman": "bhaji",
+    "example": {
+      "mr": "आज कोणती भाजी आहे?",
+      "roman": "Aaj konti bhaji aahe?",
+      "en": "Which vegetable is there today?"
+    }
+  },
+  {
+    "id": 86,
+    "category": "food",
+    "en": "Milk",
+    "hi": "दूध",
+    "mr": "दूध",
+    "mr_roman": "dudh",
+    "example": {
+      "mr": "दूध गरम कर.",
+      "roman": "Dudh garam kar.",
+      "en": "Heat the milk."
+    }
+  },
+  {
+    "id": 87,
+    "category": "food",
+    "en": "Tea",
+    "hi": "चाय",
+    "mr": "चहा",
+    "mr_roman": "chaha",
+    "example": {
+      "mr": "चहा घेणार का?",
+      "roman": "Chaha ghenar ka?",
+      "en": "Will you have tea?"
+    }
+  },
+  {
+    "id": 88,
+    "category": "food",
+    "en": "Coffee",
+    "hi": "कॉफ़ी",
+    "mr": "कॉफी",
+    "mr_roman": "coffee",
+    "example": {
+      "mr": "मला कॉफी आवडते.",
+      "roman": "Mala coffee aavadte.",
+      "en": "I like coffee."
+    }
+  },
+  {
+    "id": 89,
+    "category": "food",
+    "en": "Sugar",
+    "hi": "चीनी",
+    "mr": "साखर",
+    "mr_roman": "sakhar",
+    "example": {
+      "mr": "चहात साखर कमी टाक.",
+      "roman": "Chahat sakhar kami tak.",
+      "en": "Put less sugar in the tea."
+    }
+  },
+  {
+    "id": 90,
+    "category": "food",
+    "en": "Salt",
+    "hi": "नमक",
+    "mr": "मीठ",
+    "mr_roman": "meeth",
+    "example": {
+      "mr": "भाजीत मीठ कमी आहे.",
+      "roman": "Bhajit meeth kami aahe.",
+      "en": "There is less salt in the vegetable."
+    }
+  },
+  {
+    "id": 91,
+    "category": "food",
+    "en": "Oil",
+    "hi": "तेल",
+    "mr": "तेल",
+    "mr_roman": "tel",
+    "example": {
+      "mr": "तेल गरम झालं.",
+      "roman": "Tel garam jhala.",
+      "en": "The oil has heated."
+    }
+  },
+  {
+    "id": 92,
+    "category": "food",
+    "en": "Ghee",
+    "hi": "घी",
+    "mr": "तूप",
+    "mr_roman": "tup",
+    "example": {
+      "mr": "भातावर तूप घाल.",
+      "roman": "Bhatavar tup ghal.",
+      "en": "Put ghee on the rice."
+    }
+  },
+  {
+    "id": 93,
+    "category": "food",
+    "en": "Curd",
+    "hi": "दही",
+    "mr": "दही",
+    "mr_roman": "dahi",
+    "example": {
+      "mr": "दही आंबट आहे.",
+      "roman": "Dahi aambat aahe.",
+      "en": "The curd is sour."
+    }
+  },
+  {
+    "id": 94,
+    "category": "food",
+    "en": "Buttermilk",
+    "hi": "छाछ",
+    "mr": "ताक",
+    "mr_roman": "taak",
+    "example": {
+      "mr": "ताक थंड आहे.",
+      "roman": "Taak thand aahe.",
+      "en": "The buttermilk is cold."
+    }
+  },
+  {
+    "id": 95,
+    "category": "food",
+    "en": "Butter",
+    "hi": "मक्खन",
+    "mr": "लोणी",
+    "mr_roman": "loni",
+    "example": {
+      "mr": "पावाला लोणी लाव.",
+      "roman": "Pavala loni lav.",
+      "en": "Apply butter to the bread."
+    }
+  },
+  {
+    "id": 96,
+    "category": "food",
+    "en": "Egg",
+    "hi": "अंडा",
+    "mr": "अंडं",
+    "mr_roman": "anda",
+    "example": {
+      "mr": "मी अंडं खात नाही.",
+      "roman": "Mi anda khat nahi.",
+      "en": "I do not eat eggs."
+    }
+  },
+  {
+    "id": 97,
+    "category": "food",
+    "en": "Wheat flour (dough)",
+    "hi": "आटा",
+    "mr": "कणीक",
+    "mr_roman": "kanik",
+    "example": {
+      "mr": "कणीक मळ.",
+      "roman": "Kanik mal.",
+      "en": "Knead the dough."
+    }
+  },
+  {
+    "id": 98,
+    "category": "food",
+    "en": "Flour",
+    "hi": "पीठ",
+    "mr": "पीठ",
+    "mr_roman": "peeth",
+    "example": {
+      "mr": "पीठ संपलं.",
+      "roman": "Peeth sampla.",
+      "en": "The flour is over."
+    }
+  },
+  {
+    "id": 99,
+    "category": "food",
+    "en": "Spice",
+    "hi": "मसाला",
+    "mr": "मसाला",
+    "mr_roman": "masala",
+    "example": {
+      "mr": "मसाला जास्त झाला.",
+      "roman": "Masala jast jhala.",
+      "en": "There is too much spice."
+    }
+  },
+  {
+    "id": 100,
+    "category": "food",
+    "en": "Chilli",
+    "hi": "मिर्च",
+    "mr": "मिरची",
+    "mr_roman": "mirchi",
+    "example": {
+      "mr": "मिरची तिखट आहे.",
+      "roman": "Mirchi tikhat aahe.",
+      "en": "The chilli is spicy."
+    }
+  },
+  {
+    "id": 101,
+    "category": "food",
+    "en": "Turmeric",
+    "hi": "हल्दी",
+    "mr": "हळद",
+    "mr_roman": "halad",
+    "example": {
+      "mr": "दुधात हळद टाक.",
+      "roman": "Dudhat halad tak.",
+      "en": "Put turmeric in the milk."
+    }
+  },
+  {
+    "id": 102,
+    "category": "food",
+    "en": "Cumin",
+    "hi": "जीरा",
+    "mr": "जिरं",
+    "mr_roman": "jira",
+    "example": {
+      "mr": "तेलात जिरं टाक.",
+      "roman": "Telat jira tak.",
+      "en": "Put cumin in the oil."
+    }
+  },
+  {
+    "id": 103,
+    "category": "food",
+    "en": "Mustard seeds",
+    "hi": "राई",
+    "mr": "मोहरी",
+    "mr_roman": "mohri",
+    "example": {
+      "mr": "मोहरी तडतडली.",
+      "roman": "Mohri tadtadli.",
+      "en": "The mustard seeds crackled."
+    }
+  },
+  {
+    "id": 104,
+    "category": "food",
+    "en": "Coriander leaves",
+    "hi": "धनिया",
+    "mr": "कोथिंबीर",
+    "mr_roman": "kothimbir",
+    "example": {
+      "mr": "भाजीवर कोथिंबीर टाक.",
+      "roman": "Bhajivar kothimbir tak.",
+      "en": "Put coriander on the vegetable."
+    }
+  },
+  {
+    "id": 105,
+    "category": "food",
+    "en": "Garlic",
+    "hi": "लहसुन",
+    "mr": "लसूण",
+    "mr_roman": "lasun",
+    "example": {
+      "mr": "लसूण सोल.",
+      "roman": "Lasun sol.",
+      "en": "Peel the garlic."
+    }
+  },
+  {
+    "id": 106,
+    "category": "food",
+    "en": "Ginger",
+    "hi": "अदरक",
+    "mr": "आलं",
+    "mr_roman": "aala",
+    "example": {
+      "mr": "चहात आलं टाक.",
+      "roman": "Chahat aala tak.",
+      "en": "Put ginger in the tea."
+    }
+  },
+  {
+    "id": 107,
+    "category": "food",
+    "en": "Jaggery",
+    "hi": "गुड़",
+    "mr": "गूळ",
+    "mr_roman": "gul",
+    "example": {
+      "mr": "गूळ गोड आहे.",
+      "roman": "Gul god aahe.",
+      "en": "Jaggery is sweet."
+    }
+  },
+  {
+    "id": 108,
+    "category": "food",
+    "en": "Sweet dish",
+    "hi": "मिठाई",
+    "mr": "गोड पदार्थ",
+    "mr_roman": "god padarth",
+    "example": {
+      "mr": "मला गोड आवडतं.",
+      "roman": "Mala god aavadta.",
+      "en": "I like sweets."
+    }
+  },
+  {
+    "id": 109,
+    "category": "food",
+    "en": "Breakfast / Snack",
+    "hi": "नाश्ता",
+    "mr": "नाश्ता",
+    "mr_roman": "nashta",
+    "example": {
+      "mr": "नाश्ता झाला का?",
+      "roman": "Nashta jhala ka?",
+      "en": "Did you have breakfast?"
+    }
+  },
+  {
+    "id": 110,
+    "category": "food",
+    "en": "Lunch",
+    "hi": "दोपहर का खाना",
+    "mr": "दुपारचं जेवण",
+    "mr_roman": "duparcha jevan",
+    "example": {
+      "mr": "दुपारचं जेवण एक वाजता आहे.",
+      "roman": "Duparcha jevan ek vajta aahe.",
+      "en": "Lunch is at one o'clock."
+    }
+  },
+  {
+    "id": 111,
+    "category": "food",
+    "en": "Dinner",
+    "hi": "रात का खाना",
+    "mr": "रात्रीचं जेवण",
+    "mr_roman": "ratricha jevan",
+    "example": {
+      "mr": "रात्रीचं जेवण झालं.",
+      "roman": "Ratricha jevan jhala.",
+      "en": "Dinner is done."
+    }
+  },
+  {
+    "id": 112,
+    "category": "food",
+    "en": "Pickle",
+    "hi": "अचार",
+    "mr": "लोणचं",
+    "mr_roman": "loncha",
+    "example": {
+      "mr": "लोणचं आंबट आहे.",
+      "roman": "Loncha aambat aahe.",
+      "en": "The pickle is sour."
+    }
+  },
+  {
+    "id": 113,
+    "category": "food",
+    "en": "Papad",
+    "hi": "पापड़",
+    "mr": "पापड",
+    "mr_roman": "papad",
+    "example": {
+      "mr": "पापड भाज.",
+      "roman": "Papad bhaj.",
+      "en": "Roast the papad."
+    }
+  },
+  {
+    "id": 114,
+    "category": "food",
+    "en": "Peanuts",
+    "hi": "मूँगफली",
+    "mr": "शेंगदाणे",
+    "mr_roman": "shengdane",
+    "example": {
+      "mr": "शेंगदाणे भाज.",
+      "roman": "Shengdane bhaj.",
+      "en": "Roast the peanuts."
+    }
+  },
+  {
+    "id": 115,
+    "category": "food",
+    "en": "Coconut",
+    "hi": "नारियल",
+    "mr": "नारळ",
+    "mr_roman": "naral",
+    "example": {
+      "mr": "नारळ फोड.",
+      "roman": "Naral phod.",
+      "en": "Break the coconut."
+    }
+  },
+  {
+    "id": 116,
+    "category": "food",
+    "en": "Lemon",
+    "hi": "नींबू",
+    "mr": "लिंबू",
+    "mr_roman": "limbu",
+    "example": {
+      "mr": "लिंबू पिळ.",
+      "roman": "Limbu pil.",
+      "en": "Squeeze the lemon."
+    }
+  },
+  {
+    "id": 117,
+    "category": "food",
+    "en": "Tamarind",
+    "hi": "इमली",
+    "mr": "चिंच",
+    "mr_roman": "chinch",
+    "example": {
+      "mr": "चिंच आंबट असते.",
+      "roman": "Chinch aambat aste.",
+      "en": "Tamarind is sour."
+    }
+  },
+  {
+    "id": 118,
+    "category": "food",
+    "en": "Bread (loaf)",
+    "hi": "ब्रेड / पाव",
+    "mr": "पाव",
+    "mr_roman": "pav",
+    "example": {
+      "mr": "वडापाव खाऊया.",
+      "roman": "Vadapav khauya.",
+      "en": "Let's eat vada pav."
+    }
+  },
+  {
+    "id": 119,
+    "category": "food",
+    "en": "Chutney",
+    "hi": "चटनी",
+    "mr": "चटणी",
+    "mr_roman": "chatni",
+    "example": {
+      "mr": "चटणी तिखट आहे.",
+      "roman": "Chatni tikhat aahe.",
+      "en": "The chutney is spicy."
+    }
+  },
+  {
+    "id": 120,
+    "category": "food",
+    "en": "Poha",
+    "hi": "पोहा",
+    "mr": "पोहे",
+    "mr_roman": "pohe",
+    "example": {
+      "mr": "सकाळी पोहे केले.",
+      "roman": "Sakali pohe kele.",
+      "en": "Made poha in the morning."
+    }
+  },
+  {
+    "id": 121,
+    "category": "food",
+    "en": "Sweet (puran poli)",
+    "hi": "पूरन पोली",
+    "mr": "पुरणपोळी",
+    "mr_roman": "puranpoli",
+    "example": {
+      "mr": "सणाला पुरणपोळी करतात.",
+      "roman": "Sanala puranpoli kartat.",
+      "en": "Puran poli is made on festivals."
+    }
+  },
+  {
+    "id": 122,
+    "category": "food",
+    "en": "Honey",
+    "hi": "शहद",
+    "mr": "मध",
+    "mr_roman": "madh",
+    "example": {
+      "mr": "मध गोड आहे.",
+      "roman": "Madh god aahe.",
+      "en": "Honey is sweet."
+    }
+  },
+  {
+    "id": 123,
+    "category": "food",
+    "en": "Lentils (chana)",
+    "hi": "चना",
+    "mr": "हरभरा",
+    "mr_roman": "harbhara",
+    "example": {
+      "mr": "हरभऱ्याची उसळ कर.",
+      "roman": "Harbharyachi usal kar.",
+      "en": "Make a chana curry."
+    }
+  },
+  {
+    "id": 124,
+    "category": "food",
+    "en": "Moong",
+    "hi": "मूँग",
+    "mr": "मूग",
+    "mr_roman": "mug",
+    "example": {
+      "mr": "मुगाची खिचडी कर.",
+      "roman": "Mugachi khichdi kar.",
+      "en": "Make moong khichdi."
+    }
+  },
+  {
+    "id": 125,
+    "category": "food",
+    "en": "Semolina",
+    "hi": "सूजी",
+    "mr": "रवा",
+    "mr_roman": "rava",
+    "example": {
+      "mr": "रव्याचा शिरा कर.",
+      "roman": "Ravyacha shira kar.",
+      "en": "Make semolina halwa."
+    }
+  },
+  {
+    "id": 126,
+    "category": "vegetables",
+    "en": "Potato",
+    "hi": "आलू",
+    "mr": "बटाटा",
+    "mr_roman": "batata",
+    "example": {
+      "mr": "बटाट्याची भाजी कर.",
+      "roman": "Batatyachi bhaji kar.",
+      "en": "Make potato curry."
+    }
+  },
+  {
+    "id": 127,
+    "category": "vegetables",
+    "en": "Onion",
+    "hi": "प्याज़",
+    "mr": "कांदा",
+    "mr_roman": "kanda",
+    "example": {
+      "mr": "कांदा चिर.",
+      "roman": "Kanda chir.",
+      "en": "Chop the onion."
+    }
+  },
+  {
+    "id": 128,
+    "category": "vegetables",
+    "en": "Tomato",
+    "hi": "टमाटर",
+    "mr": "टोमॅटो",
+    "mr_roman": "tomato",
+    "example": {
+      "mr": "टोमॅटो लाल आहे.",
+      "roman": "Tomato lal aahe.",
+      "en": "The tomato is red."
+    }
+  },
+  {
+    "id": 129,
+    "category": "vegetables",
+    "en": "Brinjal",
+    "hi": "बैंगन",
+    "mr": "वांगं",
+    "mr_roman": "vanga",
+    "example": {
+      "mr": "वांग्याचं भरीत छान आहे.",
+      "roman": "Vangyacha bharit chhan aahe.",
+      "en": "The brinjal bharit is nice."
+    }
+  },
+  {
+    "id": 130,
+    "category": "vegetables",
+    "en": "Okra",
+    "hi": "भिंडी",
+    "mr": "भेंडी",
+    "mr_roman": "bhendi",
+    "example": {
+      "mr": "भेंडी काप.",
+      "roman": "Bhendi kaap.",
+      "en": "Cut the okra."
+    }
+  },
+  {
+    "id": 131,
+    "category": "vegetables",
+    "en": "Cauliflower",
+    "hi": "फूलगोभी",
+    "mr": "फुलकोबी",
+    "mr_roman": "phulkobi",
+    "example": {
+      "mr": "फुलकोबी धू.",
+      "roman": "Phulkobi dhu.",
+      "en": "Wash the cauliflower."
+    }
+  },
+  {
+    "id": 132,
+    "category": "vegetables",
+    "en": "Cabbage",
+    "hi": "पत्तागोभी",
+    "mr": "कोबी",
+    "mr_roman": "kobi",
+    "example": {
+      "mr": "कोबीची भाजी कर.",
+      "roman": "Kobichi bhaji kar.",
+      "en": "Make cabbage curry."
+    }
+  },
+  {
+    "id": 133,
+    "category": "vegetables",
+    "en": "Carrot",
+    "hi": "गाजर",
+    "mr": "गाजर",
+    "mr_roman": "gajar",
+    "example": {
+      "mr": "गाजर गोड आहे.",
+      "roman": "Gajar god aahe.",
+      "en": "The carrot is sweet."
+    }
+  },
+  {
+    "id": 134,
+    "category": "vegetables",
+    "en": "Peas",
+    "hi": "मटर",
+    "mr": "वाटाणा",
+    "mr_roman": "vatana",
+    "example": {
+      "mr": "वाटाणे सोल.",
+      "roman": "Vatane sol.",
+      "en": "Shell the peas."
+    }
+  },
+  {
+    "id": 135,
+    "category": "vegetables",
+    "en": "Spinach",
+    "hi": "पालक",
+    "mr": "पालक",
+    "mr_roman": "palak",
+    "example": {
+      "mr": "पालक धुऊन घे.",
+      "roman": "Palak dhuun ghe.",
+      "en": "Wash the spinach."
+    }
+  },
+  {
+    "id": 136,
+    "category": "vegetables",
+    "en": "Fenugreek leaves",
+    "hi": "मेथी",
+    "mr": "मेथी",
+    "mr_roman": "methi",
+    "example": {
+      "mr": "मेथीची भाजी कडू असते.",
+      "roman": "Methichi bhaji kadu aste.",
+      "en": "Fenugreek curry is bitter."
+    }
+  },
+  {
+    "id": 137,
+    "category": "vegetables",
+    "en": "Cucumber",
+    "hi": "खीरा",
+    "mr": "काकडी",
+    "mr_roman": "kakdi",
+    "example": {
+      "mr": "काकडी थंड असते.",
+      "roman": "Kakdi thand aste.",
+      "en": "Cucumber is cooling."
+    }
+  },
+  {
+    "id": 138,
+    "category": "vegetables",
+    "en": "Radish",
+    "hi": "मूली",
+    "mr": "मुळा",
+    "mr_roman": "mula",
+    "example": {
+      "mr": "मुळा किस.",
+      "roman": "Mula kis.",
+      "en": "Grate the radish."
+    }
+  },
+  {
+    "id": 139,
+    "category": "vegetables",
+    "en": "Bottle gourd",
+    "hi": "लौकी",
+    "mr": "दुधी भोपळा",
+    "mr_roman": "dudhi bhopla",
+    "example": {
+      "mr": "दुधी भोपळ्याची भाजी कर.",
+      "roman": "Dudhi bhoplyachi bhaji kar.",
+      "en": "Make bottle gourd curry."
+    }
+  },
+  {
+    "id": 140,
+    "category": "vegetables",
+    "en": "Pumpkin",
+    "hi": "कद्दू",
+    "mr": "लाल भोपळा",
+    "mr_roman": "lal bhopla",
+    "example": {
+      "mr": "लाल भोपळा गोड असतो.",
+      "roman": "Lal bhopla god asto.",
+      "en": "Pumpkin is sweet."
+    }
+  },
+  {
+    "id": 141,
+    "category": "vegetables",
+    "en": "Bitter gourd",
+    "hi": "करेला",
+    "mr": "कारलं",
+    "mr_roman": "karla",
+    "example": {
+      "mr": "कारलं कडू असतं.",
+      "roman": "Karla kadu asta.",
+      "en": "Bitter gourd is bitter."
+    }
+  },
+  {
+    "id": 142,
+    "category": "vegetables",
+    "en": "Green beans",
+    "hi": "फली",
+    "mr": "शेंगा",
+    "mr_roman": "shenga",
+    "example": {
+      "mr": "शेंगा मोड.",
+      "roman": "Shenga mod.",
+      "en": "Snap the beans."
+    }
+  },
+  {
+    "id": 143,
+    "category": "vegetables",
+    "en": "Capsicum",
+    "hi": "शिमला मिर्च",
+    "mr": "ढोबळी मिरची",
+    "mr_roman": "dhobli mirchi",
+    "example": {
+      "mr": "ढोबळी मिरची हिरवी आहे.",
+      "roman": "Dhobli mirchi hirvi aahe.",
+      "en": "The capsicum is green."
+    }
+  },
+  {
+    "id": 144,
+    "category": "vegetables",
+    "en": "Drumstick",
+    "hi": "सहजन",
+    "mr": "शेवगा",
+    "mr_roman": "shevga",
+    "example": {
+      "mr": "शेवग्याच्या शेंगा आण.",
+      "roman": "Shevgyachya shenga aan.",
+      "en": "Bring drumsticks."
+    }
+  },
+  {
+    "id": 145,
+    "category": "vegetables",
+    "en": "Beetroot",
+    "hi": "चुकंदर",
+    "mr": "बीट",
+    "mr_roman": "beet",
+    "example": {
+      "mr": "बीट लाल असतं.",
+      "roman": "Beet lal asta.",
+      "en": "Beetroot is red."
+    }
+  },
+  {
+    "id": 146,
+    "category": "vegetables",
+    "en": "Sweet potato",
+    "hi": "शकरकंद",
+    "mr": "रताळं",
+    "mr_roman": "ratala",
+    "example": {
+      "mr": "रताळं उकड.",
+      "roman": "Ratala ukad.",
+      "en": "Boil the sweet potato."
+    }
+  },
+  {
+    "id": 147,
+    "category": "vegetables",
+    "en": "Corn",
+    "hi": "भुट्टा",
+    "mr": "कणीस",
+    "mr_roman": "kanis",
+    "example": {
+      "mr": "भाजलेलं कणीस छान लागतं.",
+      "roman": "Bhajlela kanis chhan lagta.",
+      "en": "Roasted corn tastes good."
+    }
+  },
+  {
+    "id": 148,
+    "category": "vegetables",
+    "en": "Mushroom",
+    "hi": "मशरूम",
+    "mr": "अळंबी",
+    "mr_roman": "alambi",
+    "example": {
+      "mr": "अळंबीची भाजी कर.",
+      "roman": "Alambichi bhaji kar.",
+      "en": "Make mushroom curry."
+    }
+  },
+  {
+    "id": 149,
+    "category": "vegetables",
+    "en": "Green chilli",
+    "hi": "हरी मिर्च",
+    "mr": "हिरवी मिरची",
+    "mr_roman": "hirvi mirchi",
+    "example": {
+      "mr": "हिरवी मिरची तिखट आहे.",
+      "roman": "Hirvi mirchi tikhat aahe.",
+      "en": "The green chilli is spicy."
+    }
+  },
+  {
+    "id": 150,
+    "category": "vegetables",
+    "en": "Curry leaves",
+    "hi": "करी पत्ता",
+    "mr": "कढीपत्ता",
+    "mr_roman": "kadhipatta",
+    "example": {
+      "mr": "फोडणीत कढीपत्ता टाक.",
+      "roman": "Phodnit kadhipatta tak.",
+      "en": "Put curry leaves in the tempering."
+    }
+  },
+  {
+    "id": 151,
+    "category": "vegetables",
+    "en": "Garlic chives / Spring onion",
+    "hi": "हरा प्याज़",
+    "mr": "पातीचा कांदा",
+    "mr_roman": "paticha kanda",
+    "example": {
+      "mr": "पातीचा कांदा चिर.",
+      "roman": "Paticha kanda chir.",
+      "en": "Chop the spring onion."
+    }
+  },
+  {
+    "id": 152,
+    "category": "fruits",
+    "en": "Fruit",
+    "hi": "फल",
+    "mr": "फळ",
+    "mr_roman": "phal",
+    "example": {
+      "mr": "रोज एक फळ खा.",
+      "roman": "Roj ek phal kha.",
+      "en": "Eat one fruit every day."
+    }
+  },
+  {
+    "id": 153,
+    "category": "fruits",
+    "en": "Mango",
+    "hi": "आम",
+    "mr": "आंबा",
+    "mr_roman": "aamba",
+    "example": {
+      "mr": "आंबा गोड आहे.",
+      "roman": "Aamba god aahe.",
+      "en": "The mango is sweet."
+    }
+  },
+  {
+    "id": 154,
+    "category": "fruits",
+    "en": "Banana",
+    "hi": "केला",
+    "mr": "केळं",
+    "mr_roman": "kela",
+    "example": {
+      "mr": "केळी स्वस्त आहेत.",
+      "roman": "Keli swast aahet.",
+      "en": "Bananas are cheap."
+    }
+  },
+  {
+    "id": 155,
+    "category": "fruits",
+    "en": "Apple",
+    "hi": "सेब",
+    "mr": "सफरचंद",
+    "mr_roman": "sapharchand",
+    "example": {
+      "mr": "सफरचंद लाल आहे.",
+      "roman": "Sapharchand lal aahe.",
+      "en": "The apple is red."
+    }
+  },
+  {
+    "id": 156,
+    "category": "fruits",
+    "en": "Orange",
+    "hi": "संतरा",
+    "mr": "संत्रं",
+    "mr_roman": "santra",
+    "example": {
+      "mr": "संत्रं आंबट आहे.",
+      "roman": "Santra aambat aahe.",
+      "en": "The orange is sour."
+    }
+  },
+  {
+    "id": 157,
+    "category": "fruits",
+    "en": "Grapes",
+    "hi": "अंगूर",
+    "mr": "द्राक्षं",
+    "mr_roman": "draksha",
+    "example": {
+      "mr": "द्राक्षं गोड आहेत.",
+      "roman": "Draksha god aahet.",
+      "en": "The grapes are sweet."
+    }
+  },
+  {
+    "id": 158,
+    "category": "fruits",
+    "en": "Guava",
+    "hi": "अमरूद",
+    "mr": "पेरू",
+    "mr_roman": "peru",
+    "example": {
+      "mr": "पेरू कच्चा आहे.",
+      "roman": "Peru kachcha aahe.",
+      "en": "The guava is raw."
+    }
+  },
+  {
+    "id": 159,
+    "category": "fruits",
+    "en": "Papaya",
+    "hi": "पपीता",
+    "mr": "पपई",
+    "mr_roman": "papai",
+    "example": {
+      "mr": "पपई पिकली आहे.",
+      "roman": "Papai pikli aahe.",
+      "en": "The papaya is ripe."
+    }
+  },
+  {
+    "id": 160,
+    "category": "fruits",
+    "en": "Pomegranate",
+    "hi": "अनार",
+    "mr": "डाळिंब",
+    "mr_roman": "dalimb",
+    "example": {
+      "mr": "डाळिंब सोल.",
+      "roman": "Dalimb sol.",
+      "en": "Peel the pomegranate."
+    }
+  },
+  {
+    "id": 161,
+    "category": "fruits",
+    "en": "Watermelon",
+    "hi": "तरबूज़",
+    "mr": "कलिंगड",
+    "mr_roman": "kalingad",
+    "example": {
+      "mr": "उन्हाळ्यात कलिंगड खा.",
+      "roman": "Unhalyat kalingad kha.",
+      "en": "Eat watermelon in summer."
+    }
+  },
+  {
+    "id": 162,
+    "category": "fruits",
+    "en": "Custard apple",
+    "hi": "शरीफ़ा",
+    "mr": "सीताफळ",
+    "mr_roman": "sitaphal",
+    "example": {
+      "mr": "सीताफळ गोड आहे.",
+      "roman": "Sitaphal god aahe.",
+      "en": "The custard apple is sweet."
+    }
+  },
+  {
+    "id": 163,
+    "category": "fruits",
+    "en": "Jackfruit",
+    "hi": "कटहल",
+    "mr": "फणस",
+    "mr_roman": "phanas",
+    "example": {
+      "mr": "फणस मोठा आहे.",
+      "roman": "Phanas motha aahe.",
+      "en": "The jackfruit is big."
+    }
+  },
+  {
+    "id": 164,
+    "category": "fruits",
+    "en": "Chikoo",
+    "hi": "चीकू",
+    "mr": "चिकू",
+    "mr_roman": "chiku",
+    "example": {
+      "mr": "चिकू मऊ आहे.",
+      "roman": "Chiku mau aahe.",
+      "en": "The chikoo is soft."
+    }
+  },
+  {
+    "id": 165,
+    "category": "fruits",
+    "en": "Pineapple",
+    "hi": "अनानास",
+    "mr": "अननस",
+    "mr_roman": "ananas",
+    "example": {
+      "mr": "अननस काप.",
+      "roman": "Ananas kaap.",
+      "en": "Cut the pineapple."
+    }
+  },
+  {
+    "id": 166,
+    "category": "fruits",
+    "en": "Jamun",
+    "hi": "जामुन",
+    "mr": "जांभूळ",
+    "mr_roman": "jambhul",
+    "example": {
+      "mr": "जांभूळ जांभळं असतं.",
+      "roman": "Jambhul jambhla asta.",
+      "en": "Jamun is purple."
+    }
+  },
+  {
+    "id": 167,
+    "category": "fruits",
+    "en": "Dates",
+    "hi": "खजूर",
+    "mr": "खजूर",
+    "mr_roman": "khajur",
+    "example": {
+      "mr": "खजूर गोड असतात.",
+      "roman": "Khajur god astat.",
+      "en": "Dates are sweet."
+    }
+  },
+  {
+    "id": 168,
+    "category": "fruits",
+    "en": "Cashew",
+    "hi": "काजू",
+    "mr": "काजू",
+    "mr_roman": "kaju",
+    "example": {
+      "mr": "काजू महाग आहेत.",
+      "roman": "Kaju mahag aahet.",
+      "en": "Cashews are expensive."
+    }
+  },
+  {
+    "id": 169,
+    "category": "fruits",
+    "en": "Almond",
+    "hi": "बादाम",
+    "mr": "बदाम",
+    "mr_roman": "badam",
+    "example": {
+      "mr": "रोज बदाम खा.",
+      "roman": "Roj badam kha.",
+      "en": "Eat almonds every day."
+    }
+  },
+  {
+    "id": 170,
+    "category": "fruits",
+    "en": "Sweet lime",
+    "hi": "मौसमी",
+    "mr": "मोसंबी",
+    "mr_roman": "mosambi",
+    "example": {
+      "mr": "मोसंबीचा रस दे.",
+      "roman": "Mosambicha ras de.",
+      "en": "Give sweet lime juice."
+    }
+  },
+  {
+    "id": 171,
+    "category": "fruits",
+    "en": "Strawberry",
+    "hi": "स्ट्रॉबेरी",
+    "mr": "स्ट्रॉबेरी",
+    "mr_roman": "strawberry",
+    "example": {
+      "mr": "महाबळेश्वरची स्ट्रॉबेरी प्रसिद्ध आहे.",
+      "roman": "Mahabaleshwarchi strawberry prasiddha aahe.",
+      "en": "Mahabaleshwar's strawberries are famous."
+    }
+  },
+  {
+    "id": 172,
+    "category": "family",
+    "en": "Mother",
+    "hi": "माँ",
+    "mr": "आई",
+    "mr_roman": "aai",
+    "example": {
+      "mr": "माझी आई स्वयंपाक करते.",
+      "roman": "Majhi aai swayampak karte.",
+      "en": "My mother cooks."
+    }
+  },
+  {
+    "id": 173,
+    "category": "family",
+    "en": "Father",
+    "hi": "पिता / पापा",
+    "mr": "बाबा",
+    "mr_roman": "baba",
+    "example": {
+      "mr": "बाबा कामावर गेले.",
+      "roman": "Baba kamavar gele.",
+      "en": "Father went to work."
+    }
+  },
+  {
+    "id": 174,
+    "category": "family",
+    "en": "Elder brother",
+    "hi": "बड़ा भाई",
+    "mr": "दादा",
+    "mr_roman": "dada",
+    "example": {
+      "mr": "दादा मोठा आहे.",
+      "roman": "Dada motha aahe.",
+      "en": "Elder brother is older."
+    }
+  },
+  {
+    "id": 175,
+    "category": "family",
+    "en": "Younger brother",
+    "hi": "छोटा भाई",
+    "mr": "धाकटा भाऊ",
+    "mr_roman": "dhakta bhau",
+    "example": {
+      "mr": "माझा धाकटा भाऊ शाळेत आहे.",
+      "roman": "Majha dhakta bhau shalet aahe.",
+      "en": "My younger brother is in school."
+    }
+  },
+  {
+    "id": 176,
+    "category": "family",
+    "en": "Brother",
+    "hi": "भाई",
+    "mr": "भाऊ",
+    "mr_roman": "bhau",
+    "example": {
+      "mr": "माझा भाऊ शाळेत जातो.",
+      "roman": "Majha bhau shalet jato.",
+      "en": "My brother goes to school."
+    }
+  },
+  {
+    "id": 177,
+    "category": "family",
+    "en": "Elder sister",
+    "hi": "बड़ी बहन",
+    "mr": "ताई",
+    "mr_roman": "tai",
+    "example": {
+      "mr": "ताई मला शिकवते.",
+      "roman": "Tai mala shikavte.",
+      "en": "Elder sister teaches me."
+    }
+  },
+  {
+    "id": 178,
+    "category": "family",
+    "en": "Sister",
+    "hi": "बहन",
+    "mr": "बहीण",
+    "mr_roman": "bahin",
+    "example": {
+      "mr": "माझी बहीण डॉक्टर आहे.",
+      "roman": "Majhi bahin doctor aahe.",
+      "en": "My sister is a doctor."
+    }
+  },
+  {
+    "id": 179,
+    "category": "family",
+    "en": "Grandfather",
+    "hi": "दादा / नाना",
+    "mr": "आजोबा",
+    "mr_roman": "ajoba",
+    "example": {
+      "mr": "आजोबा फिरायला गेले.",
+      "roman": "Ajoba phirayla gele.",
+      "en": "Grandfather went for a walk."
+    }
+  },
+  {
+    "id": 180,
+    "category": "family",
+    "en": "Grandmother",
+    "hi": "दादी / नानी",
+    "mr": "आजी",
+    "mr_roman": "aaji",
+    "example": {
+      "mr": "आजी गोष्ट सांगते.",
+      "roman": "Aaji goshta sangte.",
+      "en": "Grandmother tells a story."
+    }
+  },
+  {
+    "id": 181,
+    "category": "family",
+    "en": "Uncle (father's brother)",
+    "hi": "चाचा",
+    "mr": "काका",
+    "mr_roman": "kaka",
+    "example": {
+      "mr": "काका पुण्यात राहतात.",
+      "roman": "Kaka Punyat rahtat.",
+      "en": "Uncle lives in Pune."
+    }
+  },
+  {
+    "id": 182,
+    "category": "family",
+    "en": "Aunt (father's brother's wife)",
+    "hi": "चाची",
+    "mr": "काकू",
+    "mr_roman": "kaku",
+    "example": {
+      "mr": "काकू चांगला स्वयंपाक करतात.",
+      "roman": "Kaku changla swayampak kartat.",
+      "en": "Aunt cooks well."
+    }
+  },
+  {
+    "id": 183,
+    "category": "family",
+    "en": "Uncle (mother's brother)",
+    "hi": "मामा",
+    "mr": "मामा",
+    "mr_roman": "mama",
+    "example": {
+      "mr": "मामा उद्या येणार.",
+      "roman": "Mama udya yenar.",
+      "en": "Maternal uncle is coming tomorrow."
+    }
+  },
+  {
+    "id": 184,
+    "category": "family",
+    "en": "Aunt (mother's brother's wife)",
+    "hi": "मामी",
+    "mr": "मामी",
+    "mr_roman": "mami",
+    "example": {
+      "mr": "मामी गावाला गेल्या.",
+      "roman": "Mami gavala gelya.",
+      "en": "Aunt went to the village."
+    }
+  },
+  {
+    "id": 185,
+    "category": "family",
+    "en": "Aunt (mother's sister)",
+    "hi": "मौसी",
+    "mr": "मावशी",
+    "mr_roman": "mavshi",
+    "example": {
+      "mr": "मावशी मुंबईत राहते.",
+      "roman": "Mavshi Mumbait rahte.",
+      "en": "Aunt lives in Mumbai."
+    }
+  },
+  {
+    "id": 186,
+    "category": "family",
+    "en": "Aunt (father's sister)",
+    "hi": "बुआ",
+    "mr": "आत्या",
+    "mr_roman": "aatya",
+    "example": {
+      "mr": "आत्या आली आहे.",
+      "roman": "Aatya aali aahe.",
+      "en": "Aunt has come."
+    }
+  },
+  {
+    "id": 187,
+    "category": "family",
+    "en": "Son",
+    "hi": "बेटा",
+    "mr": "मुलगा",
+    "mr_roman": "mulga",
+    "example": {
+      "mr": "माझा मुलगा लहान आहे.",
+      "roman": "Majha mulga lahan aahe.",
+      "en": "My son is small."
+    }
+  },
+  {
+    "id": 188,
+    "category": "family",
+    "en": "Daughter",
+    "hi": "बेटी",
+    "mr": "मुलगी",
+    "mr_roman": "mulgi",
+    "example": {
+      "mr": "माझी मुलगी हुशार आहे.",
+      "roman": "Majhi mulgi hushar aahe.",
+      "en": "My daughter is clever."
+    }
+  },
+  {
+    "id": 189,
+    "category": "family",
+    "en": "Husband",
+    "hi": "पति",
+    "mr": "नवरा",
+    "mr_roman": "navra",
+    "example": {
+      "mr": "माझा नवरा ऑफिसला गेला.",
+      "roman": "Majha navra officela gela.",
+      "en": "My husband went to the office."
+    }
+  },
+  {
+    "id": 190,
+    "category": "family",
+    "en": "Wife",
+    "hi": "पत्नी",
+    "mr": "बायको",
+    "mr_roman": "bayko",
+    "example": {
+      "mr": "माझी बायको शिक्षिका आहे.",
+      "roman": "Majhi bayko shikshika aahe.",
+      "en": "My wife is a teacher."
+    }
+  },
+  {
+    "id": 191,
+    "category": "family",
+    "en": "Child",
+    "hi": "बच्चा",
+    "mr": "मूल",
+    "mr_roman": "mul",
+    "example": {
+      "mr": "मुलं खेळत आहेत.",
+      "roman": "Mula khelat aahet.",
+      "en": "The children are playing."
+    }
+  },
+  {
+    "id": 192,
+    "category": "family",
+    "en": "Friend (male)",
+    "hi": "दोस्त",
+    "mr": "मित्र",
+    "mr_roman": "mitra",
+    "example": {
+      "mr": "तो माझा मित्र आहे.",
+      "roman": "To majha mitra aahe.",
+      "en": "He is my friend."
+    }
+  },
+  {
+    "id": 193,
+    "category": "family",
+    "en": "Friend (female)",
+    "hi": "सहेली",
+    "mr": "मैत्रीण",
+    "mr_roman": "maitrin",
+    "example": {
+      "mr": "ती माझी मैत्रीण आहे.",
+      "roman": "Ti majhi maitrin aahe.",
+      "en": "She is my friend."
+    }
+  },
+  {
+    "id": 194,
+    "category": "family",
+    "en": "Man",
+    "hi": "आदमी",
+    "mr": "माणूस",
+    "mr_roman": "manus",
+    "example": {
+      "mr": "तो माणूस कोण आहे?",
+      "roman": "To manus kon aahe?",
+      "en": "Who is that man?"
+    }
+  },
+  {
+    "id": 195,
+    "category": "family",
+    "en": "Woman",
+    "hi": "औरत",
+    "mr": "बाई",
+    "mr_roman": "bai",
+    "example": {
+      "mr": "ती बाई कोण आहे?",
+      "roman": "Ti bai kon aahe?",
+      "en": "Who is that woman?"
+    }
+  },
+  {
+    "id": 196,
+    "category": "family",
+    "en": "Neighbour",
+    "hi": "पड़ोसी",
+    "mr": "शेजारी",
+    "mr_roman": "shejari",
+    "example": {
+      "mr": "शेजारी चांगले आहेत.",
+      "roman": "Shejari changle aahet.",
+      "en": "The neighbours are good."
+    }
+  },
+  {
+    "id": 197,
+    "category": "family",
+    "en": "Guest",
+    "hi": "मेहमान",
+    "mr": "पाहुणा",
+    "mr_roman": "pahuna",
+    "example": {
+      "mr": "घरी पाहुणे आले आहेत.",
+      "roman": "Ghari pahune aale aahet.",
+      "en": "Guests have come home."
+    }
+  },
+  {
+    "id": 198,
+    "category": "family",
+    "en": "Family",
+    "hi": "परिवार",
+    "mr": "कुटुंब",
+    "mr_roman": "kutumb",
+    "example": {
+      "mr": "माझं कुटुंब मोठं आहे.",
+      "roman": "Majha kutumb motha aahe.",
+      "en": "My family is big."
+    }
+  },
+  {
+    "id": 199,
+    "category": "family",
+    "en": "Name",
+    "hi": "नाम",
+    "mr": "नाव",
+    "mr_roman": "naav",
+    "example": {
+      "mr": "तुझं नाव काय?",
+      "roman": "Tujha naav kay?",
+      "en": "What is your name?"
+    }
+  },
+  {
+    "id": 200,
+    "category": "family",
+    "en": "Teacher",
+    "hi": "शिक्षक",
+    "mr": "शिक्षक",
+    "mr_roman": "shikshak",
+    "example": {
+      "mr": "शिक्षक वर्गात आहेत.",
+      "roman": "Shikshak vargat aahet.",
+      "en": "The teacher is in the class."
+    }
+  },
+  {
+    "id": 201,
+    "category": "family",
+    "en": "Doctor",
+    "hi": "डॉक्टर",
+    "mr": "डॉक्टर",
+    "mr_roman": "doctor",
+    "example": {
+      "mr": "डॉक्टरांकडे जा.",
+      "roman": "Doctorankade ja.",
+      "en": "Go to the doctor."
+    }
+  },
+  {
+    "id": 202,
+    "category": "family",
+    "en": "Baby",
+    "hi": "शिशु",
+    "mr": "बाळ",
+    "mr_roman": "baal",
+    "example": {
+      "mr": "बाळ झोपलं आहे.",
+      "roman": "Baal jhopla aahe.",
+      "en": "The baby is asleep."
+    }
+  },
+  {
+    "id": 203,
+    "category": "family",
+    "en": "Boy",
+    "hi": "लड़का",
+    "mr": "मुलगा",
+    "mr_roman": "mulga",
+    "example": {
+      "mr": "तो मुलगा धावतोय.",
+      "roman": "To mulga dhavtoy.",
+      "en": "That boy is running."
+    }
+  },
+  {
+    "id": 204,
+    "category": "family",
+    "en": "Girl",
+    "hi": "लड़की",
+    "mr": "मुलगी",
+    "mr_roman": "mulgi",
+    "example": {
+      "mr": "ती मुलगी गाते.",
+      "roman": "Ti mulgi gaate.",
+      "en": "That girl sings."
+    }
+  },
+  {
+    "id": 205,
+    "category": "family",
+    "en": "Old man",
+    "hi": "बूढ़ा",
+    "mr": "म्हातारा",
+    "mr_roman": "mhatara",
+    "example": {
+      "mr": "म्हातारा माणूस हळू चालतो.",
+      "roman": "Mhatara manus halu chalto.",
+      "en": "The old man walks slowly."
+    }
+  },
+  {
+    "id": 206,
+    "category": "family",
+    "en": "Son-in-law",
+    "hi": "दामाद",
+    "mr": "जावई",
+    "mr_roman": "javai",
+    "example": {
+      "mr": "जावई आले आहेत.",
+      "roman": "Javai aale aahet.",
+      "en": "Son-in-law has come."
+    }
+  },
+  {
+    "id": 207,
+    "category": "family",
+    "en": "Daughter-in-law",
+    "hi": "बहू",
+    "mr": "सून",
+    "mr_roman": "sun",
+    "example": {
+      "mr": "सून स्वयंपाक करते.",
+      "roman": "Sun swayampak karte.",
+      "en": "Daughter-in-law is cooking."
+    }
+  },
+  {
+    "id": 208,
+    "category": "family",
+    "en": "Mother-in-law",
+    "hi": "सास",
+    "mr": "सासू",
+    "mr_roman": "sasu",
+    "example": {
+      "mr": "सासूबाई देवळात गेल्या.",
+      "roman": "Sasubai devlat gelya.",
+      "en": "Mother-in-law went to the temple."
+    }
+  },
+  {
+    "id": 209,
+    "category": "family",
+    "en": "Father-in-law",
+    "hi": "ससुर",
+    "mr": "सासरे",
+    "mr_roman": "sasre",
+    "example": {
+      "mr": "सासरे शेतावर गेले.",
+      "roman": "Sasre shetavar gele.",
+      "en": "Father-in-law went to the farm."
+    }
+  },
+  {
+    "id": 210,
+    "category": "family",
+    "en": "Person",
+    "hi": "व्यक्ति",
+    "mr": "व्यक्ती",
+    "mr_roman": "vyakti",
+    "example": {
+      "mr": "ती व्यक्ती कोण?",
+      "roman": "Ti vyakti kon?",
+      "en": "Who is that person?"
+    }
+  },
+  {
+    "id": 211,
+    "category": "body",
+    "en": "Head",
+    "hi": "सिर",
+    "mr": "डोकं",
+    "mr_roman": "doka",
+    "example": {
+      "mr": "माझं डोकं दुखतंय.",
+      "roman": "Majha doka dukhtay.",
+      "en": "My head is aching."
+    }
+  },
+  {
+    "id": 212,
+    "category": "body",
+    "en": "Hair",
+    "hi": "बाल",
+    "mr": "केस",
+    "mr_roman": "kes",
+    "example": {
+      "mr": "केस लांब आहेत.",
+      "roman": "Kes laamb aahet.",
+      "en": "The hair is long."
+    }
+  },
+  {
+    "id": 213,
+    "category": "body",
+    "en": "Face",
+    "hi": "चेहरा",
+    "mr": "चेहरा",
+    "mr_roman": "chehra",
+    "example": {
+      "mr": "चेहरा धू.",
+      "roman": "Chehra dhu.",
+      "en": "Wash your face."
+    }
+  },
+  {
+    "id": 214,
+    "category": "body",
+    "en": "Eye",
+    "hi": "आँख",
+    "mr": "डोळा",
+    "mr_roman": "dola",
+    "example": {
+      "mr": "डोळे बंद कर.",
+      "roman": "Dole band kar.",
+      "en": "Close your eyes."
+    }
+  },
+  {
+    "id": 215,
+    "category": "body",
+    "en": "Ear",
+    "hi": "कान",
+    "mr": "कान",
+    "mr_roman": "kaan",
+    "example": {
+      "mr": "कान दुखतोय.",
+      "roman": "Kaan dukhtoy.",
+      "en": "The ear is hurting."
+    }
+  },
+  {
+    "id": 216,
+    "category": "body",
+    "en": "Nose",
+    "hi": "नाक",
+    "mr": "नाक",
+    "mr_roman": "naak",
+    "example": {
+      "mr": "नाक पूस.",
+      "roman": "Naak pus.",
+      "en": "Wipe your nose."
+    }
+  },
+  {
+    "id": 217,
+    "category": "body",
+    "en": "Mouth",
+    "hi": "मुँह",
+    "mr": "तोंड",
+    "mr_roman": "tond",
+    "example": {
+      "mr": "तोंड उघड.",
+      "roman": "Tond ughad.",
+      "en": "Open your mouth."
+    }
+  },
+  {
+    "id": 218,
+    "category": "body",
+    "en": "Tooth",
+    "hi": "दाँत",
+    "mr": "दात",
+    "mr_roman": "daat",
+    "example": {
+      "mr": "दात घास.",
+      "roman": "Daat ghas.",
+      "en": "Brush your teeth."
+    }
+  },
+  {
+    "id": 219,
+    "category": "body",
+    "en": "Tongue",
+    "hi": "जीभ",
+    "mr": "जीभ",
+    "mr_roman": "jeebh",
+    "example": {
+      "mr": "जीभ बाहेर काढ.",
+      "roman": "Jeebh baher kadh.",
+      "en": "Stick out your tongue."
+    }
+  },
+  {
+    "id": 220,
+    "category": "body",
+    "en": "Neck",
+    "hi": "गर्दन",
+    "mr": "मान",
+    "mr_roman": "maan",
+    "example": {
+      "mr": "मान दुखतेय.",
+      "roman": "Maan dukhtey.",
+      "en": "The neck is hurting."
+    }
+  },
+  {
+    "id": 221,
+    "category": "body",
+    "en": "Hand",
+    "hi": "हाथ",
+    "mr": "हात",
+    "mr_roman": "haat",
+    "example": {
+      "mr": "हात धू.",
+      "roman": "Haat dhu.",
+      "en": "Wash your hands."
+    }
+  },
+  {
+    "id": 222,
+    "category": "body",
+    "en": "Finger",
+    "hi": "उंगली",
+    "mr": "बोट",
+    "mr_roman": "bot",
+    "example": {
+      "mr": "बोटाला लागलं.",
+      "roman": "Botala lagla.",
+      "en": "The finger got hurt."
+    }
+  },
+  {
+    "id": 223,
+    "category": "body",
+    "en": "Leg / Foot",
+    "hi": "पैर",
+    "mr": "पाय",
+    "mr_roman": "paay",
+    "example": {
+      "mr": "माझा पाय दुखतोय.",
+      "roman": "Majha paay dukhtoy.",
+      "en": "My leg is hurting."
+    }
+  },
+  {
+    "id": 224,
+    "category": "body",
+    "en": "Stomach",
+    "hi": "पेट",
+    "mr": "पोट",
+    "mr_roman": "pot",
+    "example": {
+      "mr": "पोट भरलं.",
+      "roman": "Pot bharla.",
+      "en": "The stomach is full."
+    }
+  },
+  {
+    "id": 225,
+    "category": "body",
+    "en": "Back",
+    "hi": "पीठ",
+    "mr": "पाठ",
+    "mr_roman": "paath",
+    "example": {
+      "mr": "पाठ दुखतेय.",
+      "roman": "Paath dukhtey.",
+      "en": "The back is hurting."
+    }
+  },
+  {
+    "id": 226,
+    "category": "body",
+    "en": "Heart",
+    "hi": "दिल",
+    "mr": "हृदय",
+    "mr_roman": "hruday",
+    "example": {
+      "mr": "हृदय धडधडतंय.",
+      "roman": "Hruday dhaddhadtay.",
+      "en": "The heart is pounding."
+    }
+  },
+  {
+    "id": 227,
+    "category": "body",
+    "en": "Blood",
+    "hi": "खून",
+    "mr": "रक्त",
+    "mr_roman": "rakta",
+    "example": {
+      "mr": "रक्त लाल असतं.",
+      "roman": "Rakta lal asta.",
+      "en": "Blood is red."
+    }
+  },
+  {
+    "id": 228,
+    "category": "body",
+    "en": "Bone",
+    "hi": "हड्डी",
+    "mr": "हाड",
+    "mr_roman": "haad",
+    "example": {
+      "mr": "हाड मोडलं.",
+      "roman": "Haad modla.",
+      "en": "The bone broke."
+    }
+  },
+  {
+    "id": 229,
+    "category": "body",
+    "en": "Skin",
+    "hi": "त्वचा",
+    "mr": "त्वचा",
+    "mr_roman": "tvacha",
+    "example": {
+      "mr": "त्वचा कोरडी आहे.",
+      "roman": "Tvacha kordi aahe.",
+      "en": "The skin is dry."
+    }
+  },
+  {
+    "id": 230,
+    "category": "body",
+    "en": "Knee",
+    "hi": "घुटना",
+    "mr": "गुडघा",
+    "mr_roman": "gudgha",
+    "example": {
+      "mr": "गुडघा दुखतोय.",
+      "roman": "Gudgha dukhtoy.",
+      "en": "The knee is hurting."
+    }
+  },
+  {
+    "id": 231,
+    "category": "body",
+    "en": "Shoulder",
+    "hi": "कंधा",
+    "mr": "खांदा",
+    "mr_roman": "khanda",
+    "example": {
+      "mr": "खांद्यावर पिशवी आहे.",
+      "roman": "Khandyavar pishvi aahe.",
+      "en": "The bag is on the shoulder."
+    }
+  },
+  {
+    "id": 232,
+    "category": "body",
+    "en": "Fever",
+    "hi": "बुखार",
+    "mr": "ताप",
+    "mr_roman": "taap",
+    "example": {
+      "mr": "मला ताप आला आहे.",
+      "roman": "Mala taap aala aahe.",
+      "en": "I have fever."
+    }
+  },
+  {
+    "id": 233,
+    "category": "body",
+    "en": "Medicine",
+    "hi": "दवा",
+    "mr": "औषध",
+    "mr_roman": "aushadh",
+    "example": {
+      "mr": "औषध वेळेवर घे.",
+      "roman": "Aushadh velevar ghe.",
+      "en": "Take the medicine on time."
+    }
+  },
+  {
+    "id": 234,
+    "category": "body",
+    "en": "Pain",
+    "hi": "दर्द",
+    "mr": "दुखणं",
+    "mr_roman": "dukhna",
+    "example": {
+      "mr": "दुखणं कमी झालं.",
+      "roman": "Dukhna kami jhala.",
+      "en": "The pain reduced."
+    }
+  },
+  {
+    "id": 235,
+    "category": "body",
+    "en": "Cold (illness)",
+    "hi": "ज़ुकाम",
+    "mr": "सर्दी",
+    "mr_roman": "sardi",
+    "example": {
+      "mr": "मला सर्दी झाली आहे.",
+      "roman": "Mala sardi jhali aahe.",
+      "en": "I have a cold."
+    }
+  },
+  {
+    "id": 236,
+    "category": "body",
+    "en": "Cough",
+    "hi": "खाँसी",
+    "mr": "खोकला",
+    "mr_roman": "khokla",
+    "example": {
+      "mr": "खोकला थांबत नाही.",
+      "roman": "Khokla thambat nahi.",
+      "en": "The cough does not stop."
+    }
+  },
+  {
+    "id": 237,
+    "category": "body",
+    "en": "Lip",
+    "hi": "होंठ",
+    "mr": "ओठ",
+    "mr_roman": "oth",
+    "example": {
+      "mr": "ओठ कोरडे आहेत.",
+      "roman": "Oth korde aahet.",
+      "en": "The lips are dry."
+    }
+  },
+  {
+    "id": 238,
+    "category": "body",
+    "en": "Cheek",
+    "hi": "गाल",
+    "mr": "गाल",
+    "mr_roman": "gaal",
+    "example": {
+      "mr": "बाळाचे गाल गुबगुबीत आहेत.",
+      "roman": "Balache gaal gubgubit aahet.",
+      "en": "The baby's cheeks are chubby."
+    }
+  },
+  {
+    "id": 239,
+    "category": "body",
+    "en": "Forehead",
+    "hi": "माथा",
+    "mr": "कपाळ",
+    "mr_roman": "kapal",
+    "example": {
+      "mr": "कपाळावर टिकली लाव.",
+      "roman": "Kapalavar tikli lav.",
+      "en": "Put a bindi on the forehead."
+    }
+  },
+  {
+    "id": 240,
+    "category": "body",
+    "en": "Nail",
+    "hi": "नाखून",
+    "mr": "नख",
+    "mr_roman": "nakh",
+    "example": {
+      "mr": "नखं काप.",
+      "roman": "Nakha kaap.",
+      "en": "Cut your nails."
+    }
+  },
+  {
+    "id": 241,
+    "category": "body",
+    "en": "Body",
+    "hi": "शरीर",
+    "mr": "शरीर",
+    "mr_roman": "sharir",
+    "example": {
+      "mr": "शरीर निरोगी ठेव.",
+      "roman": "Sharir nirogi thev.",
+      "en": "Keep the body healthy."
+    }
+  },
+  {
+    "id": 242,
+    "category": "body",
+    "en": "Health",
+    "hi": "स्वास्थ्य",
+    "mr": "तब्येत",
+    "mr_roman": "tabyet",
+    "example": {
+      "mr": "तब्येत कशी आहे?",
+      "roman": "Tabyet kashi aahe?",
+      "en": "How is your health?"
+    }
+  },
+  {
+    "id": 243,
+    "category": "body",
+    "en": "Sleep",
+    "hi": "नींद",
+    "mr": "झोप",
+    "mr_roman": "jhop",
+    "example": {
+      "mr": "मला झोप येतेय.",
+      "roman": "Mala jhop yetey.",
+      "en": "I am feeling sleepy."
+    }
+  },
+  {
+    "id": 244,
+    "category": "body",
+    "en": "Hunger",
+    "hi": "भूख",
+    "mr": "भूक",
+    "mr_roman": "bhuk",
+    "example": {
+      "mr": "मला भूक लागली.",
+      "roman": "Mala bhuk lagli.",
+      "en": "I am hungry."
+    }
+  },
+  {
+    "id": 245,
+    "category": "body",
+    "en": "Thirst",
+    "hi": "प्यास",
+    "mr": "तहान",
+    "mr_roman": "tahan",
+    "example": {
+      "mr": "मला तहान लागली.",
+      "roman": "Mala tahan lagli.",
+      "en": "I am thirsty."
+    }
+  },
+  {
+    "id": 246,
+    "category": "clothing",
+    "en": "Clothes",
+    "hi": "कपड़े",
+    "mr": "कपडे",
+    "mr_roman": "kapde",
+    "example": {
+      "mr": "कपडे धू.",
+      "roman": "Kapde dhu.",
+      "en": "Wash the clothes."
+    }
+  },
+  {
+    "id": 247,
+    "category": "clothing",
+    "en": "Shirt",
+    "hi": "कमीज़",
+    "mr": "सदरा",
+    "mr_roman": "sadra",
+    "example": {
+      "mr": "सदरा पांढरा आहे.",
+      "roman": "Sadra pandhra aahe.",
+      "en": "The shirt is white."
+    }
+  },
+  {
+    "id": 248,
+    "category": "clothing",
+    "en": "Trousers",
+    "hi": "पतलून",
+    "mr": "पॅन्ट",
+    "mr_roman": "pant",
+    "example": {
+      "mr": "पॅन्ट लांब आहे.",
+      "roman": "Pant laamb aahe.",
+      "en": "The trousers are long."
+    }
+  },
+  {
+    "id": 249,
+    "category": "clothing",
+    "en": "Saree",
+    "hi": "साड़ी",
+    "mr": "साडी",
+    "mr_roman": "sadi",
+    "example": {
+      "mr": "साडी सुंदर आहे.",
+      "roman": "Sadi sundar aahe.",
+      "en": "The saree is beautiful."
+    }
+  },
+  {
+    "id": 250,
+    "category": "clothing",
+    "en": "Shoe",
+    "hi": "जूता",
+    "mr": "बूट",
+    "mr_roman": "boot",
+    "example": {
+      "mr": "बूट घाल.",
+      "roman": "Boot ghal.",
+      "en": "Wear your shoes."
+    }
+  },
+  {
+    "id": 251,
+    "category": "clothing",
+    "en": "Slipper",
+    "hi": "चप्पल",
+    "mr": "चप्पल",
+    "mr_roman": "chappal",
+    "example": {
+      "mr": "चप्पल बाहेर काढ.",
+      "roman": "Chappal baher kadh.",
+      "en": "Take off the slippers outside."
+    }
+  },
+  {
+    "id": 252,
+    "category": "clothing",
+    "en": "Cap",
+    "hi": "टोपी",
+    "mr": "टोपी",
+    "mr_roman": "topi",
+    "example": {
+      "mr": "टोपी घाल.",
+      "roman": "Topi ghal.",
+      "en": "Wear the cap."
+    }
+  },
+  {
+    "id": 253,
+    "category": "clothing",
+    "en": "Handkerchief",
+    "hi": "रूमाल",
+    "mr": "रुमाल",
+    "mr_roman": "rumal",
+    "example": {
+      "mr": "रुमाल खिशात ठेव.",
+      "roman": "Rumal khishat thev.",
+      "en": "Keep the handkerchief in the pocket."
+    }
+  },
+  {
+    "id": 254,
+    "category": "clothing",
+    "en": "Thread",
+    "hi": "धागा",
+    "mr": "दोरा",
+    "mr_roman": "dora",
+    "example": {
+      "mr": "दोरा तुटला.",
+      "roman": "Dora tutla.",
+      "en": "The thread broke."
+    }
+  },
+  {
+    "id": 255,
+    "category": "clothing",
+    "en": "Needle",
+    "hi": "सुई",
+    "mr": "सुई",
+    "mr_roman": "sui",
+    "example": {
+      "mr": "सुईत दोरा ओव.",
+      "roman": "Suit dora ov.",
+      "en": "Thread the needle."
+    }
+  },
+  {
+    "id": 256,
+    "category": "clothing",
+    "en": "Spectacles",
+    "hi": "चश्मा",
+    "mr": "चष्मा",
+    "mr_roman": "chashma",
+    "example": {
+      "mr": "माझा चष्मा कुठे आहे?",
+      "roman": "Majha chashma kuthe aahe?",
+      "en": "Where are my spectacles?"
+    }
+  },
+  {
+    "id": 257,
+    "category": "clothing",
+    "en": "Umbrella",
+    "hi": "छाता",
+    "mr": "छत्री",
+    "mr_roman": "chhatri",
+    "example": {
+      "mr": "छत्री घे, पाऊस येईल.",
+      "roman": "Chhatri ghe, paus yeil.",
+      "en": "Take the umbrella, it will rain."
+    }
+  },
+  {
+    "id": 258,
+    "category": "clothing",
+    "en": "Blouse",
+    "hi": "ब्लाउज़",
+    "mr": "चोळी",
+    "mr_roman": "choli",
+    "example": {
+      "mr": "चोळी लाल आहे.",
+      "roman": "Choli lal aahe.",
+      "en": "The blouse is red."
+    }
+  },
+  {
+    "id": 259,
+    "category": "clothing",
+    "en": "Bangles",
+    "hi": "चूड़ियाँ",
+    "mr": "बांगड्या",
+    "mr_roman": "bangdya",
+    "example": {
+      "mr": "बांगड्या हिरव्या आहेत.",
+      "roman": "Bangdya hirvya aahet.",
+      "en": "The bangles are green."
+    }
+  },
+  {
+    "id": 260,
+    "category": "clothing",
+    "en": "Earring",
+    "hi": "बाली",
+    "mr": "कानातले",
+    "mr_roman": "kanatle",
+    "example": {
+      "mr": "कानातले सोन्याचे आहेत.",
+      "roman": "Kanatle sonyache aahet.",
+      "en": "The earrings are of gold."
+    }
+  },
+  {
+    "id": 261,
+    "category": "clothing",
+    "en": "Pocket",
+    "hi": "जेब",
+    "mr": "खिसा",
+    "mr_roman": "khisa",
+    "example": {
+      "mr": "खिशात पैसे आहेत.",
+      "roman": "Khishat paise aahet.",
+      "en": "There is money in the pocket."
+    }
+  },
+  {
+    "id": 262,
+    "category": "clothing",
+    "en": "Sock",
+    "hi": "मोज़ा",
+    "mr": "मोजा",
+    "mr_roman": "moja",
+    "example": {
+      "mr": "मोजे घाल.",
+      "roman": "Moje ghal.",
+      "en": "Wear the socks."
+    }
+  },
+  {
+    "id": 263,
+    "category": "clothing",
+    "en": "Sweater",
+    "hi": "स्वेटर",
+    "mr": "स्वेटर",
+    "mr_roman": "sweater",
+    "example": {
+      "mr": "थंडीत स्वेटर घाल.",
+      "roman": "Thandit sweater ghal.",
+      "en": "Wear a sweater in the cold."
+    }
+  },
+  {
+    "id": 264,
+    "category": "clothing",
+    "en": "Dhoti",
+    "hi": "धोती",
+    "mr": "धोतर",
+    "mr_roman": "dhotar",
+    "example": {
+      "mr": "आजोबा धोतर नेसतात.",
+      "roman": "Ajoba dhotar nestat.",
+      "en": "Grandfather wears a dhoti."
+    }
+  },
+  {
+    "id": 265,
+    "category": "clothing",
+    "en": "Necklace",
+    "hi": "हार",
+    "mr": "हार",
+    "mr_roman": "haar",
+    "example": {
+      "mr": "हार सुंदर आहे.",
+      "roman": "Haar sundar aahe.",
+      "en": "The necklace is beautiful."
+    }
+  },
+  {
+    "id": 266,
+    "category": "clothing",
+    "en": "Ring",
+    "hi": "अंगूठी",
+    "mr": "अंगठी",
+    "mr_roman": "angthi",
+    "example": {
+      "mr": "अंगठी बोटात घाल.",
+      "roman": "Angthi botat ghal.",
+      "en": "Put the ring on the finger."
+    }
+  },
+  {
+    "id": 267,
+    "category": "clothing",
+    "en": "Gold",
+    "hi": "सोना",
+    "mr": "सोनं",
+    "mr_roman": "sona",
+    "example": {
+      "mr": "सोनं महाग आहे.",
+      "roman": "Sona mahag aahe.",
+      "en": "Gold is expensive."
+    }
+  },
+  {
+    "id": 268,
+    "category": "clothing",
+    "en": "Silver",
+    "hi": "चाँदी",
+    "mr": "चांदी",
+    "mr_roman": "chandi",
+    "example": {
+      "mr": "चांदीचं पैंजण आहे.",
+      "roman": "Chandicha painjan aahe.",
+      "en": "It is a silver anklet."
+    }
+  },
+  {
+    "id": 269,
+    "category": "numbers",
+    "en": "One",
+    "hi": "एक",
+    "mr": "एक",
+    "mr_roman": "ek",
+    "example": {
+      "mr": "एक चहा दे.",
+      "roman": "Ek chaha de.",
+      "en": "Give one tea."
+    }
+  },
+  {
+    "id": 270,
+    "category": "numbers",
+    "en": "Two",
+    "hi": "दो",
+    "mr": "दोन",
+    "mr_roman": "don",
+    "example": {
+      "mr": "दोन पोळ्या दे.",
+      "roman": "Don polya de.",
+      "en": "Give two rotis."
+    }
+  },
+  {
+    "id": 271,
+    "category": "numbers",
+    "en": "Three",
+    "hi": "तीन",
+    "mr": "तीन",
+    "mr_roman": "teen",
+    "example": {
+      "mr": "तीन वाजले.",
+      "roman": "Teen vajle.",
+      "en": "It is three o'clock."
+    }
+  },
+  {
+    "id": 272,
+    "category": "numbers",
+    "en": "Four",
+    "hi": "चार",
+    "mr": "चार",
+    "mr_roman": "chaar",
+    "example": {
+      "mr": "चार केळी घे.",
+      "roman": "Chaar keli ghe.",
+      "en": "Take four bananas."
+    }
+  },
+  {
+    "id": 273,
+    "category": "numbers",
+    "en": "Five",
+    "hi": "पाँच",
+    "mr": "पाच",
+    "mr_roman": "paach",
+    "example": {
+      "mr": "पाच मिनिटं थांब.",
+      "roman": "Paach minita thamb.",
+      "en": "Wait five minutes."
+    }
+  },
+  {
+    "id": 274,
+    "category": "numbers",
+    "en": "Six",
+    "hi": "छह",
+    "mr": "सहा",
+    "mr_roman": "saha",
+    "example": {
+      "mr": "सहा वाजता ये.",
+      "roman": "Saha vajta ye.",
+      "en": "Come at six o'clock."
+    }
+  },
+  {
+    "id": 275,
+    "category": "numbers",
+    "en": "Seven",
+    "hi": "सात",
+    "mr": "सात",
+    "mr_roman": "saat",
+    "example": {
+      "mr": "आठवड्यात सात दिवस असतात.",
+      "roman": "Aathavdyat saat divas astat.",
+      "en": "There are seven days in a week."
+    }
+  },
+  {
+    "id": 276,
+    "category": "numbers",
+    "en": "Eight",
+    "hi": "आठ",
+    "mr": "आठ",
+    "mr_roman": "aath",
+    "example": {
+      "mr": "आठ वाजता जेवण.",
+      "roman": "Aath vajta jevan.",
+      "en": "Dinner at eight."
+    }
+  },
+  {
+    "id": 277,
+    "category": "numbers",
+    "en": "Nine",
+    "hi": "नौ",
+    "mr": "नऊ",
+    "mr_roman": "nau",
+    "example": {
+      "mr": "नऊ वाजता शाळा सुरू होते.",
+      "roman": "Nau vajta shala suru hote.",
+      "en": "School starts at nine."
+    }
+  },
+  {
+    "id": 278,
+    "category": "numbers",
+    "en": "Ten",
+    "hi": "दस",
+    "mr": "दहा",
+    "mr_roman": "daha",
+    "example": {
+      "mr": "दहा रुपये दे.",
+      "roman": "Daha rupaye de.",
+      "en": "Give ten rupees."
+    }
+  },
+  {
+    "id": 279,
+    "category": "numbers",
+    "en": "Eleven",
+    "hi": "ग्यारह",
+    "mr": "अकरा",
+    "mr_roman": "akra",
+    "example": {
+      "mr": "अकरा वाजले.",
+      "roman": "Akra vajle.",
+      "en": "It is eleven o'clock."
+    }
+  },
+  {
+    "id": 280,
+    "category": "numbers",
+    "en": "Twelve",
+    "hi": "बारह",
+    "mr": "बारा",
+    "mr_roman": "bara",
+    "example": {
+      "mr": "वर्षात बारा महिने असतात.",
+      "roman": "Varshat bara mahine astat.",
+      "en": "There are twelve months in a year."
+    }
+  },
+  {
+    "id": 281,
+    "category": "numbers",
+    "en": "Fifteen",
+    "hi": "पंद्रह",
+    "mr": "पंधरा",
+    "mr_roman": "pandhra",
+    "example": {
+      "mr": "पंधरा मिनिटं लागतील.",
+      "roman": "Pandhra minita lagtil.",
+      "en": "It will take fifteen minutes."
+    }
+  },
+  {
+    "id": 282,
+    "category": "numbers",
+    "en": "Twenty",
+    "hi": "बीस",
+    "mr": "वीस",
+    "mr_roman": "vees",
+    "example": {
+      "mr": "वीस रुपये झाले.",
+      "roman": "Vees rupaye jhale.",
+      "en": "It is twenty rupees."
+    }
+  },
+  {
+    "id": 283,
+    "category": "numbers",
+    "en": "Twenty-five",
+    "hi": "पच्चीस",
+    "mr": "पंचवीस",
+    "mr_roman": "panchvees",
+    "example": {
+      "mr": "पंचवीस रुपये किलो.",
+      "roman": "Panchvees rupaye kilo.",
+      "en": "Twenty-five rupees per kilo."
+    }
+  },
+  {
+    "id": 284,
+    "category": "numbers",
+    "en": "Thirty",
+    "hi": "तीस",
+    "mr": "तीस",
+    "mr_roman": "tees",
+    "example": {
+      "mr": "तीस दिवस झाले.",
+      "roman": "Tees divas jhale.",
+      "en": "Thirty days have passed."
+    }
+  },
+  {
+    "id": 285,
+    "category": "numbers",
+    "en": "Forty",
+    "hi": "चालीस",
+    "mr": "चाळीस",
+    "mr_roman": "chalis",
+    "example": {
+      "mr": "चाळीस रुपये दे.",
+      "roman": "Chalis rupaye de.",
+      "en": "Give forty rupees."
+    }
+  },
+  {
+    "id": 286,
+    "category": "numbers",
+    "en": "Fifty",
+    "hi": "पचास",
+    "mr": "पन्नास",
+    "mr_roman": "pannas",
+    "example": {
+      "mr": "पन्नास रुपये झाले.",
+      "roman": "Pannas rupaye jhale.",
+      "en": "It is fifty rupees."
+    }
+  },
+  {
+    "id": 287,
+    "category": "numbers",
+    "en": "Hundred",
+    "hi": "सौ",
+    "mr": "शंभर",
+    "mr_roman": "shambhar",
+    "example": {
+      "mr": "शंभर रुपये दे.",
+      "roman": "Shambhar rupaye de.",
+      "en": "Give hundred rupees."
+    }
+  },
+  {
+    "id": 288,
+    "category": "numbers",
+    "en": "Thousand",
+    "hi": "हज़ार",
+    "mr": "हजार",
+    "mr_roman": "hajar",
+    "example": {
+      "mr": "एक हजार रुपये.",
+      "roman": "Ek hajar rupaye.",
+      "en": "One thousand rupees."
+    }
+  },
+  {
+    "id": 289,
+    "category": "numbers",
+    "en": "Lakh",
+    "hi": "लाख",
+    "mr": "लाख",
+    "mr_roman": "lakh",
+    "example": {
+      "mr": "दहा लाख रुपये.",
+      "roman": "Daha lakh rupaye.",
+      "en": "Ten lakh rupees."
+    }
+  },
+  {
+    "id": 290,
+    "category": "numbers",
+    "en": "Half",
+    "hi": "आधा",
+    "mr": "अर्धा",
+    "mr_roman": "ardha",
+    "example": {
+      "mr": "अर्धा किलो साखर दे.",
+      "roman": "Ardha kilo sakhar de.",
+      "en": "Give half a kilo of sugar."
+    }
+  },
+  {
+    "id": 291,
+    "category": "numbers",
+    "en": "Quarter",
+    "hi": "पाव",
+    "mr": "पाव",
+    "mr_roman": "pav",
+    "example": {
+      "mr": "पाव किलो मिरची.",
+      "roman": "Pav kilo mirchi.",
+      "en": "A quarter kilo of chillies."
+    }
+  },
+  {
+    "id": 292,
+    "category": "numbers",
+    "en": "One and a half",
+    "hi": "डेढ़",
+    "mr": "दीड",
+    "mr_roman": "deed",
+    "example": {
+      "mr": "दीड वाजले.",
+      "roman": "Deed vajle.",
+      "en": "It is half past one."
+    }
+  },
+  {
+    "id": 293,
+    "category": "numbers",
+    "en": "Two and a half",
+    "hi": "ढाई",
+    "mr": "अडीच",
+    "mr_roman": "adeech",
+    "example": {
+      "mr": "अडीच किलो तांदूळ.",
+      "roman": "Adeech kilo tandul.",
+      "en": "Two and a half kilos of rice."
+    }
+  },
+  {
+    "id": 294,
+    "category": "numbers",
+    "en": "First",
+    "hi": "पहला",
+    "mr": "पहिला",
+    "mr_roman": "pahila",
+    "example": {
+      "mr": "तो पहिला आला.",
+      "roman": "To pahila aala.",
+      "en": "He came first."
+    }
+  },
+  {
+    "id": 295,
+    "category": "numbers",
+    "en": "Second",
+    "hi": "दूसरा",
+    "mr": "दुसरा",
+    "mr_roman": "dusra",
+    "example": {
+      "mr": "दुसरा रस्ता घे.",
+      "roman": "Dusra rasta ghe.",
+      "en": "Take the second road."
+    }
+  },
+  {
+    "id": 296,
+    "category": "numbers",
+    "en": "Last",
+    "hi": "आख़िरी",
+    "mr": "शेवटचा",
+    "mr_roman": "shevatcha",
+    "example": {
+      "mr": "ही शेवटची बस आहे.",
+      "roman": "Hi shevatchi bus aahe.",
+      "en": "This is the last bus."
+    }
+  },
+  {
+    "id": 297,
+    "category": "colors",
+    "en": "Colour",
+    "hi": "रंग",
+    "mr": "रंग",
+    "mr_roman": "rang",
+    "example": {
+      "mr": "तुला कोणता रंग आवडतो?",
+      "roman": "Tula konta rang aavadto?",
+      "en": "Which colour do you like?"
+    }
+  },
+  {
+    "id": 298,
+    "category": "colors",
+    "en": "Red",
+    "hi": "लाल",
+    "mr": "लाल",
+    "mr_roman": "laal",
+    "example": {
+      "mr": "फूल लाल आहे.",
+      "roman": "Phul laal aahe.",
+      "en": "The flower is red."
+    }
+  },
+  {
+    "id": 299,
+    "category": "colors",
+    "en": "Green",
+    "hi": "हरा",
+    "mr": "हिरवा",
+    "mr_roman": "hirva",
+    "example": {
+      "mr": "पान हिरवं आहे.",
+      "roman": "Paan hirva aahe.",
+      "en": "The leaf is green."
+    }
+  },
+  {
+    "id": 300,
+    "category": "colors",
+    "en": "Blue",
+    "hi": "नीला",
+    "mr": "निळा",
+    "mr_roman": "nila",
+    "example": {
+      "mr": "आकाश निळं आहे.",
+      "roman": "Aakash nila aahe.",
+      "en": "The sky is blue."
+    }
+  },
+  {
+    "id": 301,
+    "category": "colors",
+    "en": "Yellow",
+    "hi": "पीला",
+    "mr": "पिवळा",
+    "mr_roman": "pivla",
+    "example": {
+      "mr": "आंबा पिवळा आहे.",
+      "roman": "Aamba pivla aahe.",
+      "en": "The mango is yellow."
+    }
+  },
+  {
+    "id": 302,
+    "category": "colors",
+    "en": "White",
+    "hi": "सफ़ेद",
+    "mr": "पांढरा",
+    "mr_roman": "pandhra",
+    "example": {
+      "mr": "दूध पांढरं आहे.",
+      "roman": "Dudh pandhra aahe.",
+      "en": "Milk is white."
+    }
+  },
+  {
+    "id": 303,
+    "category": "colors",
+    "en": "Black",
+    "hi": "काला",
+    "mr": "काळा",
+    "mr_roman": "kala",
+    "example": {
+      "mr": "केस काळे आहेत.",
+      "roman": "Kes kale aahet.",
+      "en": "The hair is black."
+    }
+  },
+  {
+    "id": 304,
+    "category": "colors",
+    "en": "Pink",
+    "hi": "गुलाबी",
+    "mr": "गुलाबी",
+    "mr_roman": "gulabi",
+    "example": {
+      "mr": "साडी गुलाबी आहे.",
+      "roman": "Sadi gulabi aahe.",
+      "en": "The saree is pink."
+    }
+  },
+  {
+    "id": 305,
+    "category": "colors",
+    "en": "Orange (colour)",
+    "hi": "नारंगी",
+    "mr": "केशरी",
+    "mr_roman": "keshri",
+    "example": {
+      "mr": "झेंडा केशरी आहे.",
+      "roman": "Jhenda keshri aahe.",
+      "en": "The flag is orange."
+    }
+  },
+  {
+    "id": 306,
+    "category": "colors",
+    "en": "Brown",
+    "hi": "भूरा",
+    "mr": "तपकिरी",
+    "mr_roman": "tapkiri",
+    "example": {
+      "mr": "माती तपकिरी आहे.",
+      "roman": "Mati tapkiri aahe.",
+      "en": "The soil is brown."
+    }
+  },
+  {
+    "id": 307,
+    "category": "colors",
+    "en": "Purple",
+    "hi": "बैंगनी",
+    "mr": "जांभळा",
+    "mr_roman": "jambhla",
+    "example": {
+      "mr": "वांगं जांभळं आहे.",
+      "roman": "Vanga jambhla aahe.",
+      "en": "The brinjal is purple."
+    }
+  },
+  {
+    "id": 308,
+    "category": "colors",
+    "en": "Grey",
+    "hi": "स्लेटी",
+    "mr": "राखाडी",
+    "mr_roman": "rakhadi",
+    "example": {
+      "mr": "ढग राखाडी आहेत.",
+      "roman": "Dhag rakhadi aahet.",
+      "en": "The clouds are grey."
+    }
+  },
+  {
+    "id": 309,
+    "category": "colors",
+    "en": "Golden",
+    "hi": "सुनहरा",
+    "mr": "सोनेरी",
+    "mr_roman": "soneri",
+    "example": {
+      "mr": "सोनेरी काठ आहे.",
+      "roman": "Soneri kath aahe.",
+      "en": "It has a golden border."
+    }
+  },
+  {
+    "id": 310,
+    "category": "colors",
+    "en": "Dark",
+    "hi": "गहरा",
+    "mr": "गडद",
+    "mr_roman": "gadad",
+    "example": {
+      "mr": "गडद निळा रंग.",
+      "roman": "Gadad nila rang.",
+      "en": "Dark blue colour."
+    }
+  },
+  {
+    "id": 311,
+    "category": "colors",
+    "en": "Light (shade)",
+    "hi": "हल्का",
+    "mr": "फिका",
+    "mr_roman": "phika",
+    "example": {
+      "mr": "फिका हिरवा रंग.",
+      "roman": "Phika hirva rang.",
+      "en": "Light green colour."
+    }
+  },
+  {
+    "id": 312,
+    "category": "time",
+    "en": "Today",
+    "hi": "आज",
+    "mr": "आज",
+    "mr_roman": "aaj",
+    "example": {
+      "mr": "आज रविवार आहे.",
+      "roman": "Aaj ravivar aahe.",
+      "en": "Today is Sunday."
+    }
+  },
+  {
+    "id": 313,
+    "category": "time",
+    "en": "Tomorrow",
+    "hi": "कल (आने वाला)",
+    "mr": "उद्या",
+    "mr_roman": "udya",
+    "example": {
+      "mr": "उद्या भेटू.",
+      "roman": "Udya bhetu.",
+      "en": "Let's meet tomorrow."
+    }
+  },
+  {
+    "id": 314,
+    "category": "time",
+    "en": "Yesterday",
+    "hi": "कल (बीता हुआ)",
+    "mr": "काल",
+    "mr_roman": "kaal",
+    "example": {
+      "mr": "काल पाऊस पडला.",
+      "roman": "Kaal paus padla.",
+      "en": "It rained yesterday."
+    }
+  },
+  {
+    "id": 315,
+    "category": "time",
+    "en": "Now",
+    "hi": "अभी",
+    "mr": "आता",
+    "mr_roman": "aata",
+    "example": {
+      "mr": "आता जेवायला चल.",
+      "roman": "Aata jevayla chal.",
+      "en": "Come to eat now."
+    }
+  },
+  {
+    "id": 316,
+    "category": "time",
+    "en": "Morning",
+    "hi": "सुबह",
+    "mr": "सकाळ",
+    "mr_roman": "sakal",
+    "example": {
+      "mr": "सकाळी लवकर ऊठ.",
+      "roman": "Sakali lavkar uth.",
+      "en": "Wake up early in the morning."
+    }
+  },
+  {
+    "id": 317,
+    "category": "time",
+    "en": "Afternoon",
+    "hi": "दोपहर",
+    "mr": "दुपार",
+    "mr_roman": "dupar",
+    "example": {
+      "mr": "दुपारी ऊन असतं.",
+      "roman": "Dupari unh asta.",
+      "en": "It is sunny in the afternoon."
+    }
+  },
+  {
+    "id": 318,
+    "category": "time",
+    "en": "Evening",
+    "hi": "शाम",
+    "mr": "संध्याकाळ",
+    "mr_roman": "sandhyakal",
+    "example": {
+      "mr": "संध्याकाळी फिरायला जाऊ.",
+      "roman": "Sandhyakali phirayla jau.",
+      "en": "Let's go for a walk in the evening."
+    }
+  },
+  {
+    "id": 319,
+    "category": "time",
+    "en": "Night",
+    "hi": "रात",
+    "mr": "रात्र",
+    "mr_roman": "ratra",
+    "example": {
+      "mr": "रात्री लवकर झोप.",
+      "roman": "Ratri lavkar jhop.",
+      "en": "Sleep early at night."
+    }
+  },
+  {
+    "id": 320,
+    "category": "time",
+    "en": "Day",
+    "hi": "दिन",
+    "mr": "दिवस",
+    "mr_roman": "divas",
+    "example": {
+      "mr": "आज दिवस चांगला आहे.",
+      "roman": "Aaj divas changla aahe.",
+      "en": "Today is a good day."
+    }
+  },
+  {
+    "id": 321,
+    "category": "time",
+    "en": "Week",
+    "hi": "हफ़्ता",
+    "mr": "आठवडा",
+    "mr_roman": "aathavda",
+    "example": {
+      "mr": "पुढच्या आठवड्यात ये.",
+      "roman": "Pudhchya aathavdyat ye.",
+      "en": "Come next week."
+    }
+  },
+  {
+    "id": 322,
+    "category": "time",
+    "en": "Month",
+    "hi": "महीना",
+    "mr": "महिना",
+    "mr_roman": "mahina",
+    "example": {
+      "mr": "हा महिना संपला.",
+      "roman": "Ha mahina sampla.",
+      "en": "This month is over."
+    }
+  },
+  {
+    "id": 323,
+    "category": "time",
+    "en": "Year",
+    "hi": "साल",
+    "mr": "वर्ष",
+    "mr_roman": "varsh",
+    "example": {
+      "mr": "नवीन वर्ष सुरू झालं.",
+      "roman": "Navin varsh suru jhala.",
+      "en": "The new year has started."
+    }
+  },
+  {
+    "id": 324,
+    "category": "time",
+    "en": "Hour",
+    "hi": "घंटा",
+    "mr": "तास",
+    "mr_roman": "taas",
+    "example": {
+      "mr": "एक तास लागेल.",
+      "roman": "Ek taas lagel.",
+      "en": "It will take one hour."
+    }
+  },
+  {
+    "id": 325,
+    "category": "time",
+    "en": "Time",
+    "hi": "समय",
+    "mr": "वेळ",
+    "mr_roman": "vel",
+    "example": {
+      "mr": "वेळ किती झाली?",
+      "roman": "Vel kiti jhali?",
+      "en": "What is the time?"
+    }
+  },
+  {
+    "id": 326,
+    "category": "time",
+    "en": "Minute",
+    "hi": "मिनट",
+    "mr": "मिनिट",
+    "mr_roman": "minit",
+    "example": {
+      "mr": "दोन मिनिटं थांब.",
+      "roman": "Don minita thamb.",
+      "en": "Wait two minutes."
+    }
+  },
+  {
+    "id": 327,
+    "category": "time",
+    "en": "Sunday",
+    "hi": "रविवार",
+    "mr": "रविवार",
+    "mr_roman": "ravivar",
+    "example": {
+      "mr": "रविवारी सुट्टी असते.",
+      "roman": "Ravivari sutti aste.",
+      "en": "There is a holiday on Sunday."
+    }
+  },
+  {
+    "id": 328,
+    "category": "time",
+    "en": "Monday",
+    "hi": "सोमवार",
+    "mr": "सोमवार",
+    "mr_roman": "somvar",
+    "example": {
+      "mr": "सोमवारी शाळा सुरू होते.",
+      "roman": "Somvari shala suru hote.",
+      "en": "School starts on Monday."
+    }
+  },
+  {
+    "id": 329,
+    "category": "time",
+    "en": "Tuesday",
+    "hi": "मंगलवार",
+    "mr": "मंगळवार",
+    "mr_roman": "mangalvar",
+    "example": {
+      "mr": "मंगळवारी बाजार भरतो.",
+      "roman": "Mangalvari bajar bharto.",
+      "en": "The market is held on Tuesday."
+    }
+  },
+  {
+    "id": 330,
+    "category": "time",
+    "en": "Wednesday",
+    "hi": "बुधवार",
+    "mr": "बुधवार",
+    "mr_roman": "budhvar",
+    "example": {
+      "mr": "बुधवारी परीक्षा आहे.",
+      "roman": "Budhvari pariksha aahe.",
+      "en": "There is an exam on Wednesday."
+    }
+  },
+  {
+    "id": 331,
+    "category": "time",
+    "en": "Thursday",
+    "hi": "गुरुवार",
+    "mr": "गुरुवार",
+    "mr_roman": "guruvar",
+    "example": {
+      "mr": "गुरुवारी उपवास असतो.",
+      "roman": "Guruvari upvas asto.",
+      "en": "There is a fast on Thursday."
+    }
+  },
+  {
+    "id": 332,
+    "category": "time",
+    "en": "Friday",
+    "hi": "शुक्रवार",
+    "mr": "शुक्रवार",
+    "mr_roman": "shukravar",
+    "example": {
+      "mr": "शुक्रवारी सिनेमा बघू.",
+      "roman": "Shukravari cinema baghu.",
+      "en": "Let's watch a movie on Friday."
+    }
+  },
+  {
+    "id": 333,
+    "category": "time",
+    "en": "Saturday",
+    "hi": "शनिवार",
+    "mr": "शनिवार",
+    "mr_roman": "shanivar",
+    "example": {
+      "mr": "शनिवारी अर्धा दिवस.",
+      "roman": "Shanivari ardha divas.",
+      "en": "Half day on Saturday."
+    }
+  },
+  {
+    "id": 334,
+    "category": "time",
+    "en": "Later",
+    "hi": "बाद में",
+    "mr": "नंतर",
+    "mr_roman": "nantar",
+    "example": {
+      "mr": "नंतर बोलू.",
+      "roman": "Nantar bolu.",
+      "en": "Let's talk later."
+    }
+  },
+  {
+    "id": 335,
+    "category": "time",
+    "en": "Early",
+    "hi": "जल्दी",
+    "mr": "लवकर",
+    "mr_roman": "lavkar",
+    "example": {
+      "mr": "लवकर ये.",
+      "roman": "Lavkar ye.",
+      "en": "Come early."
+    }
+  },
+  {
+    "id": 336,
+    "category": "time",
+    "en": "Late",
+    "hi": "देर",
+    "mr": "उशीर",
+    "mr_roman": "ushir",
+    "example": {
+      "mr": "मला उशीर झाला.",
+      "roman": "Mala ushir jhala.",
+      "en": "I got late."
+    }
+  },
+  {
+    "id": 337,
+    "category": "time",
+    "en": "Always",
+    "hi": "हमेशा",
+    "mr": "नेहमी",
+    "mr_roman": "nehmi",
+    "example": {
+      "mr": "तो नेहमी हसतो.",
+      "roman": "To nehmi hasto.",
+      "en": "He always smiles."
+    }
+  },
+  {
+    "id": 338,
+    "category": "time",
+    "en": "Sometimes",
+    "hi": "कभी-कभी",
+    "mr": "कधीकधी",
+    "mr_roman": "kadhikadhi",
+    "example": {
+      "mr": "मी कधीकधी चहा पितो.",
+      "roman": "Mi kadhikadhi chaha pito.",
+      "en": "I sometimes drink tea."
+    }
+  },
+  {
+    "id": 339,
+    "category": "time",
+    "en": "Never",
+    "hi": "कभी नहीं",
+    "mr": "कधीच नाही",
+    "mr_roman": "kadhich nahi",
+    "example": {
+      "mr": "मी कधीच खोटं बोलत नाही.",
+      "roman": "Mi kadhich khota bolat nahi.",
+      "en": "I never lie."
+    }
+  },
+  {
+    "id": 340,
+    "category": "time",
+    "en": "Daily",
+    "hi": "रोज़",
+    "mr": "रोज",
+    "mr_roman": "roj",
+    "example": {
+      "mr": "मी रोज व्यायाम करतो.",
+      "roman": "Mi roj vyayam karto.",
+      "en": "I exercise daily."
+    }
+  },
+  {
+    "id": 341,
+    "category": "time",
+    "en": "Holiday",
+    "hi": "छुट्टी",
+    "mr": "सुट्टी",
+    "mr_roman": "sutti",
+    "example": {
+      "mr": "उद्या सुट्टी आहे.",
+      "roman": "Udya sutti aahe.",
+      "en": "Tomorrow is a holiday."
+    }
+  },
+  {
+    "id": 342,
+    "category": "time",
+    "en": "Festival",
+    "hi": "त्योहार",
+    "mr": "सण",
+    "mr_roman": "san",
+    "example": {
+      "mr": "दिवाळी मोठा सण आहे.",
+      "roman": "Diwali motha san aahe.",
+      "en": "Diwali is a big festival."
+    }
+  },
+  {
+    "id": 343,
+    "category": "time",
+    "en": "Birthday",
+    "hi": "जन्मदिन",
+    "mr": "वाढदिवस",
+    "mr_roman": "vaadhdivas",
+    "example": {
+      "mr": "वाढदिवसाच्या शुभेच्छा!",
+      "roman": "Vaadhdivasachya shubhechha!",
+      "en": "Happy birthday!"
+    }
+  },
+  {
+    "id": 344,
+    "category": "time",
+    "en": "Wedding",
+    "hi": "शादी",
+    "mr": "लग्न",
+    "mr_roman": "lagna",
+    "example": {
+      "mr": "लग्न पुढच्या महिन्यात आहे.",
+      "roman": "Lagna pudhchya mahinyat aahe.",
+      "en": "The wedding is next month."
+    }
+  },
+  {
+    "id": 345,
+    "category": "nature",
+    "en": "Sun",
+    "hi": "सूरज",
+    "mr": "सूर्य",
+    "mr_roman": "surya",
+    "example": {
+      "mr": "सूर्य उगवला.",
+      "roman": "Surya ugavla.",
+      "en": "The sun has risen."
+    }
+  },
+  {
+    "id": 346,
+    "category": "nature",
+    "en": "Moon",
+    "hi": "चाँद",
+    "mr": "चंद्र",
+    "mr_roman": "chandra",
+    "example": {
+      "mr": "आज चंद्र पूर्ण आहे.",
+      "roman": "Aaj chandra purna aahe.",
+      "en": "The moon is full today."
+    }
+  },
+  {
+    "id": 347,
+    "category": "nature",
+    "en": "Star",
+    "hi": "तारा",
+    "mr": "तारा",
+    "mr_roman": "tara",
+    "example": {
+      "mr": "आकाशात तारे चमकतात.",
+      "roman": "Aakashat tare chamaktat.",
+      "en": "Stars shine in the sky."
+    }
+  },
+  {
+    "id": 348,
+    "category": "nature",
+    "en": "Sky",
+    "hi": "आसमान",
+    "mr": "आकाश",
+    "mr_roman": "aakash",
+    "example": {
+      "mr": "आकाश निळं आहे.",
+      "roman": "Aakash nila aahe.",
+      "en": "The sky is blue."
+    }
+  },
+  {
+    "id": 349,
+    "category": "nature",
+    "en": "Rain",
+    "hi": "बारिश",
+    "mr": "पाऊस",
+    "mr_roman": "paus",
+    "example": {
+      "mr": "पाऊस पडतोय.",
+      "roman": "Paus padtoy.",
+      "en": "It is raining."
+    }
+  },
+  {
+    "id": 350,
+    "category": "nature",
+    "en": "Wind",
+    "hi": "हवा",
+    "mr": "वारा",
+    "mr_roman": "vara",
+    "example": {
+      "mr": "वारा सुटला आहे.",
+      "roman": "Vara sutla aahe.",
+      "en": "The wind is blowing."
+    }
+  },
+  {
+    "id": 351,
+    "category": "nature",
+    "en": "Cloud",
+    "hi": "बादल",
+    "mr": "ढग",
+    "mr_roman": "dhag",
+    "example": {
+      "mr": "आकाशात ढग आहेत.",
+      "roman": "Aakashat dhag aahet.",
+      "en": "There are clouds in the sky."
+    }
+  },
+  {
+    "id": 352,
+    "category": "nature",
+    "en": "Tree",
+    "hi": "पेड़",
+    "mr": "झाड",
+    "mr_roman": "jhaad",
+    "example": {
+      "mr": "झाड मोठं आहे.",
+      "roman": "Jhaad motha aahe.",
+      "en": "The tree is big."
+    }
+  },
+  {
+    "id": 353,
+    "category": "nature",
+    "en": "Flower",
+    "hi": "फूल",
+    "mr": "फूल",
+    "mr_roman": "phul",
+    "example": {
+      "mr": "फूल सुंदर आहे.",
+      "roman": "Phul sundar aahe.",
+      "en": "The flower is beautiful."
+    }
+  },
+  {
+    "id": 354,
+    "category": "nature",
+    "en": "Leaf",
+    "hi": "पत्ता",
+    "mr": "पान",
+    "mr_roman": "paan",
+    "example": {
+      "mr": "पान हिरवं आहे.",
+      "roman": "Paan hirva aahe.",
+      "en": "The leaf is green."
+    }
+  },
+  {
+    "id": 355,
+    "category": "nature",
+    "en": "River",
+    "hi": "नदी",
+    "mr": "नदी",
+    "mr_roman": "nadi",
+    "example": {
+      "mr": "नदी वाहते.",
+      "roman": "Nadi vahte.",
+      "en": "The river flows."
+    }
+  },
+  {
+    "id": 356,
+    "category": "nature",
+    "en": "Sea",
+    "hi": "समुद्र",
+    "mr": "समुद्र",
+    "mr_roman": "samudra",
+    "example": {
+      "mr": "समुद्र खूप मोठा आहे.",
+      "roman": "Samudra khup motha aahe.",
+      "en": "The sea is very big."
+    }
+  },
+  {
+    "id": 357,
+    "category": "nature",
+    "en": "Mountain",
+    "hi": "पहाड़",
+    "mr": "डोंगर",
+    "mr_roman": "dongar",
+    "example": {
+      "mr": "डोंगरावर चढू.",
+      "roman": "Dongaravar chadhu.",
+      "en": "Let's climb the mountain."
+    }
+  },
+  {
+    "id": 358,
+    "category": "nature",
+    "en": "Stone",
+    "hi": "पत्थर",
+    "mr": "दगड",
+    "mr_roman": "dagad",
+    "example": {
+      "mr": "दगड जड आहे.",
+      "roman": "Dagad jad aahe.",
+      "en": "The stone is heavy."
+    }
+  },
+  {
+    "id": 359,
+    "category": "nature",
+    "en": "Soil / Mud",
+    "hi": "मिट्टी",
+    "mr": "माती",
+    "mr_roman": "mati",
+    "example": {
+      "mr": "माती ओली आहे.",
+      "roman": "Mati oli aahe.",
+      "en": "The soil is wet."
+    }
+  },
+  {
+    "id": 360,
+    "category": "nature",
+    "en": "Ground / Land",
+    "hi": "ज़मीन",
+    "mr": "जमीन",
+    "mr_roman": "jamin",
+    "example": {
+      "mr": "जमिनीवर बस.",
+      "roman": "Jaminivar bas.",
+      "en": "Sit on the ground."
+    }
+  },
+  {
+    "id": 361,
+    "category": "nature",
+    "en": "Cold (weather)",
+    "hi": "ठंड",
+    "mr": "थंडी",
+    "mr_roman": "thandi",
+    "example": {
+      "mr": "आज खूप थंडी आहे.",
+      "roman": "Aaj khup thandi aahe.",
+      "en": "It is very cold today."
+    }
+  },
+  {
+    "id": 362,
+    "category": "nature",
+    "en": "Sunshine / Heat",
+    "hi": "धूप",
+    "mr": "ऊन",
+    "mr_roman": "unh",
+    "example": {
+      "mr": "ऊन खूप आहे.",
+      "roman": "Unh khup aahe.",
+      "en": "It is very sunny."
+    }
+  },
+  {
+    "id": 363,
+    "category": "nature",
+    "en": "Summer",
+    "hi": "गर्मी",
+    "mr": "उन्हाळा",
+    "mr_roman": "unhala",
+    "example": {
+      "mr": "उन्हाळ्यात आंबे येतात.",
+      "roman": "Unhalyat aambe yetat.",
+      "en": "Mangoes come in summer."
+    }
+  },
+  {
+    "id": 364,
+    "category": "nature",
+    "en": "Winter",
+    "hi": "सर्दी",
+    "mr": "हिवाळा",
+    "mr_roman": "hivala",
+    "example": {
+      "mr": "हिवाळ्यात थंडी असते.",
+      "roman": "Hivalyat thandi aste.",
+      "en": "It is cold in winter."
+    }
+  },
+  {
+    "id": 365,
+    "category": "nature",
+    "en": "Monsoon",
+    "hi": "बरसात",
+    "mr": "पावसाळा",
+    "mr_roman": "pavsala",
+    "example": {
+      "mr": "पावसाळ्यात छत्री लागते.",
+      "roman": "Pavsalyat chhatri lagte.",
+      "en": "An umbrella is needed in monsoon."
+    }
+  },
+  {
+    "id": 366,
+    "category": "nature",
+    "en": "Light",
+    "hi": "रोशनी",
+    "mr": "प्रकाश",
+    "mr_roman": "prakash",
+    "example": {
+      "mr": "खोलीत प्रकाश आहे.",
+      "roman": "Kholit prakash aahe.",
+      "en": "There is light in the room."
+    }
+  },
+  {
+    "id": 367,
+    "category": "nature",
+    "en": "Darkness",
+    "hi": "अंधेरा",
+    "mr": "अंधार",
+    "mr_roman": "andhar",
+    "example": {
+      "mr": "बाहेर अंधार आहे.",
+      "roman": "Baher andhar aahe.",
+      "en": "It is dark outside."
+    }
+  },
+  {
+    "id": 368,
+    "category": "nature",
+    "en": "Dust",
+    "hi": "धूल",
+    "mr": "धूळ",
+    "mr_roman": "dhul",
+    "example": {
+      "mr": "रस्त्यावर धूळ आहे.",
+      "roman": "Rastyavar dhul aahe.",
+      "en": "There is dust on the road."
+    }
+  },
+  {
+    "id": 369,
+    "category": "nature",
+    "en": "Grass",
+    "hi": "घास",
+    "mr": "गवत",
+    "mr_roman": "gavat",
+    "example": {
+      "mr": "गवत हिरवं आहे.",
+      "roman": "Gavat hirva aahe.",
+      "en": "The grass is green."
+    }
+  },
+  {
+    "id": 370,
+    "category": "nature",
+    "en": "Forest",
+    "hi": "जंगल",
+    "mr": "जंगल",
+    "mr_roman": "jangal",
+    "example": {
+      "mr": "जंगलात वाघ असतात.",
+      "roman": "Jangalat vagh astat.",
+      "en": "There are tigers in the forest."
+    }
+  },
+  {
+    "id": 371,
+    "category": "nature",
+    "en": "Lake",
+    "hi": "झील",
+    "mr": "तलाव",
+    "mr_roman": "talav",
+    "example": {
+      "mr": "तलावात मासे आहेत.",
+      "roman": "Talavat mase aahet.",
+      "en": "There are fish in the lake."
+    }
+  },
+  {
+    "id": 372,
+    "category": "nature",
+    "en": "Well",
+    "hi": "कुआँ",
+    "mr": "विहीर",
+    "mr_roman": "vihir",
+    "example": {
+      "mr": "विहिरीत पाणी आहे.",
+      "roman": "Vihirit paani aahe.",
+      "en": "There is water in the well."
+    }
+  },
+  {
+    "id": 373,
+    "category": "nature",
+    "en": "Field / Farm",
+    "hi": "खेत",
+    "mr": "शेत",
+    "mr_roman": "shet",
+    "example": {
+      "mr": "शेतकरी शेतात काम करतो.",
+      "roman": "Shetkari shetat kaam karto.",
+      "en": "The farmer works in the field."
+    }
+  },
+  {
+    "id": 374,
+    "category": "nature",
+    "en": "Sand",
+    "hi": "रेत",
+    "mr": "वाळू",
+    "mr_roman": "valu",
+    "example": {
+      "mr": "समुद्रकिनारी वाळू आहे.",
+      "roman": "Samudrakinari valu aahe.",
+      "en": "There is sand on the beach."
+    }
+  },
+  {
+    "id": 375,
+    "category": "animals",
+    "en": "Dog",
+    "hi": "कुत्ता",
+    "mr": "कुत्रा",
+    "mr_roman": "kutra",
+    "example": {
+      "mr": "कुत्रा भुंकतो.",
+      "roman": "Kutra bhunkto.",
+      "en": "The dog barks."
+    }
+  },
+  {
+    "id": 376,
+    "category": "animals",
+    "en": "Cat",
+    "hi": "बिल्ली",
+    "mr": "मांजर",
+    "mr_roman": "manjar",
+    "example": {
+      "mr": "मांजर दूध पिते.",
+      "roman": "Manjar dudh pite.",
+      "en": "The cat drinks milk."
+    }
+  },
+  {
+    "id": 377,
+    "category": "animals",
+    "en": "Cow",
+    "hi": "गाय",
+    "mr": "गाय",
+    "mr_roman": "gaay",
+    "example": {
+      "mr": "गाय दूध देते.",
+      "roman": "Gaay dudh dete.",
+      "en": "The cow gives milk."
+    }
+  },
+  {
+    "id": 378,
+    "category": "animals",
+    "en": "Buffalo",
+    "hi": "भैंस",
+    "mr": "म्हैस",
+    "mr_roman": "mhais",
+    "example": {
+      "mr": "म्हैस काळी आहे.",
+      "roman": "Mhais kali aahe.",
+      "en": "The buffalo is black."
+    }
+  },
+  {
+    "id": 379,
+    "category": "animals",
+    "en": "Goat",
+    "hi": "बकरी",
+    "mr": "शेळी",
+    "mr_roman": "sheli",
+    "example": {
+      "mr": "शेळी गवत खाते.",
+      "roman": "Sheli gavat khate.",
+      "en": "The goat eats grass."
+    }
+  },
+  {
+    "id": 380,
+    "category": "animals",
+    "en": "Horse",
+    "hi": "घोड़ा",
+    "mr": "घोडा",
+    "mr_roman": "ghoda",
+    "example": {
+      "mr": "घोडा वेगाने धावतो.",
+      "roman": "Ghoda vegane dhavto.",
+      "en": "The horse runs fast."
+    }
+  },
+  {
+    "id": 381,
+    "category": "animals",
+    "en": "Bird",
+    "hi": "पक्षी",
+    "mr": "पक्षी",
+    "mr_roman": "pakshi",
+    "example": {
+      "mr": "पक्षी उडतो.",
+      "roman": "Pakshi udto.",
+      "en": "The bird flies."
+    }
+  },
+  {
+    "id": 382,
+    "category": "animals",
+    "en": "Crow",
+    "hi": "कौआ",
+    "mr": "कावळा",
+    "mr_roman": "kavla",
+    "example": {
+      "mr": "कावळा काळा असतो.",
+      "roman": "Kavla kala asto.",
+      "en": "The crow is black."
+    }
+  },
+  {
+    "id": 383,
+    "category": "animals",
+    "en": "Sparrow",
+    "hi": "गौरैया",
+    "mr": "चिमणी",
+    "mr_roman": "chimni",
+    "example": {
+      "mr": "चिमणी चिवचिवते.",
+      "roman": "Chimni chivchivte.",
+      "en": "The sparrow chirps."
+    }
+  },
+  {
+    "id": 384,
+    "category": "animals",
+    "en": "Mosquito",
+    "hi": "मच्छर",
+    "mr": "डास",
+    "mr_roman": "daas",
+    "example": {
+      "mr": "डास चावला.",
+      "roman": "Daas chavla.",
+      "en": "A mosquito bit me."
+    }
+  },
+  {
+    "id": 385,
+    "category": "animals",
+    "en": "Fly",
+    "hi": "मक्खी",
+    "mr": "माशी",
+    "mr_roman": "mashi",
+    "example": {
+      "mr": "जेवणावर माशी बसली.",
+      "roman": "Jevanavar mashi basli.",
+      "en": "A fly sat on the food."
+    }
+  },
+  {
+    "id": 386,
+    "category": "animals",
+    "en": "Ant",
+    "hi": "चींटी",
+    "mr": "मुंगी",
+    "mr_roman": "mungi",
+    "example": {
+      "mr": "मुंगी साखरेकडे जाते.",
+      "roman": "Mungi sakharekade jate.",
+      "en": "The ant goes to the sugar."
+    }
+  },
+  {
+    "id": 387,
+    "category": "animals",
+    "en": "Fish",
+    "hi": "मछली",
+    "mr": "मासा",
+    "mr_roman": "masa",
+    "example": {
+      "mr": "मासा पाण्यात पोहतो.",
+      "roman": "Masa panyat pohto.",
+      "en": "The fish swims in water."
+    }
+  },
+  {
+    "id": 388,
+    "category": "animals",
+    "en": "Snake",
+    "hi": "साँप",
+    "mr": "साप",
+    "mr_roman": "saap",
+    "example": {
+      "mr": "साप विषारी आहे.",
+      "roman": "Saap vishari aahe.",
+      "en": "The snake is poisonous."
+    }
+  },
+  {
+    "id": 389,
+    "category": "animals",
+    "en": "Monkey",
+    "hi": "बंदर",
+    "mr": "माकड",
+    "mr_roman": "makad",
+    "example": {
+      "mr": "माकड केळं खातं.",
+      "roman": "Makad kela khata.",
+      "en": "The monkey eats a banana."
+    }
+  },
+  {
+    "id": 390,
+    "category": "animals",
+    "en": "Elephant",
+    "hi": "हाथी",
+    "mr": "हत्ती",
+    "mr_roman": "hatti",
+    "example": {
+      "mr": "हत्ती खूप मोठा आहे.",
+      "roman": "Hatti khup motha aahe.",
+      "en": "The elephant is very big."
+    }
+  },
+  {
+    "id": 391,
+    "category": "animals",
+    "en": "Lion",
+    "hi": "शेर",
+    "mr": "सिंह",
+    "mr_roman": "sinha",
+    "example": {
+      "mr": "सिंह जंगलाचा राजा आहे.",
+      "roman": "Sinha jangalacha raja aahe.",
+      "en": "The lion is the king of the jungle."
+    }
+  },
+  {
+    "id": 392,
+    "category": "animals",
+    "en": "Tiger",
+    "hi": "बाघ",
+    "mr": "वाघ",
+    "mr_roman": "vagh",
+    "example": {
+      "mr": "वाघ पट्टेदार असतो.",
+      "roman": "Vagh pattedar asto.",
+      "en": "The tiger is striped."
+    }
+  },
+  {
+    "id": 393,
+    "category": "animals",
+    "en": "Rat",
+    "hi": "चूहा",
+    "mr": "उंदीर",
+    "mr_roman": "undir",
+    "example": {
+      "mr": "उंदीर घरात शिरला.",
+      "roman": "Undir gharat shirla.",
+      "en": "A rat entered the house."
+    }
+  },
+  {
+    "id": 394,
+    "category": "animals",
+    "en": "Hen",
+    "hi": "मुर्गी",
+    "mr": "कोंबडी",
+    "mr_roman": "kombdi",
+    "example": {
+      "mr": "कोंबडी अंडी देते.",
+      "roman": "Kombdi andi dete.",
+      "en": "The hen lays eggs."
+    }
+  },
+  {
+    "id": 395,
+    "category": "animals",
+    "en": "Pigeon",
+    "hi": "कबूतर",
+    "mr": "कबूतर",
+    "mr_roman": "kabutar",
+    "example": {
+      "mr": "कबूतर घुमतं.",
+      "roman": "Kabutar ghumta.",
+      "en": "The pigeon coos."
+    }
+  },
+  {
+    "id": 396,
+    "category": "animals",
+    "en": "Parrot",
+    "hi": "तोता",
+    "mr": "पोपट",
+    "mr_roman": "popat",
+    "example": {
+      "mr": "पोपट हिरवा असतो.",
+      "roman": "Popat hirva asto.",
+      "en": "The parrot is green."
+    }
+  },
+  {
+    "id": 397,
+    "category": "animals",
+    "en": "Peacock",
+    "hi": "मोर",
+    "mr": "मोर",
+    "mr_roman": "mor",
+    "example": {
+      "mr": "मोर नाचतो.",
+      "roman": "Mor nachto.",
+      "en": "The peacock dances."
+    }
+  },
+  {
+    "id": 398,
+    "category": "animals",
+    "en": "Frog",
+    "hi": "मेंढक",
+    "mr": "बेडूक",
+    "mr_roman": "beduk",
+    "example": {
+      "mr": "बेडूक उडी मारतो.",
+      "roman": "Beduk udi marto.",
+      "en": "The frog jumps."
+    }
+  },
+  {
+    "id": 399,
+    "category": "animals",
+    "en": "Lizard",
+    "hi": "छिपकली",
+    "mr": "पाल",
+    "mr_roman": "paal",
+    "example": {
+      "mr": "भिंतीवर पाल आहे.",
+      "roman": "Bhintivar paal aahe.",
+      "en": "There is a lizard on the wall."
+    }
+  },
+  {
+    "id": 400,
+    "category": "animals",
+    "en": "Cockroach",
+    "hi": "तिलचट्टा",
+    "mr": "झुरळ",
+    "mr_roman": "jhural",
+    "example": {
+      "mr": "स्वयंपाकघरात झुरळ आहे.",
+      "roman": "Swayampakgharat jhural aahe.",
+      "en": "There is a cockroach in the kitchen."
+    }
+  },
+  {
+    "id": 401,
+    "category": "animals",
+    "en": "Butterfly",
+    "hi": "तितली",
+    "mr": "फुलपाखरू",
+    "mr_roman": "phulpakharu",
+    "example": {
+      "mr": "फुलपाखरू रंगीत आहे.",
+      "roman": "Phulpakharu rangit aahe.",
+      "en": "The butterfly is colourful."
+    }
+  },
+  {
+    "id": 402,
+    "category": "animals",
+    "en": "Sheep",
+    "hi": "भेड़",
+    "mr": "मेंढी",
+    "mr_roman": "mendhi",
+    "example": {
+      "mr": "मेंढीची लोकर मऊ असते.",
+      "roman": "Mendhichi lokar mau aste.",
+      "en": "Sheep's wool is soft."
+    }
+  },
+  {
+    "id": 403,
+    "category": "animals",
+    "en": "Bullock / Ox",
+    "hi": "बैल",
+    "mr": "बैल",
+    "mr_roman": "bail",
+    "example": {
+      "mr": "बैल शेत नांगरतो.",
+      "roman": "Bail shet nangarto.",
+      "en": "The ox ploughs the field."
+    }
+  },
+  {
+    "id": 404,
+    "category": "animals",
+    "en": "Deer",
+    "hi": "हिरण",
+    "mr": "हरीण",
+    "mr_roman": "harin",
+    "example": {
+      "mr": "हरीण वेगाने पळतं.",
+      "roman": "Harin vegane palta.",
+      "en": "The deer runs fast."
+    }
+  },
+  {
+    "id": 405,
+    "category": "places",
+    "en": "Village",
+    "hi": "गाँव",
+    "mr": "गाव",
+    "mr_roman": "gaav",
+    "example": {
+      "mr": "माझं गाव लहान आहे.",
+      "roman": "Majha gaav lahan aahe.",
+      "en": "My village is small."
+    }
+  },
+  {
+    "id": 406,
+    "category": "places",
+    "en": "City",
+    "hi": "शहर",
+    "mr": "शहर",
+    "mr_roman": "shahar",
+    "example": {
+      "mr": "पुणे मोठं शहर आहे.",
+      "roman": "Pune motha shahar aahe.",
+      "en": "Pune is a big city."
+    }
+  },
+  {
+    "id": 407,
+    "category": "places",
+    "en": "Road",
+    "hi": "सड़क",
+    "mr": "रस्ता",
+    "mr_roman": "rasta",
+    "example": {
+      "mr": "रस्ता ओलांड.",
+      "roman": "Rasta oland.",
+      "en": "Cross the road."
+    }
+  },
+  {
+    "id": 408,
+    "category": "places",
+    "en": "School",
+    "hi": "स्कूल",
+    "mr": "शाळा",
+    "mr_roman": "shala",
+    "example": {
+      "mr": "मुलं शाळेत जातात.",
+      "roman": "Mula shalet jatat.",
+      "en": "Children go to school."
+    }
+  },
+  {
+    "id": 409,
+    "category": "places",
+    "en": "Hospital",
+    "hi": "अस्पताल",
+    "mr": "रुग्णालय",
+    "mr_roman": "rugnalay",
+    "example": {
+      "mr": "रुग्णालय जवळ आहे.",
+      "roman": "Rugnalay javal aahe.",
+      "en": "The hospital is near."
+    }
+  },
+  {
+    "id": 410,
+    "category": "places",
+    "en": "Clinic",
+    "hi": "दवाखाना",
+    "mr": "दवाखाना",
+    "mr_roman": "davakhana",
+    "example": {
+      "mr": "दवाखाना बंद आहे.",
+      "roman": "Davakhana band aahe.",
+      "en": "The clinic is closed."
+    }
+  },
+  {
+    "id": 411,
+    "category": "places",
+    "en": "Market",
+    "hi": "बाज़ार",
+    "mr": "बाजार",
+    "mr_roman": "bajar",
+    "example": {
+      "mr": "बाजारात भाजी स्वस्त आहे.",
+      "roman": "Bajarat bhaji swast aahe.",
+      "en": "Vegetables are cheap in the market."
+    }
+  },
+  {
+    "id": 412,
+    "category": "places",
+    "en": "Temple",
+    "hi": "मंदिर",
+    "mr": "देऊळ",
+    "mr_roman": "deul",
+    "example": {
+      "mr": "देवळात जाऊ.",
+      "roman": "Devlat jau.",
+      "en": "Let's go to the temple."
+    }
+  },
+  {
+    "id": 413,
+    "category": "places",
+    "en": "Office",
+    "hi": "दफ़्तर",
+    "mr": "कार्यालय",
+    "mr_roman": "karyalay",
+    "example": {
+      "mr": "कार्यालय दहा वाजता उघडतं.",
+      "roman": "Karyalay daha vajta ughadta.",
+      "en": "The office opens at ten."
+    }
+  },
+  {
+    "id": 414,
+    "category": "places",
+    "en": "Bus",
+    "hi": "बस",
+    "mr": "बस",
+    "mr_roman": "bus",
+    "example": {
+      "mr": "बस उशिरा आली.",
+      "roman": "Bus ushira aali.",
+      "en": "The bus came late."
+    }
+  },
+  {
+    "id": 415,
+    "category": "places",
+    "en": "Train",
+    "hi": "रेलगाड़ी",
+    "mr": "रेल्वे",
+    "mr_roman": "railway",
+    "example": {
+      "mr": "रेल्वे वेळेवर आहे.",
+      "roman": "Railway velevar aahe.",
+      "en": "The train is on time."
+    }
+  },
+  {
+    "id": 416,
+    "category": "places",
+    "en": "Car / Vehicle",
+    "hi": "गाड़ी",
+    "mr": "गाडी",
+    "mr_roman": "gadi",
+    "example": {
+      "mr": "गाडी थांबव.",
+      "roman": "Gadi thambav.",
+      "en": "Stop the car."
+    }
+  },
+  {
+    "id": 417,
+    "category": "places",
+    "en": "Bicycle",
+    "hi": "साइकिल",
+    "mr": "सायकल",
+    "mr_roman": "cycle",
+    "example": {
+      "mr": "मी सायकल चालवतो.",
+      "roman": "Mi cycle chalavto.",
+      "en": "I ride a bicycle."
+    }
+  },
+  {
+    "id": 418,
+    "category": "places",
+    "en": "Station",
+    "hi": "स्टेशन",
+    "mr": "स्थानक",
+    "mr_roman": "sthanak",
+    "example": {
+      "mr": "स्थानक किती लांब आहे?",
+      "roman": "Sthanak kiti laamb aahe?",
+      "en": "How far is the station?"
+    }
+  },
+  {
+    "id": 419,
+    "category": "places",
+    "en": "Work",
+    "hi": "काम",
+    "mr": "काम",
+    "mr_roman": "kaam",
+    "example": {
+      "mr": "मला काम आहे.",
+      "roman": "Mala kaam aahe.",
+      "en": "I have work."
+    }
+  },
+  {
+    "id": 420,
+    "category": "places",
+    "en": "Bridge",
+    "hi": "पुल",
+    "mr": "पूल",
+    "mr_roman": "pul",
+    "example": {
+      "mr": "पूल नदीवर आहे.",
+      "roman": "Pul nadivar aahe.",
+      "en": "The bridge is over the river."
+    }
+  },
+  {
+    "id": 421,
+    "category": "places",
+    "en": "Farmer",
+    "hi": "किसान",
+    "mr": "शेतकरी",
+    "mr_roman": "shetkari",
+    "example": {
+      "mr": "शेतकरी कष्ट करतो.",
+      "roman": "Shetkari kashta karto.",
+      "en": "The farmer works hard."
+    }
+  },
+  {
+    "id": 422,
+    "category": "places",
+    "en": "Place",
+    "hi": "जगह",
+    "mr": "जागा",
+    "mr_roman": "jaga",
+    "example": {
+      "mr": "ही जागा छान आहे.",
+      "roman": "Hi jaga chhan aahe.",
+      "en": "This place is nice."
+    }
+  },
+  {
+    "id": 423,
+    "category": "places",
+    "en": "Shop",
+    "hi": "दुकान",
+    "mr": "दुकान",
+    "mr_roman": "dukan",
+    "example": {
+      "mr": "दुकान बंद आहे.",
+      "roman": "Dukan band aahe.",
+      "en": "The shop is closed."
+    }
+  },
+  {
+    "id": 424,
+    "category": "places",
+    "en": "Bank",
+    "hi": "बैंक",
+    "mr": "बँक",
+    "mr_roman": "bank",
+    "example": {
+      "mr": "बँक दहा वाजता उघडते.",
+      "roman": "Bank daha vajta ughadte.",
+      "en": "The bank opens at ten."
+    }
+  },
+  {
+    "id": 425,
+    "category": "places",
+    "en": "Post office",
+    "hi": "डाकघर",
+    "mr": "पोस्ट ऑफिस",
+    "mr_roman": "post office",
+    "example": {
+      "mr": "पोस्ट ऑफिस कुठे आहे?",
+      "roman": "Post office kuthe aahe?",
+      "en": "Where is the post office?"
+    }
+  },
+  {
+    "id": 426,
+    "category": "places",
+    "en": "Police station",
+    "hi": "थाना",
+    "mr": "पोलीस ठाणे",
+    "mr_roman": "police thane",
+    "example": {
+      "mr": "पोलीस ठाणे जवळ आहे.",
+      "roman": "Police thane javal aahe.",
+      "en": "The police station is near."
+    }
+  },
+  {
+    "id": 427,
+    "category": "places",
+    "en": "Hotel / Restaurant",
+    "hi": "होटल",
+    "mr": "हॉटेल",
+    "mr_roman": "hotel",
+    "example": {
+      "mr": "हॉटेलात जेवू.",
+      "roman": "Hotelat jevu.",
+      "en": "Let's eat at the restaurant."
+    }
+  },
+  {
+    "id": 428,
+    "category": "places",
+    "en": "Garden / Park",
+    "hi": "पार्क",
+    "mr": "उद्यान",
+    "mr_roman": "udyan",
+    "example": {
+      "mr": "उद्यानात फिरू.",
+      "roman": "Udyanat phiru.",
+      "en": "Let's walk in the park."
+    }
+  },
+  {
+    "id": 429,
+    "category": "places",
+    "en": "Airport",
+    "hi": "हवाई अड्डा",
+    "mr": "विमानतळ",
+    "mr_roman": "vimantal",
+    "example": {
+      "mr": "विमानतळ लांब आहे.",
+      "roman": "Vimantal laamb aahe.",
+      "en": "The airport is far."
+    }
+  },
+  {
+    "id": 430,
+    "category": "places",
+    "en": "Aeroplane",
+    "hi": "हवाई जहाज़",
+    "mr": "विमान",
+    "mr_roman": "viman",
+    "example": {
+      "mr": "विमान उडालं.",
+      "roman": "Viman udala.",
+      "en": "The aeroplane took off."
+    }
+  },
+  {
+    "id": 431,
+    "category": "places",
+    "en": "Boat",
+    "hi": "नाव",
+    "mr": "होडी",
+    "mr_roman": "hodi",
+    "example": {
+      "mr": "होडी पाण्यात आहे.",
+      "roman": "Hodi panyat aahe.",
+      "en": "The boat is in the water."
+    }
+  },
+  {
+    "id": 432,
+    "category": "places",
+    "en": "Rickshaw",
+    "hi": "रिक्शा",
+    "mr": "रिक्षा",
+    "mr_roman": "riksha",
+    "example": {
+      "mr": "रिक्षा थांबव.",
+      "roman": "Riksha thambav.",
+      "en": "Stop the rickshaw."
+    }
+  },
+  {
+    "id": 433,
+    "category": "places",
+    "en": "Ticket",
+    "hi": "टिकट",
+    "mr": "तिकीट",
+    "mr_roman": "tikit",
+    "example": {
+      "mr": "तिकीट काढ.",
+      "roman": "Tikit kadh.",
+      "en": "Buy the ticket."
+    }
+  },
+  {
+    "id": 434,
+    "category": "places",
+    "en": "Address",
+    "hi": "पता",
+    "mr": "पत्ता",
+    "mr_roman": "patta",
+    "example": {
+      "mr": "तुझा पत्ता काय?",
+      "roman": "Tujha patta kay?",
+      "en": "What is your address?"
+    }
+  },
+  {
+    "id": 435,
+    "category": "places",
+    "en": "Corner",
+    "hi": "कोना",
+    "mr": "कोपरा",
+    "mr_roman": "kopra",
+    "example": {
+      "mr": "कोपऱ्यावर दुकान आहे.",
+      "roman": "Kopryavar dukan aahe.",
+      "en": "There is a shop at the corner."
+    }
+  },
+  {
+    "id": 436,
+    "category": "places",
+    "en": "Line / Queue",
+    "hi": "लाइन",
+    "mr": "रांग",
+    "mr_roman": "raang",
+    "example": {
+      "mr": "रांगेत उभा राहा.",
+      "roman": "Ranget ubha raha.",
+      "en": "Stand in the queue."
+    }
+  },
+  {
+    "id": 437,
+    "category": "verbs",
+    "en": "To eat",
+    "hi": "खाना",
+    "mr": "खाणे",
+    "mr_roman": "khane",
+    "example": {
+      "mr": "मी जेवण खातो.",
+      "roman": "Mi jevan khato.",
+      "en": "I eat food."
+    }
+  },
+  {
+    "id": 438,
+    "category": "verbs",
+    "en": "To drink",
+    "hi": "पीना",
+    "mr": "पिणे",
+    "mr_roman": "pine",
+    "example": {
+      "mr": "मी पाणी पितो.",
+      "roman": "Mi paani pito.",
+      "en": "I drink water."
+    }
+  },
+  {
+    "id": 439,
+    "category": "verbs",
+    "en": "To go",
+    "hi": "जाना",
+    "mr": "जाणे",
+    "mr_roman": "jane",
+    "example": {
+      "mr": "मी घरी जातो.",
+      "roman": "Mi ghari jato.",
+      "en": "I go home."
+    }
+  },
+  {
+    "id": 440,
+    "category": "verbs",
+    "en": "To come",
+    "hi": "आना",
+    "mr": "येणे",
+    "mr_roman": "yene",
+    "example": {
+      "mr": "इकडे ये.",
+      "roman": "Ikde ye.",
+      "en": "Come here."
+    }
+  },
+  {
+    "id": 441,
+    "category": "verbs",
+    "en": "To do",
+    "hi": "करना",
+    "mr": "करणे",
+    "mr_roman": "karne",
+    "example": {
+      "mr": "काम कर.",
+      "roman": "Kaam kar.",
+      "en": "Do the work."
+    }
+  },
+  {
+    "id": 442,
+    "category": "verbs",
+    "en": "To see / look",
+    "hi": "देखना",
+    "mr": "बघणे",
+    "mr_roman": "baghne",
+    "example": {
+      "mr": "इकडे बघ.",
+      "roman": "Ikde bagh.",
+      "en": "Look here."
+    }
+  },
+  {
+    "id": 443,
+    "category": "verbs",
+    "en": "To speak",
+    "hi": "बोलना",
+    "mr": "बोलणे",
+    "mr_roman": "bolne",
+    "example": {
+      "mr": "हळू बोल.",
+      "roman": "Halu bol.",
+      "en": "Speak softly."
+    }
+  },
+  {
+    "id": 444,
+    "category": "verbs",
+    "en": "To listen",
+    "hi": "सुनना",
+    "mr": "ऐकणे",
+    "mr_roman": "aikne",
+    "example": {
+      "mr": "माझं ऐक.",
+      "roman": "Majha aik.",
+      "en": "Listen to me."
+    }
+  },
+  {
+    "id": 445,
+    "category": "verbs",
+    "en": "To sleep",
+    "hi": "सोना",
+    "mr": "झोपणे",
+    "mr_roman": "jhopne",
+    "example": {
+      "mr": "मी लवकर झोपतो.",
+      "roman": "Mi lavkar jhopto.",
+      "en": "I sleep early."
+    }
+  },
+  {
+    "id": 446,
+    "category": "verbs",
+    "en": "To wake up",
+    "hi": "जागना",
+    "mr": "उठणे",
+    "mr_roman": "uthne",
+    "example": {
+      "mr": "सकाळी लवकर ऊठ.",
+      "roman": "Sakali lavkar uth.",
+      "en": "Wake up early in the morning."
+    }
+  },
+  {
+    "id": 447,
+    "category": "verbs",
+    "en": "To sit",
+    "hi": "बैठना",
+    "mr": "बसणे",
+    "mr_roman": "basne",
+    "example": {
+      "mr": "इथे बस.",
+      "roman": "Ithe bas.",
+      "en": "Sit here."
+    }
+  },
+  {
+    "id": 448,
+    "category": "verbs",
+    "en": "To stand",
+    "hi": "खड़ा होना",
+    "mr": "उभं राहणे",
+    "mr_roman": "ubha rahne",
+    "example": {
+      "mr": "उभा राहा.",
+      "roman": "Ubha raha.",
+      "en": "Stand up."
+    }
+  },
+  {
+    "id": 449,
+    "category": "verbs",
+    "en": "To walk",
+    "hi": "चलना",
+    "mr": "चालणे",
+    "mr_roman": "chalne",
+    "example": {
+      "mr": "हळू चाल.",
+      "roman": "Halu chaal.",
+      "en": "Walk slowly."
+    }
+  },
+  {
+    "id": 450,
+    "category": "verbs",
+    "en": "To run",
+    "hi": "दौड़ना",
+    "mr": "पळणे",
+    "mr_roman": "palne",
+    "example": {
+      "mr": "पळ!",
+      "roman": "Pal!",
+      "en": "Run!"
+    }
+  },
+  {
+    "id": 451,
+    "category": "verbs",
+    "en": "To read",
+    "hi": "पढ़ना",
+    "mr": "वाचणे",
+    "mr_roman": "vachne",
+    "example": {
+      "mr": "पुस्तक वाच.",
+      "roman": "Pustak vach.",
+      "en": "Read the book."
+    }
+  },
+  {
+    "id": 452,
+    "category": "verbs",
+    "en": "To write",
+    "hi": "लिखना",
+    "mr": "लिहिणे",
+    "mr_roman": "lihine",
+    "example": {
+      "mr": "नाव लिही.",
+      "roman": "Naav lihi.",
+      "en": "Write your name."
+    }
+  },
+  {
+    "id": 453,
+    "category": "verbs",
+    "en": "To give",
+    "hi": "देना",
+    "mr": "देणे",
+    "mr_roman": "dene",
+    "example": {
+      "mr": "मला दे.",
+      "roman": "Mala de.",
+      "en": "Give me."
+    }
+  },
+  {
+    "id": 454,
+    "category": "verbs",
+    "en": "To take",
+    "hi": "लेना",
+    "mr": "घेणे",
+    "mr_roman": "ghene",
+    "example": {
+      "mr": "हे घे.",
+      "roman": "He ghe.",
+      "en": "Take this."
+    }
+  },
+  {
+    "id": 455,
+    "category": "verbs",
+    "en": "To cook",
+    "hi": "पकाना",
+    "mr": "शिजवणे",
+    "mr_roman": "shijavne",
+    "example": {
+      "mr": "भात शिजव.",
+      "roman": "Bhaat shijav.",
+      "en": "Cook the rice."
+    }
+  },
+  {
+    "id": 456,
+    "category": "verbs",
+    "en": "To wash",
+    "hi": "धोना",
+    "mr": "धुणे",
+    "mr_roman": "dhune",
+    "example": {
+      "mr": "कपडे धू.",
+      "roman": "Kapde dhu.",
+      "en": "Wash the clothes."
+    }
+  },
+  {
+    "id": 457,
+    "category": "verbs",
+    "en": "To open",
+    "hi": "खोलना",
+    "mr": "उघडणे",
+    "mr_roman": "ughadne",
+    "example": {
+      "mr": "दार उघड.",
+      "roman": "Daar ughad.",
+      "en": "Open the door."
+    }
+  },
+  {
+    "id": 458,
+    "category": "verbs",
+    "en": "To close",
+    "hi": "बंद करना",
+    "mr": "बंद करणे",
+    "mr_roman": "band karne",
+    "example": {
+      "mr": "खिडकी बंद कर.",
+      "roman": "Khidki band kar.",
+      "en": "Close the window."
+    }
+  },
+  {
+    "id": 459,
+    "category": "verbs",
+    "en": "To buy",
+    "hi": "खरीदना",
+    "mr": "विकत घेणे",
+    "mr_roman": "vikat ghene",
+    "example": {
+      "mr": "भाजी विकत घे.",
+      "roman": "Bhaji vikat ghe.",
+      "en": "Buy vegetables."
+    }
+  },
+  {
+    "id": 460,
+    "category": "verbs",
+    "en": "To sell",
+    "hi": "बेचना",
+    "mr": "विकणे",
+    "mr_roman": "vikne",
+    "example": {
+      "mr": "तो फळं विकतो.",
+      "roman": "To phala vikto.",
+      "en": "He sells fruits."
+    }
+  },
+  {
+    "id": 461,
+    "category": "verbs",
+    "en": "To know",
+    "hi": "जानना",
+    "mr": "माहीत असणे",
+    "mr_roman": "mahit asne",
+    "example": {
+      "mr": "मला माहीत नाही.",
+      "roman": "Mala mahit nahi.",
+      "en": "I do not know."
+    }
+  },
+  {
+    "id": 462,
+    "category": "verbs",
+    "en": "To understand",
+    "hi": "समझना",
+    "mr": "समजणे",
+    "mr_roman": "samajne",
+    "example": {
+      "mr": "समजलं का?",
+      "roman": "Samajla ka?",
+      "en": "Did you understand?"
+    }
+  },
+  {
+    "id": 463,
+    "category": "verbs",
+    "en": "To want",
+    "hi": "चाहना",
+    "mr": "हवं असणे",
+    "mr_roman": "hava asne",
+    "example": {
+      "mr": "मला चहा हवा आहे.",
+      "roman": "Mala chaha hava aahe.",
+      "en": "I want tea."
+    }
+  },
+  {
+    "id": 464,
+    "category": "verbs",
+    "en": "To like",
+    "hi": "पसंद करना",
+    "mr": "आवडणे",
+    "mr_roman": "aavadne",
+    "example": {
+      "mr": "मला आंबा आवडतो.",
+      "roman": "Mala aamba aavadto.",
+      "en": "I like mango."
+    }
+  },
+  {
+    "id": 465,
+    "category": "verbs",
+    "en": "To play",
+    "hi": "खेलना",
+    "mr": "खेळणे",
+    "mr_roman": "khelne",
+    "example": {
+      "mr": "मुलं खेळतात.",
+      "roman": "Mula kheltat.",
+      "en": "The children play."
+    }
+  },
+  {
+    "id": 466,
+    "category": "verbs",
+    "en": "To laugh",
+    "hi": "हँसना",
+    "mr": "हसणे",
+    "mr_roman": "hasne",
+    "example": {
+      "mr": "तो हसतो.",
+      "roman": "To hasto.",
+      "en": "He laughs."
+    }
+  },
+  {
+    "id": 467,
+    "category": "verbs",
+    "en": "To cry",
+    "hi": "रोना",
+    "mr": "रडणे",
+    "mr_roman": "radne",
+    "example": {
+      "mr": "बाळ रडतंय.",
+      "roman": "Baal radtay.",
+      "en": "The baby is crying."
+    }
+  },
+  {
+    "id": 468,
+    "category": "verbs",
+    "en": "To ask",
+    "hi": "पूछना",
+    "mr": "विचारणे",
+    "mr_roman": "vicharne",
+    "example": {
+      "mr": "त्याला विचार.",
+      "roman": "Tyala vichar.",
+      "en": "Ask him."
+    }
+  },
+  {
+    "id": 469,
+    "category": "verbs",
+    "en": "To tell",
+    "hi": "बताना",
+    "mr": "सांगणे",
+    "mr_roman": "sangne",
+    "example": {
+      "mr": "मला सांग.",
+      "roman": "Mala sang.",
+      "en": "Tell me."
+    }
+  },
+  {
+    "id": 470,
+    "category": "verbs",
+    "en": "To wait",
+    "hi": "इंतज़ार करना",
+    "mr": "थांबणे",
+    "mr_roman": "thambne",
+    "example": {
+      "mr": "थोडं थांब.",
+      "roman": "Thoda thamb.",
+      "en": "Wait a little."
+    }
+  },
+  {
+    "id": 471,
+    "category": "verbs",
+    "en": "To sing",
+    "hi": "गाना",
+    "mr": "गाणे",
+    "mr_roman": "gane",
+    "example": {
+      "mr": "ती छान गाते.",
+      "roman": "Ti chhan gaate.",
+      "en": "She sings well."
+    }
+  },
+  {
+    "id": 472,
+    "category": "verbs",
+    "en": "To learn",
+    "hi": "सीखना",
+    "mr": "शिकणे",
+    "mr_roman": "shikne",
+    "example": {
+      "mr": "मी मराठी शिकतो.",
+      "roman": "Mi Marathi shikto.",
+      "en": "I am learning Marathi."
+    }
+  },
+  {
+    "id": 473,
+    "category": "verbs",
+    "en": "To forget",
+    "hi": "भूलना",
+    "mr": "विसरणे",
+    "mr_roman": "visarne",
+    "example": {
+      "mr": "मी विसरलो.",
+      "roman": "Mi visarlo.",
+      "en": "I forgot."
+    }
+  },
+  {
+    "id": 474,
+    "category": "verbs",
+    "en": "To remember",
+    "hi": "याद रखना",
+    "mr": "आठवणे",
+    "mr_roman": "aathavne",
+    "example": {
+      "mr": "मला आठवतं.",
+      "roman": "Mala aathavta.",
+      "en": "I remember."
+    }
+  },
+  {
+    "id": 475,
+    "category": "verbs",
+    "en": "To bring",
+    "hi": "लाना",
+    "mr": "आणणे",
+    "mr_roman": "aanne",
+    "example": {
+      "mr": "पाणी आण.",
+      "roman": "Paani aan.",
+      "en": "Bring water."
+    }
+  },
+  {
+    "id": 476,
+    "category": "verbs",
+    "en": "To keep / put",
+    "hi": "रखना",
+    "mr": "ठेवणे",
+    "mr_roman": "thevne",
+    "example": {
+      "mr": "इथे ठेव.",
+      "roman": "Ithe thev.",
+      "en": "Keep it here."
+    }
+  },
+  {
+    "id": 477,
+    "category": "verbs",
+    "en": "To work",
+    "hi": "काम करना",
+    "mr": "काम करणे",
+    "mr_roman": "kaam karne",
+    "example": {
+      "mr": "मी ऑफिसमध्ये काम करतो.",
+      "roman": "Mi officemadhye kaam karto.",
+      "en": "I work in an office."
+    }
+  },
+  {
+    "id": 478,
+    "category": "verbs",
+    "en": "To sweep",
+    "hi": "झाड़ू लगाना",
+    "mr": "झाडणे",
+    "mr_roman": "jhadne",
+    "example": {
+      "mr": "खोली झाड.",
+      "roman": "Kholi jhad.",
+      "en": "Sweep the room."
+    }
+  },
+  {
+    "id": 479,
+    "category": "verbs",
+    "en": "To cut",
+    "hi": "काटना",
+    "mr": "कापणे",
+    "mr_roman": "kapne",
+    "example": {
+      "mr": "भाजी काप.",
+      "roman": "Bhaji kaap.",
+      "en": "Cut the vegetables."
+    }
+  },
+  {
+    "id": 480,
+    "category": "verbs",
+    "en": "To meet",
+    "hi": "मिलना",
+    "mr": "भेटणे",
+    "mr_roman": "bhetne",
+    "example": {
+      "mr": "उद्या भेटू.",
+      "roman": "Udya bhetu.",
+      "en": "Let's meet tomorrow."
+    }
+  },
+  {
+    "id": 481,
+    "category": "verbs",
+    "en": "To search",
+    "hi": "ढूँढना",
+    "mr": "शोधणे",
+    "mr_roman": "shodhne",
+    "example": {
+      "mr": "किल्ली शोध.",
+      "roman": "Killi shodh.",
+      "en": "Search for the key."
+    }
+  },
+  {
+    "id": 482,
+    "category": "verbs",
+    "en": "To think",
+    "hi": "सोचना",
+    "mr": "विचार करणे",
+    "mr_roman": "vichar karne",
+    "example": {
+      "mr": "नीट विचार कर.",
+      "roman": "Neet vichar kar.",
+      "en": "Think properly."
+    }
+  },
+  {
+    "id": 483,
+    "category": "verbs",
+    "en": "To fall",
+    "hi": "गिरना",
+    "mr": "पडणे",
+    "mr_roman": "padne",
+    "example": {
+      "mr": "तो पडला.",
+      "roman": "To padla.",
+      "en": "He fell."
+    }
+  },
+  {
+    "id": 484,
+    "category": "verbs",
+    "en": "To fear",
+    "hi": "डरना",
+    "mr": "घाबरणे",
+    "mr_roman": "ghabarne",
+    "example": {
+      "mr": "घाबरू नकोस.",
+      "roman": "Ghabru nakos.",
+      "en": "Do not be afraid."
+    }
+  },
+  {
+    "id": 485,
+    "category": "verbs",
+    "en": "To call",
+    "hi": "बुलाना",
+    "mr": "बोलावणे",
+    "mr_roman": "bolavne",
+    "example": {
+      "mr": "त्याला बोलाव.",
+      "roman": "Tyala bolav.",
+      "en": "Call him."
+    }
+  },
+  {
+    "id": 486,
+    "category": "verbs",
+    "en": "To bathe",
+    "hi": "नहाना",
+    "mr": "आंघोळ करणे",
+    "mr_roman": "aanghol karne",
+    "example": {
+      "mr": "मी रोज आंघोळ करतो.",
+      "roman": "Mi roj aanghol karto.",
+      "en": "I bathe every day."
+    }
+  },
+  {
+    "id": 487,
+    "category": "verbs",
+    "en": "To dance",
+    "hi": "नाचना",
+    "mr": "नाचणे",
+    "mr_roman": "nachne",
+    "example": {
+      "mr": "ती नाचते.",
+      "roman": "Ti nachte.",
+      "en": "She dances."
+    }
+  },
+  {
+    "id": 488,
+    "category": "verbs",
+    "en": "To fly",
+    "hi": "उड़ना",
+    "mr": "उडणे",
+    "mr_roman": "udne",
+    "example": {
+      "mr": "पक्षी उडतात.",
+      "roman": "Pakshi udtat.",
+      "en": "Birds fly."
+    }
+  },
+  {
+    "id": 489,
+    "category": "verbs",
+    "en": "To swim",
+    "hi": "तैरना",
+    "mr": "पोहणे",
+    "mr_roman": "pohne",
+    "example": {
+      "mr": "मी पोहतो.",
+      "roman": "Mi pohto.",
+      "en": "I swim."
+    }
+  },
+  {
+    "id": 490,
+    "category": "verbs",
+    "en": "To send",
+    "hi": "भेजना",
+    "mr": "पाठवणे",
+    "mr_roman": "pathavne",
+    "example": {
+      "mr": "पत्र पाठव.",
+      "roman": "Patra pathav.",
+      "en": "Send the letter."
+    }
+  },
+  {
+    "id": 491,
+    "category": "verbs",
+    "en": "To clean / wipe",
+    "hi": "पोंछना",
+    "mr": "पुसणे",
+    "mr_roman": "pusne",
+    "example": {
+      "mr": "टेबल पूस.",
+      "roman": "Tebal pus.",
+      "en": "Wipe the table."
+    }
+  },
+  {
+    "id": 492,
+    "category": "verbs",
+    "en": "To fill",
+    "hi": "भरना",
+    "mr": "भरणे",
+    "mr_roman": "bharne",
+    "example": {
+      "mr": "बाटली भर.",
+      "roman": "Baatli bhar.",
+      "en": "Fill the bottle."
+    }
+  },
+  {
+    "id": 493,
+    "category": "verbs",
+    "en": "To break",
+    "hi": "तोड़ना",
+    "mr": "तोडणे",
+    "mr_roman": "todne",
+    "example": {
+      "mr": "फांदी तोडू नको.",
+      "roman": "Phandi todu nako.",
+      "en": "Do not break the branch."
+    }
+  },
+  {
+    "id": 494,
+    "category": "verbs",
+    "en": "To try",
+    "hi": "कोशिश करना",
+    "mr": "प्रयत्न करणे",
+    "mr_roman": "prayatna karne",
+    "example": {
+      "mr": "पुन्हा प्रयत्न कर.",
+      "roman": "Punha prayatna kar.",
+      "en": "Try again."
+    }
+  },
+  {
+    "id": 495,
+    "category": "verbs",
+    "en": "To help",
+    "hi": "मदद करना",
+    "mr": "मदत करणे",
+    "mr_roman": "madat karne",
+    "example": {
+      "mr": "मला मदत कर.",
+      "roman": "Mala madat kar.",
+      "en": "Help me."
+    }
+  },
+  {
+    "id": 496,
+    "category": "verbs",
+    "en": "To live / stay",
+    "hi": "रहना",
+    "mr": "राहणे",
+    "mr_roman": "rahne",
+    "example": {
+      "mr": "मी पुण्यात राहतो.",
+      "roman": "Mi Punyat rahto.",
+      "en": "I live in Pune."
+    }
+  },
+  {
+    "id": 497,
+    "category": "verbs",
+    "en": "To pay",
+    "hi": "भुगतान करना",
+    "mr": "पैसे देणे",
+    "mr_roman": "paise dene",
+    "example": {
+      "mr": "पैसे दे.",
+      "roman": "Paise de.",
+      "en": "Pay the money."
+    }
+  },
+  {
+    "id": 498,
+    "category": "verbs",
+    "en": "To return",
+    "hi": "लौटना",
+    "mr": "परत येणे",
+    "mr_roman": "parat yene",
+    "example": {
+      "mr": "लवकर परत ये.",
+      "roman": "Lavkar parat ye.",
+      "en": "Come back soon."
+    }
+  },
+  {
+    "id": 499,
+    "category": "verbs",
+    "en": "To drive",
+    "hi": "चलाना",
+    "mr": "चालवणे",
+    "mr_roman": "chalavne",
+    "example": {
+      "mr": "गाडी हळू चालव.",
+      "roman": "Gadi halu chalav.",
+      "en": "Drive the car slowly."
+    }
+  },
+  {
+    "id": 500,
+    "category": "verbs",
+    "en": "To teach",
+    "hi": "सिखाना",
+    "mr": "शिकवणे",
+    "mr_roman": "shikavne",
+    "example": {
+      "mr": "ती मराठी शिकवते.",
+      "roman": "Ti Marathi shikavte.",
+      "en": "She teaches Marathi."
+    }
+  },
+  {
+    "id": 501,
+    "category": "verbs",
+    "en": "To wear",
+    "hi": "पहनना",
+    "mr": "घालणे",
+    "mr_roman": "ghalne",
+    "example": {
+      "mr": "सदरा घाल.",
+      "roman": "Sadra ghal.",
+      "en": "Wear the shirt."
+    }
+  },
+  {
+    "id": 502,
+    "category": "verbs",
+    "en": "To lift",
+    "hi": "उठाना",
+    "mr": "उचलणे",
+    "mr_roman": "uchalne",
+    "example": {
+      "mr": "पिशवी उचल.",
+      "roman": "Pishvi uchal.",
+      "en": "Lift the bag."
+    }
+  },
+  {
+    "id": 503,
+    "category": "verbs",
+    "en": "To throw",
+    "hi": "फेंकना",
+    "mr": "फेकणे",
+    "mr_roman": "phekne",
+    "example": {
+      "mr": "चेंडू फेक.",
+      "roman": "Chendu phek.",
+      "en": "Throw the ball."
+    }
+  },
+  {
+    "id": 504,
+    "category": "verbs",
+    "en": "To catch",
+    "hi": "पकड़ना",
+    "mr": "पकडणे",
+    "mr_roman": "pakadne",
+    "example": {
+      "mr": "चेंडू पकड.",
+      "roman": "Chendu pakad.",
+      "en": "Catch the ball."
+    }
+  },
+  {
+    "id": 505,
+    "category": "verbs",
+    "en": "To pull",
+    "hi": "खींचना",
+    "mr": "ओढणे",
+    "mr_roman": "odhne",
+    "example": {
+      "mr": "दोरी ओढ.",
+      "roman": "Dori odh.",
+      "en": "Pull the rope."
+    }
+  },
+  {
+    "id": 506,
+    "category": "verbs",
+    "en": "To push",
+    "hi": "धकेलना",
+    "mr": "ढकलणे",
+    "mr_roman": "dhakalne",
+    "example": {
+      "mr": "दार ढकल.",
+      "roman": "Daar dhakal.",
+      "en": "Push the door."
+    }
+  },
+  {
+    "id": 507,
+    "category": "verbs",
+    "en": "To win",
+    "hi": "जीतना",
+    "mr": "जिंकणे",
+    "mr_roman": "jinkne",
+    "example": {
+      "mr": "आम्ही जिंकलो!",
+      "roman": "Aamhi jinklo!",
+      "en": "We won!"
+    }
+  },
+  {
+    "id": 508,
+    "category": "verbs",
+    "en": "To lose",
+    "hi": "हारना",
+    "mr": "हरणे",
+    "mr_roman": "harne",
+    "example": {
+      "mr": "ते हरले.",
+      "roman": "Te harle.",
+      "en": "They lost."
+    }
+  },
+  {
+    "id": 509,
+    "category": "verbs",
+    "en": "To hide",
+    "hi": "छिपना",
+    "mr": "लपणे",
+    "mr_roman": "lapne",
+    "example": {
+      "mr": "तो लपला.",
+      "roman": "To lapla.",
+      "en": "He hid."
+    }
+  },
+  {
+    "id": 510,
+    "category": "verbs",
+    "en": "To grow / increase",
+    "hi": "बढ़ना",
+    "mr": "वाढणे",
+    "mr_roman": "vadhne",
+    "example": {
+      "mr": "झाड वाढलं.",
+      "roman": "Jhaad vadhla.",
+      "en": "The tree grew."
+    }
+  },
+  {
+    "id": 511,
+    "category": "verbs",
+    "en": "To get / receive",
+    "hi": "मिलना",
+    "mr": "मिळणे",
+    "mr_roman": "milne",
+    "example": {
+      "mr": "मला नोकरी मिळाली.",
+      "roman": "Mala nokri milali.",
+      "en": "I got a job."
+    }
+  },
+  {
+    "id": 512,
+    "category": "verbs",
+    "en": "To count",
+    "hi": "गिनना",
+    "mr": "मोजणे",
+    "mr_roman": "mojne",
+    "example": {
+      "mr": "पैसे मोज.",
+      "roman": "Paise moj.",
+      "en": "Count the money."
+    }
+  },
+  {
+    "id": 513,
+    "category": "verbs",
+    "en": "To smell",
+    "hi": "सूँघना",
+    "mr": "वास घेणे",
+    "mr_roman": "vaas ghene",
+    "example": {
+      "mr": "फुलाचा वास घे.",
+      "roman": "Phulacha vaas ghe.",
+      "en": "Smell the flower."
+    }
+  },
+  {
+    "id": 514,
+    "category": "verbs",
+    "en": "To taste",
+    "hi": "चखना",
+    "mr": "चव घेणे",
+    "mr_roman": "chav ghene",
+    "example": {
+      "mr": "भाजीची चव घे.",
+      "roman": "Bhajichi chav ghe.",
+      "en": "Taste the vegetable."
+    }
+  },
+  {
+    "id": 515,
+    "category": "adjectives",
+    "en": "Big",
+    "hi": "बड़ा",
+    "mr": "मोठा",
+    "mr_roman": "motha",
+    "example": {
+      "mr": "घर मोठं आहे.",
+      "roman": "Ghar motha aahe.",
+      "en": "The house is big."
+    }
+  },
+  {
+    "id": 516,
+    "category": "adjectives",
+    "en": "Small",
+    "hi": "छोटा",
+    "mr": "लहान",
+    "mr_roman": "lahan",
+    "example": {
+      "mr": "बाळ लहान आहे.",
+      "roman": "Baal lahan aahe.",
+      "en": "The baby is small."
+    }
+  },
+  {
+    "id": 517,
+    "category": "adjectives",
+    "en": "Good",
+    "hi": "अच्छा",
+    "mr": "चांगला",
+    "mr_roman": "changla",
+    "example": {
+      "mr": "तो चांगला माणूस आहे.",
+      "roman": "To changla manus aahe.",
+      "en": "He is a good man."
+    }
+  },
+  {
+    "id": 518,
+    "category": "adjectives",
+    "en": "Bad",
+    "hi": "बुरा",
+    "mr": "वाईट",
+    "mr_roman": "vait",
+    "example": {
+      "mr": "ही वाईट सवय आहे.",
+      "roman": "Hi vait savay aahe.",
+      "en": "This is a bad habit."
+    }
+  },
+  {
+    "id": 519,
+    "category": "adjectives",
+    "en": "Hot",
+    "hi": "गरम",
+    "mr": "गरम",
+    "mr_roman": "garam",
+    "example": {
+      "mr": "चहा गरम आहे.",
+      "roman": "Chaha garam aahe.",
+      "en": "The tea is hot."
+    }
+  },
+  {
+    "id": 520,
+    "category": "adjectives",
+    "en": "Cold",
+    "hi": "ठंडा",
+    "mr": "थंड",
+    "mr_roman": "thand",
+    "example": {
+      "mr": "पाणी थंड आहे.",
+      "roman": "Paani thand aahe.",
+      "en": "The water is cold."
+    }
+  },
+  {
+    "id": 521,
+    "category": "adjectives",
+    "en": "New",
+    "hi": "नया",
+    "mr": "नवीन",
+    "mr_roman": "navin",
+    "example": {
+      "mr": "हा नवीन फोन आहे.",
+      "roman": "Ha navin phone aahe.",
+      "en": "This is a new phone."
+    }
+  },
+  {
+    "id": 522,
+    "category": "adjectives",
+    "en": "Old (thing)",
+    "hi": "पुराना",
+    "mr": "जुना",
+    "mr_roman": "juna",
+    "example": {
+      "mr": "हे घर जुनं आहे.",
+      "roman": "He ghar juna aahe.",
+      "en": "This house is old."
+    }
+  },
+  {
+    "id": 523,
+    "category": "adjectives",
+    "en": "Beautiful",
+    "hi": "सुंदर",
+    "mr": "सुंदर",
+    "mr_roman": "sundar",
+    "example": {
+      "mr": "फूल सुंदर आहे.",
+      "roman": "Phul sundar aahe.",
+      "en": "The flower is beautiful."
+    }
+  },
+  {
+    "id": 524,
+    "category": "adjectives",
+    "en": "Clean",
+    "hi": "साफ़",
+    "mr": "स्वच्छ",
+    "mr_roman": "swachha",
+    "example": {
+      "mr": "खोली स्वच्छ आहे.",
+      "roman": "Kholi swachha aahe.",
+      "en": "The room is clean."
+    }
+  },
+  {
+    "id": 525,
+    "category": "adjectives",
+    "en": "Dirty",
+    "hi": "गंदा",
+    "mr": "घाणेरडा",
+    "mr_roman": "ghanerda",
+    "example": {
+      "mr": "कपडे घाणेरडे आहेत.",
+      "roman": "Kapde ghanerde aahet.",
+      "en": "The clothes are dirty."
+    }
+  },
+  {
+    "id": 526,
+    "category": "adjectives",
+    "en": "Fast",
+    "hi": "तेज़",
+    "mr": "वेगवान",
+    "mr_roman": "vegvan",
+    "example": {
+      "mr": "गाडी वेगवान आहे.",
+      "roman": "Gadi vegvan aahe.",
+      "en": "The car is fast."
+    }
+  },
+  {
+    "id": 527,
+    "category": "adjectives",
+    "en": "Slow",
+    "hi": "धीमा",
+    "mr": "हळू",
+    "mr_roman": "halu",
+    "example": {
+      "mr": "हळू चाल.",
+      "roman": "Halu chaal.",
+      "en": "Walk slowly."
+    }
+  },
+  {
+    "id": 528,
+    "category": "adjectives",
+    "en": "Heavy",
+    "hi": "भारी",
+    "mr": "जड",
+    "mr_roman": "jad",
+    "example": {
+      "mr": "पिशवी जड आहे.",
+      "roman": "Pishvi jad aahe.",
+      "en": "The bag is heavy."
+    }
+  },
+  {
+    "id": 529,
+    "category": "adjectives",
+    "en": "Light (weight)",
+    "hi": "हल्का",
+    "mr": "हलका",
+    "mr_roman": "halka",
+    "example": {
+      "mr": "कागद हलका आहे.",
+      "roman": "Kagad halka aahe.",
+      "en": "The paper is light."
+    }
+  },
+  {
+    "id": 530,
+    "category": "adjectives",
+    "en": "Tasty",
+    "hi": "स्वादिष्ट",
+    "mr": "चविष्ट",
+    "mr_roman": "chavishta",
+    "example": {
+      "mr": "जेवण चविष्ट आहे.",
+      "roman": "Jevan chavishta aahe.",
+      "en": "The food is tasty."
+    }
+  },
+  {
+    "id": 531,
+    "category": "adjectives",
+    "en": "Sweet",
+    "hi": "मीठा",
+    "mr": "गोड",
+    "mr_roman": "god",
+    "example": {
+      "mr": "आंबा गोड आहे.",
+      "roman": "Aamba god aahe.",
+      "en": "The mango is sweet."
+    }
+  },
+  {
+    "id": 532,
+    "category": "adjectives",
+    "en": "Sour",
+    "hi": "खट्टा",
+    "mr": "आंबट",
+    "mr_roman": "aambat",
+    "example": {
+      "mr": "लिंबू आंबट आहे.",
+      "roman": "Limbu aambat aahe.",
+      "en": "The lemon is sour."
+    }
+  },
+  {
+    "id": 533,
+    "category": "adjectives",
+    "en": "Spicy",
+    "hi": "तीखा",
+    "mr": "तिखट",
+    "mr_roman": "tikhat",
+    "example": {
+      "mr": "भाजी तिखट आहे.",
+      "roman": "Bhaji tikhat aahe.",
+      "en": "The vegetable is spicy."
+    }
+  },
+  {
+    "id": 534,
+    "category": "adjectives",
+    "en": "Bitter",
+    "hi": "कड़वा",
+    "mr": "कडू",
+    "mr_roman": "kadu",
+    "example": {
+      "mr": "कारलं कडू आहे.",
+      "roman": "Karla kadu aahe.",
+      "en": "The bitter gourd is bitter."
+    }
+  },
+  {
+    "id": 535,
+    "category": "adjectives",
+    "en": "Salty",
+    "hi": "नमकीन",
+    "mr": "खारट",
+    "mr_roman": "kharat",
+    "example": {
+      "mr": "आमटी खारट झाली.",
+      "roman": "Aamti kharat jhali.",
+      "en": "The curry became salty."
+    }
+  },
+  {
+    "id": 536,
+    "category": "adjectives",
+    "en": "Full",
+    "hi": "भरा",
+    "mr": "भरलेला",
+    "mr_roman": "bharlela",
+    "example": {
+      "mr": "ग्लास भरलेला आहे.",
+      "roman": "Glass bharlela aahe.",
+      "en": "The glass is full."
+    }
+  },
+  {
+    "id": 537,
+    "category": "adjectives",
+    "en": "Empty",
+    "hi": "खाली",
+    "mr": "रिकामा",
+    "mr_roman": "rikama",
+    "example": {
+      "mr": "ग्लास रिकामा आहे.",
+      "roman": "Glass rikama aahe.",
+      "en": "The glass is empty."
+    }
+  },
+  {
+    "id": 538,
+    "category": "adjectives",
+    "en": "Expensive",
+    "hi": "महँगा",
+    "mr": "महाग",
+    "mr_roman": "mahag",
+    "example": {
+      "mr": "हे खूप महाग आहे.",
+      "roman": "He khup mahag aahe.",
+      "en": "This is very expensive."
+    }
+  },
+  {
+    "id": 539,
+    "category": "adjectives",
+    "en": "Cheap",
+    "hi": "सस्ता",
+    "mr": "स्वस्त",
+    "mr_roman": "swast",
+    "example": {
+      "mr": "भाजी स्वस्त आहे.",
+      "roman": "Bhaji swast aahe.",
+      "en": "The vegetables are cheap."
+    }
+  },
+  {
+    "id": 540,
+    "category": "adjectives",
+    "en": "Near",
+    "hi": "पास",
+    "mr": "जवळ",
+    "mr_roman": "javal",
+    "example": {
+      "mr": "घर जवळ आहे.",
+      "roman": "Ghar javal aahe.",
+      "en": "The house is near."
+    }
+  },
+  {
+    "id": 541,
+    "category": "adjectives",
+    "en": "Far",
+    "hi": "दूर",
+    "mr": "लांब",
+    "mr_roman": "laamb",
+    "example": {
+      "mr": "शाळा लांब आहे.",
+      "roman": "Shala laamb aahe.",
+      "en": "The school is far."
+    }
+  },
+  {
+    "id": 542,
+    "category": "adjectives",
+    "en": "Correct",
+    "hi": "सही",
+    "mr": "बरोबर",
+    "mr_roman": "barobar",
+    "example": {
+      "mr": "बरोबर आहे.",
+      "roman": "Barobar aahe.",
+      "en": "That is correct."
+    }
+  },
+  {
+    "id": 543,
+    "category": "adjectives",
+    "en": "Wrong",
+    "hi": "ग़लत",
+    "mr": "चूक",
+    "mr_roman": "chuk",
+    "example": {
+      "mr": "हे चूक आहे.",
+      "roman": "He chuk aahe.",
+      "en": "This is wrong."
+    }
+  },
+  {
+    "id": 544,
+    "category": "adjectives",
+    "en": "Many / Much",
+    "hi": "बहुत",
+    "mr": "खूप",
+    "mr_roman": "khup",
+    "example": {
+      "mr": "खूप लोक आले.",
+      "roman": "Khup lok aale.",
+      "en": "Many people came."
+    }
+  },
+  {
+    "id": 545,
+    "category": "adjectives",
+    "en": "Little / Few",
+    "hi": "थोड़ा",
+    "mr": "थोडं",
+    "mr_roman": "thoda",
+    "example": {
+      "mr": "थोडं पाणी दे.",
+      "roman": "Thoda paani de.",
+      "en": "Give a little water."
+    }
+  },
+  {
+    "id": 546,
+    "category": "adjectives",
+    "en": "Tall",
+    "hi": "लंबा",
+    "mr": "उंच",
+    "mr_roman": "unch",
+    "example": {
+      "mr": "तो उंच आहे.",
+      "roman": "To unch aahe.",
+      "en": "He is tall."
+    }
+  },
+  {
+    "id": 547,
+    "category": "adjectives",
+    "en": "Short (height)",
+    "hi": "नाटा",
+    "mr": "बुटका",
+    "mr_roman": "butka",
+    "example": {
+      "mr": "तो बुटका आहे.",
+      "roman": "To butka aahe.",
+      "en": "He is short."
+    }
+  },
+  {
+    "id": 548,
+    "category": "adjectives",
+    "en": "Happy",
+    "hi": "खुश",
+    "mr": "आनंदी",
+    "mr_roman": "aanandi",
+    "example": {
+      "mr": "मी आनंदी आहे.",
+      "roman": "Mi aanandi aahe.",
+      "en": "I am happy."
+    }
+  },
+  {
+    "id": 549,
+    "category": "adjectives",
+    "en": "Sad",
+    "hi": "दुखी",
+    "mr": "दुःखी",
+    "mr_roman": "dukhi",
+    "example": {
+      "mr": "ती दुःखी आहे.",
+      "roman": "Ti dukhi aahe.",
+      "en": "She is sad."
+    }
+  },
+  {
+    "id": 550,
+    "category": "adjectives",
+    "en": "Tired",
+    "hi": "थका हुआ",
+    "mr": "थकलेला",
+    "mr_roman": "thaklela",
+    "example": {
+      "mr": "मी थकलो.",
+      "roman": "Mi thaklo.",
+      "en": "I am tired."
+    }
+  },
+  {
+    "id": 551,
+    "category": "adjectives",
+    "en": "Hungry",
+    "hi": "भूखा",
+    "mr": "भुकेलेला",
+    "mr_roman": "bhukelela",
+    "example": {
+      "mr": "मूल भुकेलेलं आहे.",
+      "roman": "Mul bhukelela aahe.",
+      "en": "The child is hungry."
+    }
+  },
+  {
+    "id": 552,
+    "category": "adjectives",
+    "en": "Thirsty",
+    "hi": "प्यासा",
+    "mr": "तहानलेला",
+    "mr_roman": "tahanlela",
+    "example": {
+      "mr": "मी तहानलेलो आहे.",
+      "roman": "Mi tahanlelo aahe.",
+      "en": "I am thirsty."
+    }
+  },
+  {
+    "id": 553,
+    "category": "adjectives",
+    "en": "Easy",
+    "hi": "आसान",
+    "mr": "सोपं",
+    "mr_roman": "sopa",
+    "example": {
+      "mr": "मराठी सोपं आहे.",
+      "roman": "Marathi sopa aahe.",
+      "en": "Marathi is easy."
+    }
+  },
+  {
+    "id": 554,
+    "category": "adjectives",
+    "en": "Difficult",
+    "hi": "मुश्किल",
+    "mr": "कठीण",
+    "mr_roman": "kathin",
+    "example": {
+      "mr": "प्रश्न कठीण आहे.",
+      "roman": "Prashna kathin aahe.",
+      "en": "The question is difficult."
+    }
+  },
+  {
+    "id": 555,
+    "category": "adjectives",
+    "en": "Strong",
+    "hi": "मज़बूत",
+    "mr": "मजबूत",
+    "mr_roman": "majbut",
+    "example": {
+      "mr": "दोरी मजबूत आहे.",
+      "roman": "Dori majbut aahe.",
+      "en": "The rope is strong."
+    }
+  },
+  {
+    "id": 556,
+    "category": "adjectives",
+    "en": "Weak",
+    "hi": "कमज़ोर",
+    "mr": "अशक्त",
+    "mr_roman": "ashakta",
+    "example": {
+      "mr": "तो अशक्त आहे.",
+      "roman": "To ashakta aahe.",
+      "en": "He is weak."
+    }
+  },
+  {
+    "id": 557,
+    "category": "adjectives",
+    "en": "Rich",
+    "hi": "अमीर",
+    "mr": "श्रीमंत",
+    "mr_roman": "shrimant",
+    "example": {
+      "mr": "तो श्रीमंत आहे.",
+      "roman": "To shrimant aahe.",
+      "en": "He is rich."
+    }
+  },
+  {
+    "id": 558,
+    "category": "adjectives",
+    "en": "Poor",
+    "hi": "ग़रीब",
+    "mr": "गरीब",
+    "mr_roman": "garib",
+    "example": {
+      "mr": "तो गरीब आहे.",
+      "roman": "To garib aahe.",
+      "en": "He is poor."
+    }
+  },
+  {
+    "id": 559,
+    "category": "adjectives",
+    "en": "Young",
+    "hi": "जवान",
+    "mr": "तरुण",
+    "mr_roman": "tarun",
+    "example": {
+      "mr": "तो तरुण आहे.",
+      "roman": "To tarun aahe.",
+      "en": "He is young."
+    }
+  },
+  {
+    "id": 560,
+    "category": "adjectives",
+    "en": "Old (person)",
+    "hi": "बूढ़ा",
+    "mr": "म्हातारा",
+    "mr_roman": "mhatara",
+    "example": {
+      "mr": "आजोबा म्हातारे झाले.",
+      "roman": "Ajoba mhatare jhale.",
+      "en": "Grandfather has grown old."
+    }
+  },
+  {
+    "id": 561,
+    "category": "adjectives",
+    "en": "Wet",
+    "hi": "गीला",
+    "mr": "ओला",
+    "mr_roman": "ola",
+    "example": {
+      "mr": "कपडे ओले आहेत.",
+      "roman": "Kapde ole aahet.",
+      "en": "The clothes are wet."
+    }
+  },
+  {
+    "id": 562,
+    "category": "adjectives",
+    "en": "Dry",
+    "hi": "सूखा",
+    "mr": "कोरडा",
+    "mr_roman": "korda",
+    "example": {
+      "mr": "कपडे कोरडे झाले.",
+      "roman": "Kapde korde jhale.",
+      "en": "The clothes have dried."
+    }
+  },
+  {
+    "id": 563,
+    "category": "adjectives",
+    "en": "Soft",
+    "hi": "मुलायम",
+    "mr": "मऊ",
+    "mr_roman": "mau",
+    "example": {
+      "mr": "उशी मऊ आहे.",
+      "roman": "Ushi mau aahe.",
+      "en": "The pillow is soft."
+    }
+  },
+  {
+    "id": 564,
+    "category": "adjectives",
+    "en": "Hard",
+    "hi": "कठोर",
+    "mr": "कडक",
+    "mr_roman": "kadak",
+    "example": {
+      "mr": "पोळी कडक झाली.",
+      "roman": "Poli kadak jhali.",
+      "en": "The roti became hard."
+    }
+  },
+  {
+    "id": 565,
+    "category": "adjectives",
+    "en": "Open",
+    "hi": "खुला",
+    "mr": "उघडा",
+    "mr_roman": "ughda",
+    "example": {
+      "mr": "दार उघडं आहे.",
+      "roman": "Daar ughda aahe.",
+      "en": "The door is open."
+    }
+  },
+  {
+    "id": 566,
+    "category": "adjectives",
+    "en": "Closed",
+    "hi": "बंद",
+    "mr": "बंद",
+    "mr_roman": "band",
+    "example": {
+      "mr": "दुकान बंद आहे.",
+      "roman": "Dukan band aahe.",
+      "en": "The shop is closed."
+    }
+  },
+  {
+    "id": 567,
+    "category": "adjectives",
+    "en": "Same",
+    "hi": "एक जैसा",
+    "mr": "सारखा",
+    "mr_roman": "sarkha",
+    "example": {
+      "mr": "दोन्ही सारखे आहेत.",
+      "roman": "Donhi sarkhe aahet.",
+      "en": "Both are the same."
+    }
+  },
+  {
+    "id": 568,
+    "category": "adjectives",
+    "en": "Different",
+    "hi": "अलग",
+    "mr": "वेगळा",
+    "mr_roman": "vegla",
+    "example": {
+      "mr": "हे वेगळं आहे.",
+      "roman": "He vegla aahe.",
+      "en": "This is different."
+    }
+  },
+  {
+    "id": 569,
+    "category": "adjectives",
+    "en": "Ready",
+    "hi": "तैयार",
+    "mr": "तयार",
+    "mr_roman": "tayar",
+    "example": {
+      "mr": "जेवण तयार आहे.",
+      "roman": "Jevan tayar aahe.",
+      "en": "Food is ready."
+    }
+  },
+  {
+    "id": 570,
+    "category": "adjectives",
+    "en": "Busy",
+    "hi": "व्यस्त",
+    "mr": "व्यस्त",
+    "mr_roman": "vyasta",
+    "example": {
+      "mr": "मी आज व्यस्त आहे.",
+      "roman": "Mi aaj vyasta aahe.",
+      "en": "I am busy today."
+    }
+  },
+  {
+    "id": 571,
+    "category": "adjectives",
+    "en": "Quiet",
+    "hi": "शांत",
+    "mr": "शांत",
+    "mr_roman": "shant",
+    "example": {
+      "mr": "शांत बस.",
+      "roman": "Shant bas.",
+      "en": "Sit quietly."
+    }
+  },
+  {
+    "id": 572,
+    "category": "adjectives",
+    "en": "Loud",
+    "hi": "ज़ोर से",
+    "mr": "मोठ्याने",
+    "mr_roman": "mothyane",
+    "example": {
+      "mr": "मोठ्याने बोलू नको.",
+      "roman": "Mothyane bolu nako.",
+      "en": "Do not speak loudly."
+    }
+  },
+  {
+    "id": 573,
+    "category": "adjectives",
+    "en": "Round",
+    "hi": "गोल",
+    "mr": "गोल",
+    "mr_roman": "gol",
+    "example": {
+      "mr": "चेंडू गोल आहे.",
+      "roman": "Chendu gol aahe.",
+      "en": "The ball is round."
+    }
+  },
+  {
+    "id": 574,
+    "category": "adjectives",
+    "en": "Thick",
+    "hi": "मोटा",
+    "mr": "जाड",
+    "mr_roman": "jaad",
+    "example": {
+      "mr": "पुस्तक जाड आहे.",
+      "roman": "Pustak jaad aahe.",
+      "en": "The book is thick."
+    }
+  },
+  {
+    "id": 575,
+    "category": "adjectives",
+    "en": "Thin",
+    "hi": "पतला",
+    "mr": "पातळ",
+    "mr_roman": "patal",
+    "example": {
+      "mr": "पोळी पातळ आहे.",
+      "roman": "Poli patal aahe.",
+      "en": "The roti is thin."
+    }
+  },
+  {
+    "id": 576,
+    "category": "phrases",
+    "en": "Hello",
+    "hi": "नमस्ते",
+    "mr": "नमस्कार",
+    "mr_roman": "namaskar",
+    "example": {
+      "mr": "नमस्कार, कसे आहात?",
+      "roman": "Namaskar, kase aahat?",
+      "en": "Hello, how are you?"
+    }
+  },
+  {
+    "id": 577,
+    "category": "phrases",
+    "en": "Thank you",
+    "hi": "धन्यवाद",
+    "mr": "धन्यवाद",
+    "mr_roman": "dhanyavad",
+    "example": {
+      "mr": "मदतीबद्दल धन्यवाद.",
+      "roman": "Madatibaddal dhanyavad.",
+      "en": "Thank you for the help."
+    }
+  },
+  {
+    "id": 578,
+    "category": "phrases",
+    "en": "Sorry",
+    "hi": "माफ़ कीजिए",
+    "mr": "माफ करा",
+    "mr_roman": "maaf kara",
+    "example": {
+      "mr": "माफ करा, उशीर झाला.",
+      "roman": "Maaf kara, ushir jhala.",
+      "en": "Sorry, I got late."
+    }
+  },
+  {
+    "id": 579,
+    "category": "phrases",
+    "en": "Yes",
+    "hi": "हाँ",
+    "mr": "हो",
+    "mr_roman": "ho",
+    "example": {
+      "mr": "हो, मी येतो.",
+      "roman": "Ho, mi yeto.",
+      "en": "Yes, I am coming."
+    }
+  },
+  {
+    "id": 580,
+    "category": "phrases",
+    "en": "No",
+    "hi": "नहीं",
+    "mr": "नाही",
+    "mr_roman": "nahi",
+    "example": {
+      "mr": "नाही, मला नको.",
+      "roman": "Nahi, mala nako.",
+      "en": "No, I do not want it."
+    }
+  },
+  {
+    "id": 581,
+    "category": "phrases",
+    "en": "Please",
+    "hi": "कृपया",
+    "mr": "कृपया",
+    "mr_roman": "krupaya",
+    "example": {
+      "mr": "कृपया बसा.",
+      "roman": "Krupaya basa.",
+      "en": "Please sit."
+    }
+  },
+  {
+    "id": 582,
+    "category": "phrases",
+    "en": "How are you?",
+    "hi": "आप कैसे हैं?",
+    "mr": "तुम्ही कसे आहात?",
+    "mr_roman": "Tumhi kase aahat?",
+    "example": {
+      "mr": "तुम्ही कसे आहात? मी ठीक आहे.",
+      "roman": "Tumhi kase aahat? Mi thik aahe.",
+      "en": "How are you? I am fine."
+    }
+  },
+  {
+    "id": 583,
+    "category": "phrases",
+    "en": "I am fine",
+    "hi": "मैं ठीक हूँ",
+    "mr": "मी ठीक आहे",
+    "mr_roman": "Mi thik aahe",
+    "example": {
+      "mr": "मी ठीक आहे, तुम्ही?",
+      "roman": "Mi thik aahe, tumhi?",
+      "en": "I am fine, and you?"
+    }
+  },
+  {
+    "id": 584,
+    "category": "phrases",
+    "en": "What is your name?",
+    "hi": "आपका नाम क्या है?",
+    "mr": "तुमचं नाव काय?",
+    "mr_roman": "Tumcha naav kay?",
+    "example": {
+      "mr": "तुमचं नाव काय आहे?",
+      "roman": "Tumcha naav kay aahe?",
+      "en": "What is your name?"
+    }
+  },
+  {
+    "id": 585,
+    "category": "phrases",
+    "en": "My name is ...",
+    "hi": "मेरा नाम ... है",
+    "mr": "माझं नाव ... आहे",
+    "mr_roman": "Majha naav ... aahe",
+    "example": {
+      "mr": "माझं नाव कुलदीप आहे.",
+      "roman": "Majha naav Kuldeep aahe.",
+      "en": "My name is Kuldeep."
+    }
+  },
+  {
+    "id": 586,
+    "category": "phrases",
+    "en": "Okay",
+    "hi": "ठीक है",
+    "mr": "ठीक आहे",
+    "mr_roman": "thik aahe",
+    "example": {
+      "mr": "ठीक आहे, चला.",
+      "roman": "Thik aahe, chala.",
+      "en": "Okay, let's go."
+    }
+  },
+  {
+    "id": 587,
+    "category": "phrases",
+    "en": "Good morning",
+    "hi": "सुप्रभात",
+    "mr": "शुभ सकाळ",
+    "mr_roman": "shubh sakal",
+    "example": {
+      "mr": "शुभ सकाळ, आई!",
+      "roman": "Shubh sakal, aai!",
+      "en": "Good morning, mother!"
+    }
+  },
+  {
+    "id": 588,
+    "category": "phrases",
+    "en": "Good night",
+    "hi": "शुभ रात्रि",
+    "mr": "शुभ रात्री",
+    "mr_roman": "shubh ratri",
+    "example": {
+      "mr": "शुभ रात्री, उद्या भेटू.",
+      "roman": "Shubh ratri, udya bhetu.",
+      "en": "Good night, see you tomorrow."
+    }
+  },
+  {
+    "id": 589,
+    "category": "phrases",
+    "en": "Welcome",
+    "hi": "स्वागत है",
+    "mr": "स्वागत आहे",
+    "mr_roman": "swagat aahe",
+    "example": {
+      "mr": "तुमचं स्वागत आहे.",
+      "roman": "Tumcha swagat aahe.",
+      "en": "You are welcome."
+    }
+  },
+  {
+    "id": 590,
+    "category": "phrases",
+    "en": "Let's go",
+    "hi": "चलो",
+    "mr": "चला",
+    "mr_roman": "chala",
+    "example": {
+      "mr": "चला, निघूया.",
+      "roman": "Chala, nighuya.",
+      "en": "Come on, let's leave."
+    }
+  },
+  {
+    "id": 591,
+    "category": "phrases",
+    "en": "Come in",
+    "hi": "अंदर आइए",
+    "mr": "आत या",
+    "mr_roman": "aat ya",
+    "example": {
+      "mr": "आत या, बसा.",
+      "roman": "Aat ya, basa.",
+      "en": "Come in, sit."
+    }
+  },
+  {
+    "id": 592,
+    "category": "phrases",
+    "en": "How much?",
+    "hi": "कितना?",
+    "mr": "किती?",
+    "mr_roman": "kiti?",
+    "example": {
+      "mr": "हे किती रुपये?",
+      "roman": "He kiti rupaye?",
+      "en": "How much is this?"
+    }
+  },
+  {
+    "id": 593,
+    "category": "phrases",
+    "en": "Where?",
+    "hi": "कहाँ?",
+    "mr": "कुठे?",
+    "mr_roman": "kuthe?",
+    "example": {
+      "mr": "तू कुठे आहेस?",
+      "roman": "Tu kuthe aahes?",
+      "en": "Where are you?"
+    }
+  },
+  {
+    "id": 594,
+    "category": "phrases",
+    "en": "What?",
+    "hi": "क्या?",
+    "mr": "काय?",
+    "mr_roman": "kay?",
+    "example": {
+      "mr": "हे काय आहे?",
+      "roman": "He kay aahe?",
+      "en": "What is this?"
+    }
+  },
+  {
+    "id": 595,
+    "category": "phrases",
+    "en": "Why?",
+    "hi": "क्यों?",
+    "mr": "का?",
+    "mr_roman": "ka?",
+    "example": {
+      "mr": "तू का रडतोस?",
+      "roman": "Tu ka radtos?",
+      "en": "Why are you crying?"
+    }
+  },
+  {
+    "id": 596,
+    "category": "phrases",
+    "en": "When?",
+    "hi": "कब?",
+    "mr": "कधी?",
+    "mr_roman": "kadhi?",
+    "example": {
+      "mr": "तू कधी येणार?",
+      "roman": "Tu kadhi yenar?",
+      "en": "When will you come?"
+    }
+  },
+  {
+    "id": 597,
+    "category": "phrases",
+    "en": "Who?",
+    "hi": "कौन?",
+    "mr": "कोण?",
+    "mr_roman": "kon?",
+    "example": {
+      "mr": "हे कोण आहे?",
+      "roman": "He kon aahe?",
+      "en": "Who is this?"
+    }
+  },
+  {
+    "id": 598,
+    "category": "phrases",
+    "en": "How?",
+    "hi": "कैसे?",
+    "mr": "कसं?",
+    "mr_roman": "kasa?",
+    "example": {
+      "mr": "हे कसं करायचं?",
+      "roman": "He kasa karaycha?",
+      "en": "How to do this?"
+    }
+  },
+  {
+    "id": 599,
+    "category": "phrases",
+    "en": "Which?",
+    "hi": "कौन सा?",
+    "mr": "कोणता?",
+    "mr_roman": "konta?",
+    "example": {
+      "mr": "कोणता रंग हवा?",
+      "roman": "Konta rang hava?",
+      "en": "Which colour do you want?"
+    }
+  },
+  {
+    "id": 600,
+    "category": "phrases",
+    "en": "I",
+    "hi": "मैं",
+    "mr": "मी",
+    "mr_roman": "mi",
+    "example": {
+      "mr": "मी विद्यार्थी आहे.",
+      "roman": "Mi vidyarthi aahe.",
+      "en": "I am a student."
+    }
+  },
+  {
+    "id": 601,
+    "category": "phrases",
+    "en": "You (informal)",
+    "hi": "तू",
+    "mr": "तू",
+    "mr_roman": "tu",
+    "example": {
+      "mr": "तू कुठे जातोस?",
+      "roman": "Tu kuthe jatos?",
+      "en": "Where are you going?"
+    }
+  },
+  {
+    "id": 602,
+    "category": "phrases",
+    "en": "You (formal / plural)",
+    "hi": "आप",
+    "mr": "तुम्ही",
+    "mr_roman": "tumhi",
+    "example": {
+      "mr": "तुम्ही कुठून आलात?",
+      "roman": "Tumhi kuthun aalat?",
+      "en": "Where have you come from?"
+    }
+  },
+  {
+    "id": 603,
+    "category": "phrases",
+    "en": "He",
+    "hi": "वह",
+    "mr": "तो",
+    "mr_roman": "to",
+    "example": {
+      "mr": "तो माझा भाऊ आहे.",
+      "roman": "To majha bhau aahe.",
+      "en": "He is my brother."
+    }
+  },
+  {
+    "id": 604,
+    "category": "phrases",
+    "en": "She",
+    "hi": "वह",
+    "mr": "ती",
+    "mr_roman": "ti",
+    "example": {
+      "mr": "ती माझी बहीण आहे.",
+      "roman": "Ti majhi bahin aahe.",
+      "en": "She is my sister."
+    }
+  },
+  {
+    "id": 605,
+    "category": "phrases",
+    "en": "It / This (neuter)",
+    "hi": "यह",
+    "mr": "हे",
+    "mr_roman": "he",
+    "example": {
+      "mr": "हे माझं घर आहे.",
+      "roman": "He majha ghar aahe.",
+      "en": "This is my house."
+    }
+  },
+  {
+    "id": 606,
+    "category": "phrases",
+    "en": "That",
+    "hi": "वह",
+    "mr": "ते",
+    "mr_roman": "te",
+    "example": {
+      "mr": "ते काय आहे?",
+      "roman": "Te kay aahe?",
+      "en": "What is that?"
+    }
+  },
+  {
+    "id": 607,
+    "category": "phrases",
+    "en": "We",
+    "hi": "हम",
+    "mr": "आम्ही",
+    "mr_roman": "aamhi",
+    "example": {
+      "mr": "आम्ही पुण्याचे आहोत.",
+      "roman": "Aamhi Punyache aahot.",
+      "en": "We are from Pune."
+    }
+  },
+  {
+    "id": 608,
+    "category": "phrases",
+    "en": "They",
+    "hi": "वे",
+    "mr": "ते",
+    "mr_roman": "te",
+    "example": {
+      "mr": "ते उद्या येणार.",
+      "roman": "Te udya yenar.",
+      "en": "They will come tomorrow."
+    }
+  },
+  {
+    "id": 609,
+    "category": "phrases",
+    "en": "Here",
+    "hi": "यहाँ",
+    "mr": "इथे",
+    "mr_roman": "ithe",
+    "example": {
+      "mr": "इथे बस.",
+      "roman": "Ithe bas.",
+      "en": "Sit here."
+    }
+  },
+  {
+    "id": 610,
+    "category": "phrases",
+    "en": "There",
+    "hi": "वहाँ",
+    "mr": "तिथे",
+    "mr_roman": "tithe",
+    "example": {
+      "mr": "तिथे जा.",
+      "roman": "Tithe ja.",
+      "en": "Go there."
+    }
+  },
+  {
+    "id": 611,
+    "category": "phrases",
+    "en": "My / Mine",
+    "hi": "मेरा",
+    "mr": "माझा",
+    "mr_roman": "majha",
+    "example": {
+      "mr": "हा माझा फोन आहे.",
+      "roman": "Ha majha phone aahe.",
+      "en": "This is my phone."
+    }
+  },
+  {
+    "id": 612,
+    "category": "phrases",
+    "en": "Your (informal)",
+    "hi": "तेरा",
+    "mr": "तुझा",
+    "mr_roman": "tujha",
+    "example": {
+      "mr": "हे तुझं पुस्तक आहे का?",
+      "roman": "He tujha pustak aahe ka?",
+      "en": "Is this your book?"
+    }
+  },
+  {
+    "id": 613,
+    "category": "phrases",
+    "en": "Your (formal)",
+    "hi": "आपका",
+    "mr": "तुमचा",
+    "mr_roman": "tumcha",
+    "example": {
+      "mr": "तुमचं घर कुठे आहे?",
+      "roman": "Tumcha ghar kuthe aahe?",
+      "en": "Where is your house?"
+    }
+  },
+  {
+    "id": 614,
+    "category": "phrases",
+    "en": "Water please",
+    "hi": "पानी दीजिए",
+    "mr": "पाणी द्या",
+    "mr_roman": "paani dya",
+    "example": {
+      "mr": "कृपया पाणी द्या.",
+      "roman": "Krupaya paani dya.",
+      "en": "Please give water."
+    }
+  },
+  {
+    "id": 615,
+    "category": "phrases",
+    "en": "I don't understand",
+    "hi": "मुझे समझ नहीं आया",
+    "mr": "मला समजलं नाही",
+    "mr_roman": "Mala samajla nahi",
+    "example": {
+      "mr": "माफ करा, मला समजलं नाही.",
+      "roman": "Maaf kara, mala samajla nahi.",
+      "en": "Sorry, I did not understand."
+    }
+  },
+  {
+    "id": 616,
+    "category": "phrases",
+    "en": "Speak slowly",
+    "hi": "धीरे बोलिए",
+    "mr": "हळू बोला",
+    "mr_roman": "halu bola",
+    "example": {
+      "mr": "कृपया हळू बोला.",
+      "roman": "Krupaya halu bola.",
+      "en": "Please speak slowly."
+    }
+  },
+  {
+    "id": 617,
+    "category": "phrases",
+    "en": "See you again",
+    "hi": "फिर मिलेंगे",
+    "mr": "पुन्हा भेटू",
+    "mr_roman": "punha bhetu",
+    "example": {
+      "mr": "पुन्हा भेटू, काळजी घ्या.",
+      "roman": "Punha bhetu, kalji ghya.",
+      "en": "See you again, take care."
+    }
+  },
+  {
+    "id": 618,
+    "category": "phrases",
+    "en": "Nice / Great",
+    "hi": "बढ़िया",
+    "mr": "छान",
+    "mr_roman": "chhan",
+    "example": {
+      "mr": "खूप छान!",
+      "roman": "Khup chhan!",
+      "en": "Very nice!"
+    }
+  },
+  {
+    "id": 619,
+    "category": "phrases",
+    "en": "Enough",
+    "hi": "बस",
+    "mr": "पुरे",
+    "mr_roman": "pure",
+    "example": {
+      "mr": "बस, पुरे झालं.",
+      "roman": "Bas, pure jhala.",
+      "en": "Enough, that's it."
+    }
+  },
+  {
+    "id": 620,
+    "category": "phrases",
+    "en": "A little",
+    "hi": "थोड़ा सा",
+    "mr": "थोडंसं",
+    "mr_roman": "thodasa",
+    "example": {
+      "mr": "मला थोडंसं मराठी येतं.",
+      "roman": "Mala thodasa Marathi yeta.",
+      "en": "I know a little Marathi."
+    }
+  },
+  {
+    "id": 621,
+    "category": "phrases",
+    "en": "Inside",
+    "hi": "अंदर",
+    "mr": "आत",
+    "mr_roman": "aat",
+    "example": {
+      "mr": "आत ये.",
+      "roman": "Aat ye.",
+      "en": "Come inside."
+    }
+  },
+  {
+    "id": 622,
+    "category": "phrases",
+    "en": "Outside",
+    "hi": "बाहर",
+    "mr": "बाहेर",
+    "mr_roman": "baher",
+    "example": {
+      "mr": "बाहेर पाऊस आहे.",
+      "roman": "Baher paus aahe.",
+      "en": "It is raining outside."
+    }
+  },
+  {
+    "id": 623,
+    "category": "phrases",
+    "en": "Above / Up",
+    "hi": "ऊपर",
+    "mr": "वर",
+    "mr_roman": "var",
+    "example": {
+      "mr": "वर बघ.",
+      "roman": "Var bagh.",
+      "en": "Look up."
+    }
+  },
+  {
+    "id": 624,
+    "category": "phrases",
+    "en": "Below / Down",
+    "hi": "नीचे",
+    "mr": "खाली",
+    "mr_roman": "khali",
+    "example": {
+      "mr": "खाली बस.",
+      "roman": "Khali bas.",
+      "en": "Sit down."
+    }
+  },
+  {
+    "id": 625,
+    "category": "phrases",
+    "en": "In front",
+    "hi": "सामने",
+    "mr": "समोर",
+    "mr_roman": "samor",
+    "example": {
+      "mr": "समोर बघ.",
+      "roman": "Samor bagh.",
+      "en": "Look in front."
+    }
+  },
+  {
+    "id": 626,
+    "category": "phrases",
+    "en": "Behind",
+    "hi": "पीछे",
+    "mr": "मागे",
+    "mr_roman": "mage",
+    "example": {
+      "mr": "मागे वळ.",
+      "roman": "Mage val.",
+      "en": "Turn back."
+    }
+  },
+  {
+    "id": 627,
+    "category": "phrases",
+    "en": "Left",
+    "hi": "बाएँ",
+    "mr": "डावीकडे",
+    "mr_roman": "davikade",
+    "example": {
+      "mr": "डावीकडे वळ.",
+      "roman": "Davikade val.",
+      "en": "Turn left."
+    }
+  },
+  {
+    "id": 628,
+    "category": "phrases",
+    "en": "Right (direction)",
+    "hi": "दाएँ",
+    "mr": "उजवीकडे",
+    "mr_roman": "ujavikade",
+    "example": {
+      "mr": "उजवीकडे वळ.",
+      "roman": "Ujavikade val.",
+      "en": "Turn right."
+    }
+  },
+  {
+    "id": 629,
+    "category": "phrases",
+    "en": "Straight",
+    "hi": "सीधा",
+    "mr": "सरळ",
+    "mr_roman": "saral",
+    "example": {
+      "mr": "सरळ जा.",
+      "roman": "Saral ja.",
+      "en": "Go straight."
+    }
+  },
+  {
+    "id": 630,
+    "category": "phrases",
+    "en": "Take care",
+    "hi": "ख़याल रखना",
+    "mr": "काळजी घ्या",
+    "mr_roman": "kalji ghya",
+    "example": {
+      "mr": "काळजी घ्या.",
+      "roman": "Kalji ghya.",
+      "en": "Take care."
+    }
+  },
+  {
+    "id": 631,
+    "category": "phrases",
+    "en": "Congratulations",
+    "hi": "बधाई हो",
+    "mr": "अभिनंदन",
+    "mr_roman": "abhinandan",
+    "example": {
+      "mr": "अभिनंदन!",
+      "roman": "Abhinandan!",
+      "en": "Congratulations!"
+    }
+  },
+  {
+    "id": 632,
+    "category": "phrases",
+    "en": "Happy Diwali",
+    "hi": "दिवाली की शुभकामनाएँ",
+    "mr": "दिवाळीच्या शुभेच्छा",
+    "mr_roman": "Diwalichya shubhechha",
+    "example": {
+      "mr": "दिवाळीच्या हार्दिक शुभेच्छा!",
+      "roman": "Diwalichya hardik shubhechha!",
+      "en": "Heartfelt Diwali wishes!"
+    }
+  },
+  {
+    "id": 633,
+    "category": "phrases",
+    "en": "What happened?",
+    "hi": "क्या हुआ?",
+    "mr": "काय झालं?",
+    "mr_roman": "Kay jhala?",
+    "example": {
+      "mr": "काय झालं? ठीक आहेस ना?",
+      "roman": "Kay jhala? Thik aahes na?",
+      "en": "What happened? Are you okay?"
+    }
+  },
+  {
+    "id": 634,
+    "category": "phrases",
+    "en": "No problem",
+    "hi": "कोई बात नहीं",
+    "mr": "काही हरकत नाही",
+    "mr_roman": "kahi harkat nahi",
+    "example": {
+      "mr": "काही हरकत नाही.",
+      "roman": "Kahi harkat nahi.",
+      "en": "No problem."
+    }
+  },
+  {
+    "id": 635,
+    "category": "phrases",
+    "en": "Of course",
+    "hi": "ज़रूर",
+    "mr": "नक्कीच",
+    "mr_roman": "nakkich",
+    "example": {
+      "mr": "नक्कीच, मी येईन.",
+      "roman": "Nakkich, mi yein.",
+      "en": "Of course, I will come."
+    }
+  },
+  {
+    "id": 636,
+    "category": "phrases",
+    "en": "Maybe",
+    "hi": "शायद",
+    "mr": "कदाचित",
+    "mr_roman": "kadachit",
+    "example": {
+      "mr": "कदाचित उद्या पाऊस पडेल.",
+      "roman": "Kadachit udya paus padel.",
+      "en": "Maybe it will rain tomorrow."
+    }
+  },
+  {
+    "id": 637,
+    "category": "phrases",
+    "en": "Really?",
+    "hi": "सच में?",
+    "mr": "खरंच?",
+    "mr_roman": "kharach?",
+    "example": {
+      "mr": "खरंच? छान!",
+      "roman": "Kharach? Chhan!",
+      "en": "Really? Great!"
+    }
+  },
+  {
+    "id": 638,
+    "category": "phrases",
+    "en": "I am hungry",
+    "hi": "मुझे भूख लगी है",
+    "mr": "मला भूक लागली आहे",
+    "mr_roman": "Mala bhuk lagli aahe",
+    "example": {
+      "mr": "मला भूक लागली आहे, जेवूया.",
+      "roman": "Mala bhuk lagli aahe, jevuya.",
+      "en": "I am hungry, let's eat."
+    }
+  },
+  {
+    "id": 639,
+    "category": "phrases",
+    "en": "Where are you going?",
+    "hi": "कहाँ जा रहे हो?",
+    "mr": "कुठे चाललास?",
+    "mr_roman": "Kuthe challas?",
+    "example": {
+      "mr": "कुठे चाललास? मी पण येतो.",
+      "roman": "Kuthe challas? Mi pan yeto.",
+      "en": "Where are you going? I will also come."
+    }
+  },
+  {
+    "id": 640,
+    "category": "phrases",
+    "en": "Did you eat?",
+    "hi": "खाना खाया?",
+    "mr": "जेवलास का?",
+    "mr_roman": "Jevlas ka?",
+    "example": {
+      "mr": "जेवलास का? नाही तर जेवून घे.",
+      "roman": "Jevlas ka? Nahi tar jevun ghe.",
+      "en": "Did you eat? If not, eat."
+    }
+  },
+  {
+    "id": 641,
+    "category": "phrases",
+    "en": "I like it",
+    "hi": "मुझे पसंद है",
+    "mr": "मला आवडलं",
+    "mr_roman": "Mala aavadla",
+    "example": {
+      "mr": "मला हे खूप आवडलं.",
+      "roman": "Mala he khup aavadla.",
+      "en": "I liked this a lot."
+    }
+  },
+  {
+    "id": 642,
+    "category": "phrases",
+    "en": "Wait a minute",
+    "hi": "एक मिनट रुको",
+    "mr": "एक मिनिट थांब",
+    "mr_roman": "Ek minit thamb",
+    "example": {
+      "mr": "एक मिनिट थांब, मी आलोच.",
+      "roman": "Ek minit thamb, mi aaloch.",
+      "en": "Wait a minute, I'll be right back."
+    }
+  },
+  {
+    "id": 643,
+    "category": "phrases",
+    "en": "How much is this?",
+    "hi": "यह कितने का है?",
+    "mr": "हे किती ला?",
+    "mr_roman": "He kiti la?",
+    "example": {
+      "mr": "हे किती ला दिलं?",
+      "roman": "He kiti la dila?",
+      "en": "For how much did you get this?"
+    }
+  },
+  {
+    "id": 644,
+    "category": "phrases",
+    "en": "Give me that",
+    "hi": "वह दो",
+    "mr": "ते दे",
+    "mr_roman": "te de",
+    "example": {
+      "mr": "ते मला दे.",
+      "roman": "Te mala de.",
+      "en": "Give that to me."
+    }
+  },
+  {
+    "id": 645,
+    "category": "phrases",
+    "en": "I don't want",
+    "hi": "मुझे नहीं चाहिए",
+    "mr": "मला नको",
+    "mr_roman": "mala nako",
+    "example": {
+      "mr": "मला चहा नको.",
+      "roman": "Mala chaha nako.",
+      "en": "I don't want tea."
+    }
+  },
+  {
+    "id": 646,
+    "category": "phrases",
+    "en": "I want",
+    "hi": "मुझे चाहिए",
+    "mr": "मला हवं",
+    "mr_roman": "mala hava",
+    "example": {
+      "mr": "मला पाणी हवं.",
+      "roman": "Mala paani hava.",
+      "en": "I want water."
+    }
+  },
+  {
+    "id": 647,
+    "category": "phrases",
+    "en": "Is it so?",
+    "hi": "ऐसा है क्या?",
+    "mr": "असं का?",
+    "mr_roman": "asa ka?",
+    "example": {
+      "mr": "असं का? मला माहीत नव्हतं.",
+      "roman": "Asa ka? Mala mahit navhta.",
+      "en": "Is that so? I did not know."
+    }
+  },
+  {
+    "id": 648,
+    "category": "phrases",
+    "en": "Let it be",
+    "hi": "रहने दो",
+    "mr": "राहू दे",
+    "mr_roman": "rahu de",
+    "example": {
+      "mr": "राहू दे, काही हरकत नाही.",
+      "roman": "Rahu de, kahi harkat nahi.",
+      "en": "Let it be, no problem."
+    }
+  },
+  {
+    "id": 649,
+    "category": "phrases",
+    "en": "Come quickly",
+    "hi": "जल्दी आओ",
+    "mr": "लवकर ये",
+    "mr_roman": "lavkar ye",
+    "example": {
+      "mr": "लवकर ये, उशीर होतोय.",
+      "roman": "Lavkar ye, ushir hotoy.",
+      "en": "Come quickly, it is getting late."
+    }
+  },
+  {
+    "id": 650,
+    "category": "phrases",
+    "en": "Very good",
+    "hi": "बहुत अच्छा",
+    "mr": "खूप छान",
+    "mr_roman": "khup chhan",
+    "example": {
+      "mr": "खूप छान काम केलंस.",
+      "roman": "Khup chhan kaam kelas.",
+      "en": "You did very good work."
+    }
+  },
+  {
+    "id": 651,
+    "category": "phrases",
+    "en": "And",
+    "hi": "और",
+    "mr": "आणि",
+    "mr_roman": "aani",
+    "example": {
+      "mr": "चहा आणि पोहे.",
+      "roman": "Chaha aani pohe.",
+      "en": "Tea and poha."
+    }
+  },
+  {
+    "id": 652,
+    "category": "phrases",
+    "en": "But",
+    "hi": "लेकिन",
+    "mr": "पण",
+    "mr_roman": "pan",
+    "example": {
+      "mr": "मी येईन, पण उशिरा.",
+      "roman": "Mi yein, pan ushira.",
+      "en": "I will come, but late."
+    }
+  },
+  {
+    "id": 653,
+    "category": "phrases",
+    "en": "Because",
+    "hi": "क्योंकि",
+    "mr": "कारण",
+    "mr_roman": "karan",
+    "example": {
+      "mr": "मी थांबलो कारण पाऊस होता.",
+      "roman": "Mi thamblo karan paus hota.",
+      "en": "I stopped because it was raining."
+    }
+  },
+  {
+    "id": 654,
+    "category": "phrases",
+    "en": "With",
+    "hi": "के साथ",
+    "mr": "सोबत",
+    "mr_roman": "sobat",
+    "example": {
+      "mr": "माझ्यासोबत ये.",
+      "roman": "Majhyasobat ye.",
+      "en": "Come with me."
+    }
+  },
+  {
+    "id": 655,
+    "category": "phrases",
+    "en": "Without",
+    "hi": "के बिना",
+    "mr": "शिवाय",
+    "mr_roman": "shivay",
+    "example": {
+      "mr": "साखरेशिवाय चहा.",
+      "roman": "Sakhareshivay chaha.",
+      "en": "Tea without sugar."
+    }
+  },
+  {
+    "id": 656,
+    "category": "phrases",
+    "en": "Only",
+    "hi": "सिर्फ़",
+    "mr": "फक्त",
+    "mr_roman": "phakta",
+    "example": {
+      "mr": "फक्त एक मिनिट.",
+      "roman": "Phakta ek minit.",
+      "en": "Only one minute."
+    }
+  },
+  {
+    "id": 657,
+    "category": "phrases",
+    "en": "Also",
+    "hi": "भी",
+    "mr": "पण / सुद्धा",
+    "mr_roman": "pan / suddha",
+    "example": {
+      "mr": "मी पण येतो.",
+      "roman": "Mi pan yeto.",
+      "en": "I am also coming."
+    }
+  },
+  {
+    "id": 658,
+    "category": "phrases",
+    "en": "Again",
+    "hi": "फिर से",
+    "mr": "पुन्हा",
+    "mr_roman": "punha",
+    "example": {
+      "mr": "पुन्हा सांग.",
+      "roman": "Punha sang.",
+      "en": "Say it again."
+    }
+  },
+  {
+    "id": 659,
+    "category": "phrases",
+    "en": "Now (right away)",
+    "hi": "अभी",
+    "mr": "आत्ता",
+    "mr_roman": "aatta",
+    "example": {
+      "mr": "आत्ता लगेच ये.",
+      "roman": "Aatta lagech ye.",
+      "en": "Come right now."
+    }
+  },
+  {
+    "id": 660,
+    "category": "phrases",
+    "en": "Slowly",
+    "hi": "धीरे",
+    "mr": "हळूहळू",
+    "mr_roman": "haluhalu",
+    "example": {
+      "mr": "हळूहळू शिक.",
+      "roman": "Haluhalu shik.",
+      "en": "Learn slowly."
+    }
+  },
+  {
+    "id": 661,
+    "category": "phrases",
+    "en": "Quickly",
+    "hi": "जल्दी",
+    "mr": "पटकन",
+    "mr_roman": "patkan",
+    "example": {
+      "mr": "पटकन कर.",
+      "roman": "Patkan kar.",
+      "en": "Do it quickly."
+    }
+  }
+]
