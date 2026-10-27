@@ -1,5 +1,5 @@
 // Offline cache so the home-screen app opens without network; words.json is refreshed from the network when available.
-const CACHE = 'marathi-cards-v3';
+const CACHE = 'marathi-cards-v4';
 const SHELL = ['./', './index.html', './words.json', './manifest.webmanifest', './icons/icon-192.png', './icons/icon-512.png', './icons/apple-touch-icon.png'];
 
 self.addEventListener('install', (e) => {
@@ -13,9 +13,14 @@ self.addEventListener('activate', (e) => {
 self.addEventListener('fetch', (e) => {
   const url = new URL(e.request.url);
   if (url.origin !== location.origin) return;
-  // Network first for the deck so new words show up; cache first for everything else.
+  // Show the cached deck immediately, then refresh it in the background for the next visit.
   if (url.pathname.endsWith('words.json')) {
-    e.respondWith(fetch(e.request).then((r) => { caches.open(CACHE).then((c) => c.put(e.request, r.clone())); return r; }).catch(() => caches.match(e.request)));
+    const refresh = fetch(e.request).then((response) => {
+      if (response.ok) caches.open(CACHE).then((cache) => cache.put(e.request, response.clone()));
+      return response;
+    });
+    e.waitUntil(refresh.catch(() => {}));
+    e.respondWith(caches.match(e.request).then((cached) => cached || refresh));
     return;
   }
   e.respondWith(caches.match(e.request).then((hit) => hit || fetch(e.request)));

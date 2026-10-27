@@ -451,11 +451,18 @@
       return;
     }
 
-    const matches = words.filter(word => searchableText(word).includes(query));
+    const exactMatches = words.filter(word => [word.en, word.hi, word.mr, word.mr_roman]
+      .filter(Boolean)
+      .some(value => value.toLocaleLowerCase() === query));
+    const allMatches = exactMatches.length
+      ? exactMatches
+      : words.filter(word => searchableText(word).includes(query));
+    const matches = allMatches.slice(0, 20);
     grid.replaceChildren(...matches.map(cardFor));
     clearSearch.hidden = false;
-    status.textContent = matches.length
-      ? matches.length + (matches.length === 1 ? ' matching card. Tap it to flip.' : ' matching cards. Tap any card to flip.')
+    status.textContent = allMatches.length
+      ? (allMatches.length > matches.length ? 'Showing the first 20 of ' + allMatches.length + ' matching cards. Add more letters to narrow the search.'
+        : allMatches.length + (allMatches.length === 1 ? ' matching card. Tap it to flip.' : ' matching cards. Tap any card to flip.'))
       : 'No cards found for “' + searchInput.value.trim() + '”.';
   }
 
@@ -495,7 +502,7 @@
   if (window.WORDS && window.WORDS.length) {
     start(window.WORDS);
   } else {
-    fetch('words.json', { cache: 'no-store' })
+    fetch('words.json')
       .then(r => { if (!r.ok) throw new Error('HTTP ' + r.status); return r.json(); })
       .then(start)
       .catch(err => { status.textContent = 'Could not load words.json (' + err.message + ').'; });

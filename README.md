@@ -4,9 +4,11 @@ A single-page flashcard site for learning everyday Marathi words from Hindi and 
 
 - `index.html` – the page. Loads `words.json` and shows five flip cards. After the first set, each set contains one word from the previous set, one from an older recent set, and three unseen words. Front: English + Hindi. Back: Marathi in Devanagari, a readable romanised form, and one example sentence.
 - `manifest.webmanifest`, `sw.js`, `icons/` – make the page installable as a home-screen app on iPhone and Android, with offline support.
-- `words.json` – the deck (661 words across house, kitchen, food, vegetables, fruits, family, body, clothing, numbers, colours, time, nature, animals, places, verbs, adjectives, phrases).
+- `words.json` – the deck (711 words across house, household, kitchen, food, vegetables, fruits, family, body, clothing, numbers, colours, time, nature, animals, birds, objects, places, verbs, adjectives, and phrases).
 
 Press **Next 5 words** for a set with two revision words and three new words. Recent sets and seen words are saved in the browser so revision continues across visits. Use the search at the top to find matching English, Hindi, Marathi, or romanised Marathi cards without changing learning progress.
+
+The cached deck appears immediately on repeat visits while the latest word list refreshes in the background. Exact searches are prioritised; broad partial searches show at most 20 cards to keep the page responsive.
 
 ## Hosting on GitHub Pages
 
