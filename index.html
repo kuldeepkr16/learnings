@@ -86,6 +86,34 @@
   .sub { margin: 4px 0 0; color: var(--muted); font-size: 0.95rem; max-width: 46ch; }
 
   .controls { display: flex; flex-wrap: wrap; align-items: center; gap: 10px 14px; }
+  .search {
+    display: flex;
+    width: min(100%, 620px);
+    gap: 10px;
+  }
+  .search input {
+    min-width: 0;
+    flex: 1;
+    font: 500 1rem var(--font-body);
+    color: var(--fg);
+    background: var(--card);
+    border: 1px solid var(--rule);
+    border-radius: 999px;
+    padding: 11px 18px;
+    box-shadow: 0 3px 12px rgba(80, 40, 10, 0.08);
+  }
+  .search input::placeholder { color: var(--muted); }
+  .search input:focus-visible { outline: 3px solid var(--accent); outline-offset: 2px; }
+  .search button { white-space: nowrap; }
+  .search-clear {
+    border: 0;
+    padding: 8px 4px;
+    color: var(--accent);
+    background: transparent;
+    font: 600 0.95rem var(--font-body);
+    cursor: pointer;
+  }
+  .search-clear[hidden] { display: none; }
   button.primary {
     font: 600 1rem var(--font-body);
     color: var(--accent-ink);
@@ -109,6 +137,9 @@
     gap: 18px;
   }
   @media (max-width: 600px) {
+    .search { gap: 8px; }
+    .search input { padding-inline: 14px; }
+    .search button.primary { padding-inline: 17px; }
     .grid { grid-template-columns: 1fr; gap: 14px; }
     .card { aspect-ratio: auto; height: 220px; }
     .front .word { font-size: 1.6rem; }
@@ -222,8 +253,6 @@
   .back .ex .en { opacity: 0.85; }
 
   .status { color: var(--muted); font-size: 0.9rem; }
-  footer { color: var(--muted); font-size: 0.82rem; border-top: 1px solid var(--rule); padding-top: 14px; }
-  footer a { color: var(--accent); }
 
   @media (prefers-reduced-motion: reduce) {
     .inner { transition: none; }
@@ -244,6 +273,12 @@
     </div>
   </header>
 
+  <form class="search" id="searchForm" role="search">
+    <input id="searchInput" type="search" inputmode="search" autocomplete="off" aria-label="Search the word deck" placeholder="Search in English, Hindi, or Marathi">
+    <button class="primary" type="submit">Search</button>
+    <button class="search-clear" id="clearSearch" type="button" hidden>Clear</button>
+  </form>
+
   <div class="controls" style="margin-top:-8px">
     <span class="status" id="status">Loading words…</span>
     <span class="count" id="count"></span>
@@ -253,11 +288,6 @@
 
   <div class="fab"><button class="primary" id="nextBtnMobile" type="button">Next 5 words</button></div>
 
-  <footer>
-    Words repeat on purpose so you get a second look. Spellings follow common standard Marathi; regional forms vary.
-    Source list lives in <a href="words.json">words.json</a>.
-    On iPhone: open in Safari, tap Share, then “Add to Home Screen” to use this as an app.
-  </footer>
 </div>
 
 <script>
@@ -266,6 +296,9 @@
   const status = document.getElementById('status');
   const count = document.getElementById('count');
   const nextBtn = document.getElementById('nextBtn');
+  const searchForm = document.getElementById('searchForm');
+  const searchInput = document.getElementById('searchInput');
+  const clearSearch = document.getElementById('clearSearch');
   let words = [];
 
   // Pick 5 distinct words per draw; repeats across draws are intended for revision.
@@ -317,17 +350,52 @@
     return card;
   }
 
-  function render() {
+  function renderRandom() {
     grid.replaceChildren(...pickFive(words).map(cardFor));
     status.textContent = 'Tap any card to flip it.';
+  }
+
+  function searchableText(word) {
+    return [word.en, word.hi, word.mr, word.mr_roman].filter(Boolean).join(' ').toLocaleLowerCase();
+  }
+
+  function searchWords(event) {
+    event.preventDefault();
+    const query = searchInput.value.trim().toLocaleLowerCase();
+    if (!query) {
+      clearSearchView();
+      return;
+    }
+
+    const matches = words.filter(word => searchableText(word).includes(query));
+    grid.replaceChildren(...matches.map(cardFor));
+    clearSearch.hidden = false;
+    status.textContent = matches.length
+      ? matches.length + (matches.length === 1 ? ' matching card. Tap it to flip.' : ' matching cards. Tap any card to flip.')
+      : 'No cards found for “' + searchInput.value.trim() + '”.';
+  }
+
+  function clearSearchView() {
+    searchInput.value = '';
+    clearSearch.hidden = true;
+    renderRandom();
+    searchInput.focus();
+  }
+
+  function showNextWords() {
+    searchInput.value = '';
+    clearSearch.hidden = true;
+    renderRandom();
   }
 
   function start(list) {
     words = list;
     count.textContent = words.length + ' words in the deck';
-    nextBtn.addEventListener('click', render);
-    document.getElementById('nextBtnMobile').addEventListener('click', () => { render(); window.scrollTo({ top: 0, behavior: 'smooth' }); });
-    render();
+    nextBtn.addEventListener('click', showNextWords);
+    document.getElementById('nextBtnMobile').addEventListener('click', () => { showNextWords(); window.scrollTo({ top: 0, behavior: 'smooth' }); });
+    searchForm.addEventListener('submit', searchWords);
+    clearSearch.addEventListener('click', clearSearchView);
+    renderRandom();
   }
 
   // Inline data (artifact preview) wins; the GitHub Pages build fetches words.json instead.

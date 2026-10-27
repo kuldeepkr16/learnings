@@ -1,5 +1,5 @@
 // Offline cache so the home-screen app opens without network; words.json is refreshed from the network when available.
-const CACHE = 'marathi-cards-v1';
+const CACHE = 'marathi-cards-v2';
 const SHELL = ['./', './index.html', './words.json', './manifest.webmanifest', './icons/icon-192.png', './icons/icon-512.png', './icons/apple-touch-icon.png'];
 
 self.addEventListener('install', (e) => {
