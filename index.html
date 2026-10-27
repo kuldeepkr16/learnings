@@ -13,7 +13,7 @@
 <link rel="manifest" href="manifest.webmanifest">
 <link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="192x192" href="icons/icon-192.png">
-<meta name="description" content="Five random everyday words in Hindi and English; tap a card to flip it and see the Marathi word, how to say it, and a short sentence.">
+<meta name="description" content="Learn everyday Marathi with five-card sets that mix new words with recent revision; tap a card to reveal the Marathi word, pronunciation, and a short sentence.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@500;700;800&family=Noto+Sans+Devanagari:wght@400;600;700&family=Noto+Sans:wght@400;500;600&display=swap">
@@ -299,17 +299,55 @@
   const searchForm = document.getElementById('searchForm');
   const searchInput = document.getElementById('searchInput');
   const clearSearch = document.getElementById('clearSearch');
+  const PROGRESS_KEY = 'marathi-cards-progress-v1';
+  const MAX_RECENT_SETS = 6;
   let words = [];
+  let currentWords = [];
+  let currentStatus = '';
+  let progress = { history: [], seenIds: [] };
 
-  // Pick 5 distinct words per draw; repeats across draws are intended for revision.
-  function pickFive(list) {
+  function pickRandom(list, amount) {
     const copy = list.slice();
     const out = [];
-    while (out.length < 5 && copy.length) {
+    while (out.length < amount && copy.length) {
       const i = Math.floor(Math.random() * copy.length);
       out.push(copy.splice(i, 1)[0]);
     }
     return out;
+  }
+
+  function shuffle(list) {
+    return pickRandom(list, list.length);
+  }
+
+  function loadProgress(validIds) {
+    try {
+      const saved = JSON.parse(localStorage.getItem(PROGRESS_KEY));
+      if (!saved || !Array.isArray(saved.history) || !Array.isArray(saved.seenIds)) return;
+      progress.history = saved.history
+        .map(set => Array.isArray(set) ? [...new Set(set.filter(id => validIds.has(id)))] : [])
+        .filter(set => set.length)
+        .slice(-MAX_RECENT_SETS);
+      progress.seenIds = [...new Set(saved.seenIds.filter(id => validIds.has(id)))];
+    } catch (_) {
+      progress = { history: [], seenIds: [] };
+    }
+  }
+
+  function saveProgress() {
+    try {
+      localStorage.setItem(PROGRESS_KEY, JSON.stringify(progress));
+    } catch (_) {
+      // The learning sequence still works for this session when storage is unavailable.
+    }
+  }
+
+  function rememberSet(set) {
+    const ids = set.map(word => word.id);
+    progress.history.push(ids);
+    progress.history = progress.history.slice(-MAX_RECENT_SETS);
+    progress.seenIds = [...new Set([...progress.seenIds, ...ids])];
+    saveProgress();
   }
 
   function el(tag, cls, text) {
@@ -350,9 +388,55 @@
     return card;
   }
 
-  function renderRandom() {
-    grid.replaceChildren(...pickFive(words).map(cardFor));
-    status.textContent = 'Tap any card to flip it.';
+  function renderCurrent() {
+    grid.replaceChildren(...currentWords.map(cardFor));
+    status.textContent = currentStatus;
+  }
+
+  function startFirstSet() {
+    currentWords = pickRandom(words, 5);
+    currentStatus = '5 new words. Tap any card to flip it.';
+    rememberSet(currentWords);
+    renderCurrent();
+  }
+
+  function nextLearningSet() {
+    const byId = new Map(words.map(word => [word.id, word]));
+    const previousIds = progress.history.at(-1) || [];
+    const previousSet = new Set(previousIds);
+    const olderIds = [...new Set(progress.history.slice(0, -1).flat())]
+      .filter(id => !previousSet.has(id));
+
+    const immediateReview = pickRandom(previousIds.map(id => byId.get(id)).filter(Boolean), 1);
+    const selectedIds = new Set(immediateReview.map(word => word.id));
+    let olderPool = olderIds.map(id => byId.get(id)).filter(Boolean);
+    if (!olderPool.length) {
+      olderPool = previousIds.map(id => byId.get(id)).filter(word => word && !selectedIds.has(word.id));
+    }
+    const olderReview = pickRandom(olderPool.filter(word => !selectedIds.has(word.id)), 1);
+    olderReview.forEach(word => selectedIds.add(word.id));
+
+    const seenIds = new Set(progress.seenIds);
+    const unseenPool = words.filter(word => !seenIds.has(word.id) && !selectedIds.has(word.id));
+    const newWords = pickRandom(unseenPool, 3);
+    const newWordCount = newWords.length;
+    newWords.forEach(word => selectedIds.add(word.id));
+
+    // Once the whole deck has been seen, fill new-word slots with the least recently shown cards.
+    if (newWords.length < 3) {
+      const lastSeen = new Map();
+      progress.history.forEach((set, index) => set.forEach(id => lastSeen.set(id, index)));
+      const recyclePool = shuffle(words.filter(word => !selectedIds.has(word.id) && !previousSet.has(word.id)))
+        .sort((a, b) => (lastSeen.get(a.id) ?? -1) - (lastSeen.get(b.id) ?? -1));
+      const recycled = recyclePool.slice(0, 3 - newWords.length);
+      recycled.forEach(word => selectedIds.add(word.id));
+      newWords.push(...recycled);
+    }
+
+    currentWords = shuffle([...immediateReview, ...olderReview, ...newWords]);
+    currentStatus = (5 - newWordCount) + ' revision words · ' + newWordCount + ' new words. Tap any card to flip it.';
+    rememberSet(currentWords);
+    renderCurrent();
   }
 
   function searchableText(word) {
@@ -378,24 +462,33 @@
   function clearSearchView() {
     searchInput.value = '';
     clearSearch.hidden = true;
-    renderRandom();
+    renderCurrent();
     searchInput.focus();
   }
 
   function showNextWords() {
     searchInput.value = '';
     clearSearch.hidden = true;
-    renderRandom();
+    nextLearningSet();
   }
 
   function start(list) {
     words = list;
     count.textContent = words.length + ' words in the deck';
+    const byId = new Map(words.map(word => [word.id, word]));
+    loadProgress(new Set(byId.keys()));
     nextBtn.addEventListener('click', showNextWords);
     document.getElementById('nextBtnMobile').addEventListener('click', () => { showNextWords(); window.scrollTo({ top: 0, behavior: 'smooth' }); });
     searchForm.addEventListener('submit', searchWords);
     clearSearch.addEventListener('click', clearSearchView);
-    renderRandom();
+    const latestIds = progress.history.at(-1) || [];
+    currentWords = latestIds.map(id => byId.get(id)).filter(Boolean);
+    if (currentWords.length === 5) {
+      currentStatus = 'Your latest set. Tap any card to flip it.';
+      renderCurrent();
+    } else {
+      startFirstSet();
+    }
   }
 
   // Inline data (artifact preview) wins; the GitHub Pages build fetches words.json instead.
