@@ -299,9 +299,11 @@
   const searchForm = document.getElementById('searchForm');
   const searchInput = document.getElementById('searchInput');
   const clearSearch = document.getElementById('clearSearch');
-  const PROGRESS_KEY = 'marathi-cards-progress-v1';
+  const PROGRESS_KEY = 'marathi-cards-progress-v2';
   const MAX_RECENT_SETS = 6;
-  let words = [];
+  const packCache = new Map();
+  let manifest;
+  let searchIndex;
   let currentWords = [];
   let currentStatus = '';
   let progress = { history: [], seenIds: [] };
@@ -320,15 +322,25 @@
     return pickRandom(list, list.length);
   }
 
-  function loadProgress(validIds) {
+  function referenceFor(card) {
+    return { id: card.id, pack: card._pack };
+  }
+
+  function normalizeReference(value) {
+    if (value && typeof value === 'object' && value.id !== undefined && value.pack) return value;
+    const pack = manifest.legacyLocations[String(value)];
+    return pack ? { id: value, pack } : null;
+  }
+
+  function loadProgress() {
     try {
-      const saved = JSON.parse(localStorage.getItem(PROGRESS_KEY));
+      const saved = JSON.parse(localStorage.getItem(PROGRESS_KEY) || localStorage.getItem('marathi-cards-progress-v1'));
       if (!saved || !Array.isArray(saved.history) || !Array.isArray(saved.seenIds)) return;
       progress.history = saved.history
-        .map(set => Array.isArray(set) ? [...new Set(set.filter(id => validIds.has(id)))] : [])
+        .map(set => Array.isArray(set) ? set.map(normalizeReference).filter(Boolean) : [])
         .filter(set => set.length)
         .slice(-MAX_RECENT_SETS);
-      progress.seenIds = [...new Set(saved.seenIds.filter(id => validIds.has(id)))];
+      progress.seenIds = [...new Set(saved.seenIds.map(String))];
     } catch (_) {
       progress = { history: [], seenIds: [] };
     }
@@ -343,11 +355,31 @@
   }
 
   function rememberSet(set) {
-    const ids = set.map(word => word.id);
-    progress.history.push(ids);
+    const references = set.map(referenceFor);
+    progress.history.push(references);
     progress.history = progress.history.slice(-MAX_RECENT_SETS);
-    progress.seenIds = [...new Set([...progress.seenIds, ...ids])];
+    progress.seenIds = [...new Set([...progress.seenIds, ...set.map(word => String(word.id))])];
     saveProgress();
+  }
+
+  async function loadPack(file) {
+    if (!packCache.has(file)) {
+      packCache.set(file, fetch(file).then(response => {
+        if (!response.ok) throw new Error('Could not load ' + file);
+        return response.json();
+      }).then(cards => cards.map(card => Object.assign(card, { _pack: file }))).catch(error => {
+        packCache.delete(file);
+        throw error;
+      }));
+    }
+    return packCache.get(file);
+  }
+
+  async function loadReferences(references) {
+    const files = [...new Set(references.map(reference => reference.pack))];
+    const packs = (await Promise.all(files.map(loadPack))).flat();
+    const byKey = new Map(packs.map(card => [String(card.id), card]));
+    return references.map(reference => byKey.get(String(reference.id))).filter(Boolean);
   }
 
   function el(tag, cls, text) {
@@ -376,9 +408,14 @@
     back.appendChild(el('div', 'mr', w.mr));
     back.appendChild(el('div', 'roman', w.mr_roman));
     const ex = el('div', 'ex');
-    ex.appendChild(el('div', 'dv', w.example.mr));
-    ex.appendChild(el('div', 'rm', w.example.roman));
-    ex.appendChild(el('div', 'en', w.example.en));
+    if (w.example) {
+      ex.appendChild(el('div', 'dv', w.example.mr));
+      ex.appendChild(el('div', 'rm', w.example.roman));
+      ex.appendChild(el('div', 'en', w.example.en));
+    } else {
+      ex.appendChild(el('div', 'en', 'Word type: ' + (w.part_of_speech || w.category)));
+      ex.appendChild(el('div', 'rm', 'Source: ' + (w.source || 'Marathi Shabd Cards')));
+    }
     back.appendChild(ex);
 
     inner.appendChild(front);
@@ -393,45 +430,83 @@
     status.textContent = currentStatus;
   }
 
-  function startFirstSet() {
-    currentWords = pickRandom(words, 5);
+  function chooseCategories(amount, excluded = new Set()) {
+    const available = manifest.categories.filter(category => !excluded.has(category.id));
+    return pickRandom(available, Math.min(amount, available.length));
+  }
+
+  async function cardFromCategory(category, excludedIds, unseenOnly = true) {
+    const shards = pickRandom(category.shards, category.shards.length);
+    const seen = new Set(progress.seenIds);
+    for (const shard of shards) {
+      let cards;
+      try {
+        cards = await loadPack(shard.file);
+      } catch (_) {
+        continue;
+      }
+      const candidates = cards.filter(card => !excludedIds.has(String(card.id)) && (!unseenOnly || !seen.has(String(card.id))));
+      if (candidates.length) return pickRandom(candidates, 1)[0];
+    }
+    return null;
+  }
+
+  async function pickLearningCards(amount, excludedIds) {
+    const selected = [];
+    const selectedCategories = new Set();
+    const preferredCategories = chooseCategories(amount);
+    const preferredCards = await Promise.all(preferredCategories.map(category =>
+      cardFromCategory(category, new Set(excludedIds), true)));
+    preferredCategories.forEach(category => selectedCategories.add(category.id));
+    for (const card of preferredCards.filter(Boolean)) {
+      selected.push(card);
+      excludedIds.add(String(card.id));
+    }
+    if (selected.length < amount) {
+      for (const category of chooseCategories(manifest.categories.length, selectedCategories)) {
+        if (selected.length >= amount) break;
+        const card = await cardFromCategory(category, excludedIds, false);
+        if (card) {
+          selected.push(card);
+          excludedIds.add(String(card.id));
+        }
+      }
+    }
+    if (selected.length < amount) {
+      const loadedCards = (await Promise.all([...packCache.values()].map(promise => promise.catch(() => [])))).flat();
+      const seen = new Set(progress.seenIds);
+      const unseenLoaded = loadedCards.filter(card => !excludedIds.has(String(card.id)) && !seen.has(String(card.id)));
+      const anyLoaded = loadedCards.filter(card => !excludedIds.has(String(card.id)));
+      for (const card of pickRandom(unseenLoaded.length ? unseenLoaded : anyLoaded, amount - selected.length)) {
+        selected.push(card);
+        excludedIds.add(String(card.id));
+      }
+    }
+    return selected;
+  }
+
+  async function startFirstSet() {
+    currentWords = await pickLearningCards(5, new Set());
     currentStatus = '5 new words. Tap any card to flip it.';
     rememberSet(currentWords);
     renderCurrent();
   }
 
-  function nextLearningSet() {
-    const byId = new Map(words.map(word => [word.id, word]));
-    const previousIds = progress.history.at(-1) || [];
-    const previousSet = new Set(previousIds);
-    const olderIds = [...new Set(progress.history.slice(0, -1).flat())]
-      .filter(id => !previousSet.has(id));
-
-    const immediateReview = pickRandom(previousIds.map(id => byId.get(id)).filter(Boolean), 1);
-    const selectedIds = new Set(immediateReview.map(word => word.id));
-    let olderPool = olderIds.map(id => byId.get(id)).filter(Boolean);
+  async function nextLearningSet() {
+    const previousReferences = progress.history.at(-1) || [];
+    const previousIds = new Set(previousReferences.map(reference => String(reference.id)));
+    const immediateReview = pickRandom(currentWords, 1);
+    const selectedIds = new Set(immediateReview.map(word => String(word.id)));
+    const olderReferences = progress.history.slice(0, -1).flat()
+      .filter(reference => !previousIds.has(String(reference.id)) && !selectedIds.has(String(reference.id)));
+    let olderPool = olderReferences.length ? await loadReferences(pickRandom(olderReferences, Math.min(20, olderReferences.length))) : [];
     if (!olderPool.length) {
-      olderPool = previousIds.map(id => byId.get(id)).filter(word => word && !selectedIds.has(word.id));
+      olderPool = currentWords.filter(word => !selectedIds.has(String(word.id)));
     }
-    const olderReview = pickRandom(olderPool.filter(word => !selectedIds.has(word.id)), 1);
-    olderReview.forEach(word => selectedIds.add(word.id));
-
-    const seenIds = new Set(progress.seenIds);
-    const unseenPool = words.filter(word => !seenIds.has(word.id) && !selectedIds.has(word.id));
-    const newWords = pickRandom(unseenPool, 3);
+    const olderReview = pickRandom(olderPool.filter(word => !selectedIds.has(String(word.id))), 1);
+    olderReview.forEach(word => selectedIds.add(String(word.id)));
+    const newWords = await pickLearningCards(3, selectedIds);
     const newWordCount = newWords.length;
-    newWords.forEach(word => selectedIds.add(word.id));
-
-    // Once the whole deck has been seen, fill new-word slots with the least recently shown cards.
-    if (newWords.length < 3) {
-      const lastSeen = new Map();
-      progress.history.forEach((set, index) => set.forEach(id => lastSeen.set(id, index)));
-      const recyclePool = shuffle(words.filter(word => !selectedIds.has(word.id) && !previousSet.has(word.id)))
-        .sort((a, b) => (lastSeen.get(a.id) ?? -1) - (lastSeen.get(b.id) ?? -1));
-      const recycled = recyclePool.slice(0, 3 - newWords.length);
-      recycled.forEach(word => selectedIds.add(word.id));
-      newWords.push(...recycled);
-    }
 
     currentWords = shuffle([...immediateReview, ...olderReview, ...newWords]);
     currentStatus = (5 - newWordCount) + ' revision words · ' + newWordCount + ' new words. Tap any card to flip it.';
@@ -439,11 +514,7 @@
     renderCurrent();
   }
 
-  function searchableText(word) {
-    return [word.en, word.hi, word.mr, word.mr_roman].filter(Boolean).join(' ').toLocaleLowerCase();
-  }
-
-  function searchWords(event) {
+  async function searchWords(event) {
     event.preventDefault();
     const query = searchInput.value.trim().toLocaleLowerCase();
     if (!query) {
@@ -451,13 +522,20 @@
       return;
     }
 
-    const exactMatches = words.filter(word => [word.en, word.hi, word.mr, word.mr_roman]
-      .filter(Boolean)
-      .some(value => value.toLocaleLowerCase() === query));
+    status.textContent = 'Searching the deck…';
+    if (!searchIndex) {
+      const response = await fetch('data/search-index.json');
+      if (!response.ok) throw new Error('Could not load the search index');
+      searchIndex = await response.json();
+    }
+    const exactMatches = searchIndex.filter(row => row.slice(1, 5).some(value => value.toLocaleLowerCase() === query));
     const allMatches = exactMatches.length
       ? exactMatches
-      : words.filter(word => searchableText(word).includes(query));
-    const matches = allMatches.slice(0, 20);
+      : searchIndex.filter(row => row.slice(1, 5).join(' ').toLocaleLowerCase().includes(query));
+    const matchedRows = allMatches.slice(0, 20);
+    const packs = (await Promise.all([...new Set(matchedRows.map(row => row[5]))].map(loadPack))).flat();
+    const byId = new Map(packs.map(card => [String(card.id), card]));
+    const matches = matchedRows.map(row => byId.get(String(row[0]))).filter(Boolean);
     grid.replaceChildren(...matches.map(cardFor));
     clearSearch.hidden = false;
     status.textContent = allMatches.length
@@ -473,40 +551,43 @@
     searchInput.focus();
   }
 
-  function showNextWords() {
+  async function showNextWords() {
     searchInput.value = '';
     clearSearch.hidden = true;
-    nextLearningSet();
+    nextBtn.disabled = true;
+    document.getElementById('nextBtnMobile').disabled = true;
+    status.textContent = 'Loading the next five words…';
+    try {
+      await nextLearningSet();
+    } catch (error) {
+      status.textContent = 'Could not load the next words (' + error.message + ').';
+    } finally {
+      nextBtn.disabled = false;
+      document.getElementById('nextBtnMobile').disabled = false;
+    }
   }
 
-  function start(list) {
-    words = list;
-    count.textContent = words.length + ' words in the deck';
-    const byId = new Map(words.map(word => [word.id, word]));
-    loadProgress(new Set(byId.keys()));
-    nextBtn.addEventListener('click', showNextWords);
-    document.getElementById('nextBtnMobile').addEventListener('click', () => { showNextWords(); window.scrollTo({ top: 0, behavior: 'smooth' }); });
-    searchForm.addEventListener('submit', searchWords);
+  async function start() {
+    const response = await fetch('data/manifest.json');
+    if (!response.ok) throw new Error('Could not load the deck manifest');
+    manifest = await response.json();
+    count.textContent = manifest.total.toLocaleString() + ' words in the deck';
+    loadProgress();
+    nextBtn.addEventListener('click', () => showNextWords());
+    document.getElementById('nextBtnMobile').addEventListener('click', async () => { await showNextWords(); window.scrollTo({ top: 0, behavior: 'smooth' }); });
+    searchForm.addEventListener('submit', event => searchWords(event).catch(error => { status.textContent = 'Search failed (' + error.message + ').'; }));
     clearSearch.addEventListener('click', clearSearchView);
-    const latestIds = progress.history.at(-1) || [];
-    currentWords = latestIds.map(id => byId.get(id)).filter(Boolean);
+    const latestReferences = progress.history.at(-1) || [];
+    currentWords = latestReferences.length ? await loadReferences(latestReferences) : [];
     if (currentWords.length === 5) {
       currentStatus = 'Your latest set. Tap any card to flip it.';
       renderCurrent();
     } else {
-      startFirstSet();
+      await startFirstSet();
     }
   }
 
-  // Inline data (artifact preview) wins; the GitHub Pages build fetches words.json instead.
-  if (window.WORDS && window.WORDS.length) {
-    start(window.WORDS);
-  } else {
-    fetch('words.json')
-      .then(r => { if (!r.ok) throw new Error('HTTP ' + r.status); return r.json(); })
-      .then(start)
-      .catch(err => { status.textContent = 'Could not load words.json (' + err.message + ').'; });
-  }
+  start().catch(error => { status.textContent = 'Could not start the deck (' + error.message + ').'; });
 })();
 // Offline support for the home-screen app; skipped where service workers are unavailable (e.g. the artifact preview).
 if ('serviceWorker' in navigator && location.protocol === 'https:' && !/claude\.ai|claudeusercontent/.test(location.host)) {
